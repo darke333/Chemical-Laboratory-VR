@@ -1,0 +1,328 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='8'
+    datatypes='Chemical,Element'
+    timedout=''
+    timedoutpods=''
+    timing='4.644'
+    parsetiming='0.245'
+    parsetimedout='false'
+    recalculate=''
+    id='MSP31391igc7bec507h3hcc00001033dd1f8h9b2b03'
+    host='https://www4c.wolframalpha.com'
+    server='38'
+    related='https://www4c.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa31401igc7bec507h3hcc00002cd9h25838hfi083566960663505388612'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP31411igc7bec507h3hcc000010ha0if211fg9878?MSPStoreType=image/gif&amp;s=38'
+       alt='2 cL of mercury (chemical element)'
+       title='2 cL of mercury (chemical element)'
+       width='234'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>2 cL of mercury (chemical element)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Basic properties for 2 cL'
+     scanner='ChemicalQuantity'
+     id='ChemicalQuantityScannerBasicPropertiesForQuantityOfSolute'
+     position='200'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>WebElements</datasource>
+    <datasource>NISTAtomicWeights</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP31421igc7bec507h3hcc0000100a0ig6988139f1?MSPStoreType=image/gif&amp;s=38'
+       alt='mass | 0.271 kg (kilograms)
+molar amount | 1.35 mol (moles)
+volume | 2 cL (centiliters)
+equivalents | 1.35 eq (equivalents)
+(at STP)'
+       title='mass | 0.271 kg (kilograms)
+molar amount | 1.35 mol (moles)
+volume | 2 cL (centiliters)
+equivalents | 1.35 eq (equivalents)
+(at STP)'
+       width='277'
+       height='157'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>mass | 0.271 kg (kilograms)
+molar amount | 1.35 mol (moles)
+volume | 2 cL (centiliters)
+equivalents | 1.35 eq (equivalents)
+(at STP)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='More units'
+       input='ChemicalQuantityScannerBasicPropertiesForQuantityOfSolute__More units' />
+  </states>
+ </pod>
+ <pod title='Corresponding quantities'
+     scanner='ChemicalQuantity'
+     id='CorrespondingQuantities'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP31431igc7bec507h3hcc00000d389a37bffb6ed0?MSPStoreType=image/gif&amp;s=38'
+       alt='sphere radius | 1.684 cm (centimeters)
+side of a cube | 2.714 cm (centimeters)'
+       title='sphere radius | 1.684 cm (centimeters)
+side of a cube | 2.714 cm (centimeters)'
+       width='288'
+       height='68'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>sphere radius | 1.684 cm (centimeters)
+side of a cube | 2.714 cm (centimeters)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+ </pod>
+ <pod title='Thermodynamic properties for 2 cL'
+     scanner='ChemicalQuantity'
+     id='ChemicalQuantityScannerThermodynamicPropertiesForQuantityOfSolute'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP31441igc7bec507h3hcc000034dg5gd7egi8a2a8?MSPStoreType=image/gif&amp;s=38'
+       alt='free energy of formation Δ_fG° | liquid | 0 kJ
+heat of formation Δ_fH° | liquid | 0 kJ
+standard entropy S° | liquid | 102.6 J/K
+latent heat of vaporization | 79.9 kJ (kilojoules) | 
+latent heat of fusion | 3.09 kJ (kilojoules) |  '
+       title='free energy of formation Δ_fG° | liquid | 0 kJ
+heat of formation Δ_fH° | liquid | 0 kJ
+standard entropy S° | liquid | 102.6 J/K
+latent heat of vaporization | 79.9 kJ (kilojoules) | 
+latent heat of fusion | 3.09 kJ (kilojoules) |  '
+       width='357'
+       height='168'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>free energy of formation Δ_fG° | liquid | 0 kJ
+heat of formation Δ_fH° | liquid | 0 kJ
+standard entropy S° | liquid | 102.6 J/K
+latent heat of vaporization | 79.9 kJ (kilojoules) | 
+latent heat of fusion | 3.09 kJ (kilojoules) |  </plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <infos count='1'>
+   <info>
+    <units count='2'>
+     <unit short='J/K'
+         long='joules per kelvin' />
+     <unit short='kJ'
+         long='kilojoules' />
+     <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP31451igc7bec507h3hcc00005e348gb52dd20844?MSPStoreType=image/gif&amp;s=38'
+         width='150'
+         height='47' />
+    </units>
+   </info>
+  </infos>
+ </pod>
+ <pod title='Phase change energies for 2 cL from 25 °C'
+     scanner='ChemicalQuantity'
+     id='ChemicalQuantityScannerPhaseChangeEnergies1'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP31461igc7bec507h3hcc00004i64dd905fb1a01a?MSPStoreType=image/gif&amp;s=38'
+       alt='energy required to convert to vapor | 79.9 kJ (kilojoules)
+energy released from converting to solid | 3.09 kJ (kilojoules)'
+       title='energy required to convert to vapor | 79.9 kJ (kilojoules)
+energy released from converting to solid | 3.09 kJ (kilojoules)'
+       width='424'
+       height='68'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>energy required to convert to vapor | 79.9 kJ (kilojoules)
+energy released from converting to solid | 3.09 kJ (kilojoules)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+ </pod>
+ <pod title='Structure diagram'
+     scanner='ChemicalQuantity'
+     id='StructureDiagramPod'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP31471igc7bec507h3hcc000018079e6g3h1bi810?MSPStoreType=image/gif&amp;s=38'
+       alt=''
+       title=''
+       width='79'
+       height='43'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Chemical names and formulas'
+     scanner='ChemicalQuantity'
+     id='SubstanceNames'
+     position='700'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP31481igc7bec507h3hcc00001e512b6825346f3h?MSPStoreType=image/gif&amp;s=38'
+       alt='formula | Hg
+Hill formula | Hg
+name | mercury
+IUPAC name | mercury'
+       title='formula | Hg
+Hill formula | Hg
+name | mercury
+IUPAC name | mercury'
+       width='187'
+       height='132'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>formula | Hg
+Hill formula | Hg
+name | mercury
+IUPAC name | mercury</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+ </pod>
+ <pod title='Substance properties'
+     scanner='ChemicalQuantity'
+     id='SubstanceProperties'
+     position='800'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+    <datasource>CRCHandbook</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP31491igc7bec507h3hcc000047h3d9d2ia5d7g68?MSPStoreType=image/gif&amp;s=38'
+       alt='molar mass | 200.592 g/mol
+phase | liquid (at STP)
+melting point | -38.87 °C
+boiling point | 356.6 °C
+density | 13.534 g/cm^3
+solubility in water | slightly soluble
+surface tension | 0.47 N/m
+dynamic viscosity | 0.001526 Pa s (at 25 °C)
+odor | odorless'
+       title='molar mass | 200.592 g/mol
+phase | liquid (at STP)
+melting point | -38.87 °C
+boiling point | 356.6 °C
+density | 13.534 g/cm^3
+solubility in water | slightly soluble
+surface tension | 0.47 N/m
+dynamic viscosity | 0.001526 Pa s (at 25 °C)
+odor | odorless'
+       width='313'
+       height='292'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>molar mass | 200.592 g/mol
+phase | liquid (at STP)
+melting point | -38.87 °C
+boiling point | 356.6 °C
+density | 13.534 g/cm^3
+solubility in water | slightly soluble
+surface tension | 0.47 N/m
+dynamic viscosity | 0.001526 Pa s (at 25 °C)
+odor | odorless</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <infos count='1'>
+   <info>
+    <units count='4'>
+     <unit short='g/cm^3'
+         long='grams per cubic centimeter' />
+     <unit short='g/mol'
+         long='grams per mole' />
+     <unit short='N/m'
+         long='newtons per meter' />
+     <unit short='Pa s'
+         long='pascal seconds' />
+     <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP31501igc7bec507h3hcc0000377e7h8226fhdi9g?MSPStoreType=image/gif&amp;s=38'
+         width='231'
+         height='90' />
+    </units>
+   </info>
+  </infos>
+ </pod>
+ <assumptions count='1'>
+  <assumption type='Clash'
+      word='Hg'
+      template='Assuming &quot;${word}&quot; is ${desc1}. Use as ${desc2} instead'
+      count='2'>
+   <value name='Element'
+       desc='a chemical element'
+       input='*C.Hg-_*Element-' />
+   <value name='MedicalTest'
+       desc='a medical test'
+       input='*C.Hg-_*MedicalTest-' />
+  </assumption>
+ </assumptions>
+ <sources count='2'>
+  <source url='https://www4c.wolframalpha.com/sources/ChemicalDataSourceInformationNotes.html'
+      text='Chemical data' />
+  <source url='https://www4c.wolframalpha.com/sources/ElementDataSourceInformationNotes.html'
+      text='Element data' />
+ </sources>
+</queryresult>

@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='5'
+    datatypes='Chemical,Element'
+    timedout=''
+    timedoutpods=''
+    timing='1.415'
+    parsetiming='0.215'
+    parsetimedout='false'
+    recalculate=''
+    id='MSP23751725b4145g6a14710000309ahdci48ce649a'
+    host='https://www4f.wolframalpha.com'
+    server='53'
+    related='https://www4f.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa23761725b4145g6a1471000016e37fidghiac4771494264905346578628'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP23771725b4145g6a14710000540ab7hfb50c3hb7?MSPStoreType=image/gif&amp;s=53'
+       alt='Ba2PO4 (chemical compound)'
+       title='Ba2PO4 (chemical compound)'
+       width='200'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>Ba2PO4 (chemical compound)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Basic properties'
+     scanner='Data'
+     id='ChemicalStructureIdentifiers:ChemicalData'
+     position='200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+    <datasource>NISTAtomicWeights</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP23781725b4145g6a1471000061dh03cd4a44g6h8?MSPStoreType=image/gif&amp;s=53'
+       alt='molar mass | 369.624 g/mol
+formula | Ba2PO4'
+       title='molar mass | 369.624 g/mol
+formula | Ba2PO4'
+       width='215'
+       height='68'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>molar mass | 369.624 g/mol
+formula | Ba2PO4</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='More'
+       input='ChemicalStructureIdentifiers:ChemicalData__More' />
+  </states>
+  <infos count='1'>
+   <info>
+    <units count='1'>
+     <unit short='g/mol'
+         long='grams per mole' />
+     <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP23791725b4145g6a147100004a42c7fb03gie6e3?MSPStoreType=image/gif&amp;s=53'
+         width='162'
+         height='26' />
+    </units>
+   </info>
+  </infos>
+ </pod>
+ <pod title='Molar mass'
+     scanner='Data'
+     id='MolecularMassPod:ChemicalData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+    <datasource>NISTAtomicWeights</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP23801725b4145g6a14710000541h2b0dcae7a3ab?MSPStoreType=image/gif&amp;s=53'
+       alt='369.624 g/mol (grams per mole)'
+       title='369.624 g/mol (grams per mole)'
+       width='207'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>369.624 g/mol (grams per mole)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Elemental composition'
+     scanner='Data'
+     id='UnknownIsomersPod:ChemicalData'
+     position='400'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+    <datasource>NISTAtomicWeights</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP23811725b4145g6a147100001c0aa9ga8b8b850d?MSPStoreType=image/gif&amp;s=53'
+       alt=' | number
+of atoms | atom
+percent | mass
+percent
+ Ba (barium) | 2 | 28.6% | 74.31%
+ P (phosphorus) | 1 | 14.3% | 8.380%
+ O (oxygen) | 4 | 57.1% | 17.31%'
+       title=' | number
+of atoms | atom
+percent | mass
+percent
+ Ba (barium) | 2 | 28.6% | 74.31%
+ P (phosphorus) | 1 | 14.3% | 8.380%
+ O (oxygen) | 4 | 57.1% | 17.31%'
+       width='358'
+       height='137'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext> | number
+of atoms | atom
+percent | mass
+percent
+ Ba (barium) | 2 | 28.6% | 74.31%
+ P (phosphorus) | 1 | 14.3% | 8.380%
+ O (oxygen) | 4 | 57.1% | 17.31%</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='Step-by-step'
+       input='UnknownIsomersPod:ChemicalData__Step-by-step'
+       stepbystep='true' />
+  </states>
+ </pod>
+ <pod title='Mass fraction pie chart'
+     scanner='Data'
+     id='UnknownPieChart:ChemicalData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NISTAtomicWeights</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP23821725b4145g6a1471000066eh231a9df47fd4?MSPStoreType=image/gif&amp;s=53'
+       alt=''
+       title=''
+       width='138'
+       height='100'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <sources count='2'>
+  <source url='https://www4f.wolframalpha.com/sources/ChemicalDataSourceInformationNotes.html'
+      text='Chemical data' />
+  <source url='https://www4f.wolframalpha.com/sources/ElementDataSourceInformationNotes.html'
+      text='Element data' />
+ </sources>
+</queryresult>

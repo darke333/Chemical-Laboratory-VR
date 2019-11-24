@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <queryresult success='true'
     error='false'
-    numpods='8'
-    datatypes='Chemical,Element'
+    numpods='9'
+    datatypes='Chemical,ChemicalIntermediate,Element'
     timedout=''
     timedoutpods=''
-    timing='3.976'
-    parsetiming='0.101'
+    timing='4.027'
+    parsetiming='0.163'
     parsetimedout='false'
     recalculate=''
-    id='MSP89591bhfbhdifaci3e3f00003886b5bihce7c151'
+    id='MSP102211fgd26ifd5gdc57a000036f9e74217d7a0fc'
     host='https://www4f.wolframalpha.com'
-    server='55'
-    related='https://www4f.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa89601bhfbhdifaci3e3f0000170c53ggd5h8d6gb8707379056943765232'
+    server='46'
+    related='https://www4f.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa102221fgd26ifd5gdc57a0000228003bi4ghacgd46761110708085623651'
     version='2.6'>
  <pod title='Input interpretation'
      scanner='Identity'
@@ -21,15 +21,15 @@
      error='false'
      numsubpods='1'>
   <subpod title=''>
-   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP89611bhfbhdifaci3e3f00005e00732930d225ge?MSPStoreType=image/gif&amp;s=55'
-       alt='hypochlorous acid'
-       title='hypochlorous acid'
-       width='119'
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP102231fgd26ifd5gdc57a00004474ah06ch3d5ad4?MSPStoreType=image/gif&amp;s=46'
+       alt='iodic acid'
+       title='iodic acid'
+       width='62'
        height='18'
        type='Default'
        themes='1,2,3,4,5,6,7,8,9,10,11,12'
        colorinvertable='true' />
-   <plaintext>hypochlorous acid</plaintext>
+   <plaintext>iodic acid</plaintext>
   </subpod>
   <expressiontypes count='1'>
    <expressiontype name='Default' />
@@ -49,21 +49,18 @@
    <datasources>
     <datasource>PubChem</datasource>
    </datasources>
-   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP89621bhfbhdifaci3e3f00000g93429cdbi46b86?MSPStoreType=image/gif&amp;s=55'
-       alt='formula | HOCl
-Hill formula | ClHO
-name | hypochlorous acid'
-       title='formula | HOCl
-Hill formula | ClHO
-name | hypochlorous acid'
-       width='248'
-       height='100'
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP102241fgd26ifd5gdc57a000029e51508a2900a81?MSPStoreType=image/gif&amp;s=46'
+       alt='formula | HIO_3
+name | iodic acid'
+       title='formula | HIO_3
+name | iodic acid'
+       width='163'
+       height='69'
        type='Grid'
        themes='1,2,3,4,5,6,7,8,9,10,11,12'
        colorinvertable='true' />
-   <plaintext>formula | HOCl
-Hill formula | ClHO
-name | hypochlorous acid</plaintext>
+   <plaintext>formula | HIO_3
+name | iodic acid</plaintext>
   </subpod>
   <expressiontypes count='1'>
    <expressiontype name='Grid' />
@@ -86,11 +83,11 @@ name | hypochlorous acid</plaintext>
    <datasources>
     <datasource>PubChem</datasource>
    </datasources>
-   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP89631bhfbhdifaci3e3f00005a1g93abdh520082?MSPStoreType=image/gif&amp;s=55'
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP102251fgd26ifd5gdc57a00003be173edb0615ag8?MSPStoreType=image/gif&amp;s=46'
        alt=''
        title=''
-       width='79'
-       height='44'
+       width='85'
+       height='64'
        type='Default'
        themes='1,2,3,4,5,6,7,8,9,10,11,12'
        colorinvertable='true' />
@@ -117,43 +114,10 @@ name | hypochlorous acid</plaintext>
        stepbystep='true' />
   </states>
  </pod>
- <pod title='3D structure'
-     scanner='Data'
-     id='3DStructure:ChemicalData'
-     position='400'
-     error='false'
-     numsubpods='1'>
-  <subpod title=''>
-   <microsources>
-    <microsource>ChemicalData</microsource>
-   </microsources>
-   <datasources>
-    <datasource>PubChem</datasource>
-   </datasources>
-   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP89641bhfbhdifaci3e3f00002bh8daacg8dd5a06?MSPStoreType=image/gif&amp;s=55'
-       alt=''
-       title=''
-       width='400'
-       height='76'
-       type='Default'
-       themes='1,2,3,4,5,6,7,8,9,10,11,12'
-       colorinvertable='false' />
-   <plaintext></plaintext>
-  </subpod>
-  <expressiontypes count='1'>
-   <expressiontype name='Default' />
-  </expressiontypes>
-  <states count='2'>
-   <state name='Show bonds only'
-       input='3DStructure:ChemicalData__Show bonds only' />
-   <state name='Show space filling model'
-       input='3DStructure:ChemicalData__Show space filling model' />
-  </states>
- </pod>
  <pod title='Basic properties'
      scanner='Data'
      id='Basic:ChemicalData'
-     position='500'
+     position='400'
      error='false'
      numsubpods='1'>
   <subpod title=''>
@@ -165,18 +129,70 @@ name | hypochlorous acid</plaintext>
     <datasource>PubChem</datasource>
     <datasource>CRCHandbook</datasource>
    </datasources>
-   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP89651bhfbhdifaci3e3f00003g9h9ee8250ba9ic?MSPStoreType=image/gif&amp;s=55'
-       alt='molar mass | 52.46 g/mol
-solubility in water | soluble'
-       title='molar mass | 52.46 g/mol
-solubility in water | soluble'
-       width='242'
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP102261fgd26ifd5gdc57a00000cg43h1c9ahdh8d7?MSPStoreType=image/gif&amp;s=46'
+       alt='molar mass | 175.91 g/mol
+phase | solid (at STP)
+melting point | 110 °C
+density | 4.629 g/cm^3
+solubility in water | very soluble'
+       title='molar mass | 175.91 g/mol
+phase | solid (at STP)
+melting point | 110 °C
+density | 4.629 g/cm^3
+solubility in water | very soluble'
+       width='250'
+       height='164'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>molar mass | 175.91 g/mol
+phase | solid (at STP)
+melting point | 110 °C
+density | 4.629 g/cm^3
+solubility in water | very soluble</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <infos count='1'>
+   <info>
+    <units count='2'>
+     <unit short='g/cm^3'
+         long='grams per cubic centimeter' />
+     <unit short='g/mol'
+         long='grams per mole' />
+     <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP102271fgd26ifd5gdc57a0000160557059f609b27?MSPStoreType=image/gif&amp;s=46'
+         width='231'
+         height='48' />
+    </units>
+   </info>
+  </infos>
+ </pod>
+ <pod title='Solid properties (at STP)'
+     scanner='Data'
+     id='SolidProperties:ChemicalData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>CRCHandbook</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP102281fgd26ifd5gdc57a00001hfhgi4ec814i4i4?MSPStoreType=image/gif&amp;s=46'
+       alt='density | 4.629 g/cm^3
+refractive index | 1.95'
+       title='density | 4.629 g/cm^3
+refractive index | 1.95'
+       width='228'
        height='68'
        type='Grid'
        themes='1,2,3,4,5,6,7,8,9,10,11,12'
        colorinvertable='true' />
-   <plaintext>molar mass | 52.46 g/mol
-solubility in water | soluble</plaintext>
+   <plaintext>density | 4.629 g/cm^3
+refractive index | 1.95</plaintext>
   </subpod>
   <expressiontypes count='1'>
    <expressiontype name='Grid' />
@@ -184,11 +200,11 @@ solubility in water | soluble</plaintext>
   <infos count='1'>
    <info>
     <units count='1'>
-     <unit short='g/mol'
-         long='grams per mole' />
-     <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP89661bhfbhdifaci3e3f000020d6682fhg34597f?MSPStoreType=image/gif&amp;s=55'
-         width='162'
-         height='26' />
+     <unit short='g/cm^3'
+         long='grams per cubic centimeter' />
+     <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP102291fgd26ifd5gdc57a000035g5364ac46hd2a0?MSPStoreType=image/gif&amp;s=46'
+         width='231'
+         height='27' />
     </units>
    </info>
   </infos>
@@ -208,23 +224,17 @@ solubility in water | soluble</plaintext>
     <datasource>PubChem</datasource>
     <datasource>WebElements</datasource>
    </datasources>
-   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP89671bhfbhdifaci3e3f000029438a7h33dba8ii?MSPStoreType=image/gif&amp;s=55'
-       alt='specific heat capacity c_p | gas | 0.7092 J/(g K)
-specific free energy of formation Δ_fG° | gas | -1.26 kJ/g
-specific heat of formation Δ_fH° | gas | -1.5 kJ/g
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP102301fgd26ifd5gdc57a000028gi1a02big6e0db?MSPStoreType=image/gif&amp;s=46'
+       alt='specific heat of formation Δ_fH° | solid | -1.308 kJ/g
 (at STP)'
-       title='specific heat capacity c_p | gas | 0.7092 J/(g K)
-specific free energy of formation Δ_fG° | gas | -1.26 kJ/g
-specific heat of formation Δ_fH° | gas | -1.5 kJ/g
+       title='specific heat of formation Δ_fH° | solid | -1.308 kJ/g
 (at STP)'
-       width='420'
-       height='131'
+       width='373'
+       height='63'
        type='Grid'
        themes='1,2,3,4,5,6,7,8,9,10,11,12'
        colorinvertable='true' />
-   <plaintext>specific heat capacity c_p | gas | 0.7092 J/(g K)
-specific free energy of formation Δ_fG° | gas | -1.26 kJ/g
-specific heat of formation Δ_fH° | gas | -1.5 kJ/g
+   <plaintext>specific heat of formation Δ_fH° | solid | -1.308 kJ/g
 (at STP)</plaintext>
   </subpod>
   <expressiontypes count='1'>
@@ -236,14 +246,12 @@ specific heat of formation Δ_fH° | gas | -1.5 kJ/g
   </states>
   <infos count='1'>
    <info>
-    <units count='2'>
-     <unit short='J/(g K)'
-         long='joules per gram kelvin difference' />
+    <units count='1'>
      <unit short='kJ/g'
          long='kilojoules per gram' />
-     <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP89681bhfbhdifaci3e3f000013fh2i46359ic054?MSPStoreType=image/gif&amp;s=55'
-         width='257'
-         height='47' />
+     <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP102311fgd26ifd5gdc57a00005ic19be5h00e8306?MSPStoreType=image/gif&amp;s=46'
+         width='170'
+         height='26' />
     </units>
    </info>
   </infos>
@@ -261,21 +269,21 @@ specific heat of formation Δ_fH° | gas | -1.5 kJ/g
    <datasources>
     <datasource>PubChem</datasource>
    </datasources>
-   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP89691bhfbhdifaci3e3f00003180b173ie576a0c?MSPStoreType=image/gif&amp;s=55'
-       alt='CAS number | 7790-92-3
-PubChem CID number | 24341
-SMILES identifier | OCl'
-       title='CAS number | 7790-92-3
-PubChem CID number | 24341
-SMILES identifier | OCl'
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP102321fgd26ifd5gdc57a0000335ci8ddf61i81ie?MSPStoreType=image/gif&amp;s=46'
+       alt='CAS number | 7782-68-5
+PubChem CID number | 24345
+SMILES identifier | OI(=O)=O'
+       title='CAS number | 7782-68-5
+PubChem CID number | 24345
+SMILES identifier | OI(=O)=O'
        width='266'
        height='100'
        type='Grid'
        themes='1,2,3,4,5,6,7,8,9,10,11,12'
        colorinvertable='true' />
-   <plaintext>CAS number | 7790-92-3
-PubChem CID number | 24341
-SMILES identifier | OCl</plaintext>
+   <plaintext>CAS number | 7782-68-5
+PubChem CID number | 24345
+SMILES identifier | OI(=O)=O</plaintext>
   </subpod>
   <expressiontypes count='1'>
    <expressiontype name='Grid' />
@@ -285,9 +293,9 @@ SMILES identifier | OCl</plaintext>
        input='ChemicalIdentifiers:ChemicalData__More' />
   </states>
  </pod>
- <pod title='Toxicity properties'
+ <pod title='NFPA label'
      scanner='Data'
-     id='ToxicityProperties:ChemicalData'
+     id='NFPALabel:ChemicalData'
      position='800'
      error='false'
      numsubpods='1'>
@@ -295,26 +303,57 @@ SMILES identifier | OCl</plaintext>
    <microsources>
     <microsource>ChemicalData</microsource>
    </microsources>
-   <datasources>
-    <datasource>MacmillansChemicalAndPhysicalData</datasource>
-   </datasources>
-   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP89701bhfbhdifaci3e3f00003ebbg6cdddc586g8?MSPStoreType=image/gif&amp;s=55'
-       alt='RTECS classes | reproductive effector'
-       title='RTECS classes | reproductive effector'
-       width='277'
-       height='36'
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP102331fgd26ifd5gdc57a000011h5db80gb3d6hfb?MSPStoreType=image/gif&amp;s=46'
+       alt=''
+       title=''
+       width='40'
+       height='40'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='Table'
+       input='NFPALabel:ChemicalData__Table' />
+  </states>
+ </pod>
+ <pod title='Ion equivalents'
+     scanner='Data'
+     id='IonProperties:ChemicalData'
+     position='900'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ChemicalIntermediateData</microsource>
+   </microsources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP102341fgd26ifd5gdc57a00004agef55hbhhicb8f?MSPStoreType=image/gif&amp;s=46'
+       alt='H^+ (hydrogen) | 1
+(IO_3)^- (iodate) | 1'
+       title='H^+ (hydrogen) | 1
+(IO_3)^- (iodate) | 1'
+       width='148'
+       height='62'
        type='Grid'
        themes='1,2,3,4,5,6,7,8,9,10,11,12'
        colorinvertable='true' />
-   <plaintext>RTECS classes | reproductive effector</plaintext>
+   <plaintext>H^+ (hydrogen) | 1
+(IO_3)^- (iodate) | 1</plaintext>
   </subpod>
   <expressiontypes count='1'>
-   <expressiontype name='Grid' />
+   <expressiontype name='Default' />
   </expressiontypes>
  </pod>
- <sources count='2'>
+ <sources count='3'>
   <source url='https://www4f.wolframalpha.com/sources/ChemicalDataSourceInformationNotes.html'
       text='Chemical data' />
+  <source url='https://www4f.wolframalpha.com/sources/ChemicalIntermediateDataSourceInformationNotes.html'
+      text='Chemical intermediate data' />
   <source url='https://www4f.wolframalpha.com/sources/ElementDataSourceInformationNotes.html'
       text='Element data' />
  </sources>

@@ -1,0 +1,742 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='18'
+    datatypes='ACS,Crime,Plant,Species,USState'
+    timedout=''
+    timedoutpods=''
+    timing='7.675'
+    parsetiming='0.111'
+    parsetimedout='false'
+    recalculate=''
+    id='MSP99710h3g7gied7cfb5g000060fhe19ihfe0c7d8'
+    host='https://www4c.wolframalpha.com'
+    server='16'
+    related='https://www4c.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa99810h3g7gied7cfb5g00001agb30dd8eeb180528457354605381739'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP99910h3g7gied7cfb5g0000121c9451h31e05d2?MSPStoreType=image/gif&amp;s=16'
+       alt='Kansas (US state)'
+       title='Kansas (US state)'
+       width='115'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>Kansas (US state)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Basic information'
+     scanner='Data'
+     id='BasicInformation:USStateData'
+     position='200'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <microsources>
+    <microsource>USStateData</microsource>
+   </microsources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP100010h3g7gied7cfb5g00001e1e3093e51g51cc?MSPStoreType=image/gif&amp;s=16'
+       alt='full name | State of Kansas
+capital | Topeka
+joined Union | 29/01/1861 (158 years ago)'
+       title='full name | State of Kansas
+capital | Topeka
+joined Union | 29/01/1861 (158 years ago)'
+       width='298'
+       height='100'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>full name | State of Kansas
+capital | Topeka
+joined Union | 29/01/1861 (158 years ago)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='More'
+       input='BasicInformation:USStateData__More' />
+  </states>
+ </pod>
+ <pod title='Location'
+     scanner='Data'
+     id='Location:USStateData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>USStateData</microsource>
+    <microsource>CountryData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>CIAFactbook</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP100110h3g7gied7cfb5g000020ifie8fiica79de?MSPStoreType=image/gif&amp;s=16'
+       alt=''
+       title=''
+       width='546'
+       height='295'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Population'
+     scanner='Data'
+     id='Demographics:USStateData'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>USStateData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>USCensusQuickfacts</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP100210h3g7gied7cfb5g000053ii503fhc211icf?MSPStoreType=image/gif&amp;s=16'
+       alt='population | 2.913 million people
+population growth | +0.55% per year (2010-12)
+population density | 13.67 people/km^2
+annual deaths | 24821 people/yr
+annual births | 38205 people/yr
+(2017)'
+       title='population | 2.913 million people
+population growth | +0.55% per year (2010-12)
+population density | 13.67 people/km^2
+annual deaths | 24821 people/yr
+annual births | 38205 people/yr
+(2017)'
+       width='340'
+       height='190'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>population | 2.913 million people
+population growth | +0.55% per year (2010-12)
+population density | 13.67 people/km^2
+annual deaths | 24821 people/yr
+annual births | 38205 people/yr
+(2017)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <infos count='1'>
+   <info>
+    <units count='2'>
+     <unit short='people/km^2'
+         long='people per square kilometer' />
+     <unit short='people/yr'
+         long='people per year' />
+     <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP100310h3g7gied7cfb5g00004iei9c4523110h80?MSPStoreType=image/gif&amp;s=16'
+         width='262'
+         height='48' />
+    </units>
+   </info>
+  </infos>
+ </pod>
+ <pod title='Population history'
+     scanner='Data'
+     id='PopulationHistory:USStateData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>USStateData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>USCensusQuickfacts</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP100410h3g7gied7cfb5g0000364h2039ahefa84g?MSPStoreType=image/gif&amp;s=16'
+       alt=''
+       title=''
+       width='380'
+       height='163'
+       type='TimeSeriesPlot_1'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='TimeSeriesPlot' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='Log scale'
+       input='PopulationHistory:USStateData__Log scale' />
+  </states>
+ </pod>
+ <pod title='Demographics'
+     scanner='Data'
+     id='ACSPercentageEntrainments:ACSData'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ACSData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>CensusAmericanCommunitySurvey5YearsRace</datasource>
+    <datasource>CensusAmericanCommunitySurvey5YearsHispanicOrigin</datasource>
+    <datasource>CensusAmericanCommunitySurvey5YearsCitizenship</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP100510h3g7gied7cfb5g0000287g1i68a9gcag25?MSPStoreType=image/gif&amp;s=16'
+       alt='race | white: 84.9% | black/African American: 5.8% | two or more races: 3.4% | ...
+Hispanic origin | 11.5%
+US citizens | 95.6%'
+       title='race | white: 84.9% | black/African American: 5.8% | two or more races: 3.4% | ...
+Hispanic origin | 11.5%
+US citizens | 95.6%'
+       width='546'
+       height='117'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>race | white: 84.9% | black/African American: 5.8% | two or more races: 3.4% | ...
+Hispanic origin | 11.5%
+US citizens | 95.6%</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='More'
+       input='ACSPercentageEntrainments:ACSData__More' />
+  </states>
+ </pod>
+ <pod title='Educational attainment'
+     scanner='Data'
+     id='ACSEducationEntrainments:ACSData'
+     position='700'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ACSData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>CensusAmericanCommunitySurvey5YearsEducation</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP100610h3g7gied7cfb5g000049h5009ic8e3gcai?MSPStoreType=image/gif&amp;s=16'
+       alt='college degree and above | 40.6% (1.07 × national average)
+high school diploma | 26.2% (0.944 × national average)
+less than high school diploma | 9.5% (0.712 × national average)
+(for population age 25 and older)'
+       title='college degree and above | 40.6% (1.07 × national average)
+high school diploma | 26.2% (0.944 × national average)
+less than high school diploma | 9.5% (0.712 × national average)
+(for population age 25 and older)'
+       width='437'
+       height='121'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>college degree and above | 40.6% (1.07 × national average)
+high school diploma | 26.2% (0.944 × national average)
+less than high school diploma | 9.5% (0.712 × national average)
+(for population age 25 and older)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='Show enrollment'
+       input='ACSEducationEntrainments:ACSData__Show enrollment' />
+  </states>
+ </pod>
+ <pod title='Geographic properties'
+     scanner='Data'
+     id='GeographicProperties:USStateData'
+     position='800'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>USStateData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>USCensusQuickfacts</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP100710h3g7gied7cfb5g00000hf038d7e493bgbe?MSPStoreType=image/gif&amp;s=16'
+       alt='total area | 213100 km^2
+land area | 211800 km^2
+water area | 1346 km^2
+farmland area | 188000 km^2
+mean elevation | 610 m
+highest point | Mount Sunflower, 1232 m
+lowest point | Verdigris River, 207 m
+(2002)'
+       title='total area | 213100 km^2
+land area | 211800 km^2
+water area | 1346 km^2
+farmland area | 188000 km^2
+mean elevation | 610 m
+highest point | Mount Sunflower, 1232 m
+lowest point | Verdigris River, 207 m
+(2002)'
+       width='320'
+       height='254'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>total area | 213100 km^2
+land area | 211800 km^2
+water area | 1346 km^2
+farmland area | 188000 km^2
+mean elevation | 610 m
+highest point | Mount Sunflower, 1232 m
+lowest point | Verdigris River, 207 m
+(2002)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='Show non-metric'
+       input='GeographicProperties:USStateData__Show non-metric' />
+  </states>
+  <infos count='1'>
+   <info>
+    <units count='2'>
+     <unit short='km^2'
+         long='square kilometers' />
+     <unit short='m'
+         long='meters' />
+     <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP100810h3g7gied7cfb5g00004d25fdgibcg3dfde?MSPStoreType=image/gif&amp;s=16'
+         width='171'
+         height='48' />
+    </units>
+   </info>
+  </infos>
+ </pod>
+ <pod title='Housing'
+     scanner='Data'
+     id='Housing:USStateData'
+     position='900'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>USStateData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>USCensusQuickfacts</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP100910h3g7gied7cfb5g0000192i07b5h96dd134?MSPStoreType=image/gif&amp;s=16'
+       alt='housing units | 1.238 million (2011)
+housing units change | +88044 (2000-07)
+housing units change rate | +1.1% per year (2000-07)
+households | 1.104 million (2011)
+people per household | 2.59 people (2010)'
+       title='housing units | 1.238 million (2011)
+housing units change | +88044 (2000-07)
+housing units change rate | +1.1% per year (2000-07)
+households | 1.104 million (2011)
+people per household | 2.59 people (2010)'
+       width='380'
+       height='164'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>housing units | 1.238 million (2011)
+housing units change | +88044 (2000-07)
+housing units change rate | +1.1% per year (2000-07)
+households | 1.104 million (2011)
+people per household | 2.59 people (2010)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='More'
+       input='Housing:USStateData__More' />
+  </states>
+ </pod>
+ <pod title='Economic properties'
+     scanner='Data'
+     id='Economy:USStateData'
+     position='1000'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>USStateData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>USCensusQuickfacts</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP101010h3g7gied7cfb5g00001bid256dbde7e4h6?MSPStoreType=image/gif&amp;s=16'
+       alt='number of businesses | 237040 (2007)
+nonemployer businesses | 183642 (2010)
+private non-farm businesses | 74301 (2010)'
+       title='number of businesses | 237040 (2007)
+nonemployer businesses | 183642 (2010)
+private non-farm businesses | 74301 (2010)'
+       width='331'
+       height='100'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>number of businesses | 237040 (2007)
+nonemployer businesses | 183642 (2010)
+private non-farm businesses | 74301 (2010)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='4'>
+   <state name='Business ownership'
+       input='Economy:USStateData__Business ownership' />
+   <state name='Labor'
+       input='Economy:USStateData__Labor' />
+   <state name='Sales'
+       input='Economy:USStateData__Sales' />
+   <state name='Earnings'
+       input='Economy:USStateData__Earnings' />
+  </states>
+ </pod>
+ <pod title='Income statistics'
+     scanner='Data'
+     id='ACSIncomeEntrainments:ACSData'
+     position='1100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ACSData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>CensusAmericanCommunitySurvey5YearsMedianIncome</datasource>
+    <datasource>CensusAmericanCommunitySurvey5YearsPerCapitaIncome</datasource>
+    <datasource>CensusAmericanCommunitySurvey5YearsPoverty</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP101110h3g7gied7cfb5g000023ia3agi5d4c0af4?MSPStoreType=image/gif&amp;s=16'
+       alt='median household income | $55477 per year (US dollars per year) (≈ national average)
+per capita income | $29600 per year per person (US dollars per year per person) (0.992 × national average)
+population below poverty line | 12.8% (0.848 × national average)'
+       title='median household income | $55477 per year (US dollars per year) (≈ national average)
+per capita income | $29600 per year per person (US dollars per year per person) (0.992 × national average)
+population below poverty line | 12.8% (0.848 × national average)'
+       width='546'
+       height='151'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>median household income | $55477 per year (US dollars per year) (≈ national average)
+per capita income | $29600 per year per person (US dollars per year per person) (0.992 × national average)
+population below poverty line | 12.8% (0.848 × national average)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='Show distribution'
+       input='ACSIncomeEntrainments:ACSData__Show distribution' />
+  </states>
+ </pod>
+ <pod title='Crime statistics'
+     scanner='Data'
+     id='StateCrimeInformation:CrimeData'
+     position='1200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>CrimeData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>UnitedStatesDepartmentOfJusticeBureauOfJusticeStatisticsCrimeAndJusticeDataOnline</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP101210h3g7gied7cfb5g00002i6ia39h41i6f6i7?MSPStoreType=image/gif&amp;s=16'
+       alt='total rate of crime | 3214 crimes/100000 people/yr (2017 estimate)
+total number of crimes | 93623 crimes per year (2017 estimate)
+(UCR Part I offenses)'
+       title='total rate of crime | 3214 crimes/100000 people/yr (2017 estimate)
+total number of crimes | 93623 crimes per year (2017 estimate)
+(UCR Part I offenses)'
+       width='490'
+       height='94'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>total rate of crime | 3214 crimes/100000 people/yr (2017 estimate)
+total number of crimes | 93623 crimes per year (2017 estimate)
+(UCR Part I offenses)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='Show details'
+       input='StateCrimeInformation:CrimeData__Show details' />
+  </states>
+  <infos count='1'>
+   <info>
+    <units count='1'>
+     <unit short='crimes/100000 people/yr'
+         long='crimes per 100 000 people per year' />
+     <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP101310h3g7gied7cfb5g0000228c2dfi5h8h63cf?MSPStoreType=image/gif&amp;s=16'
+         width='366'
+         height='26' />
+    </units>
+   </info>
+  </infos>
+ </pod>
+ <pod title='Flag'
+     scanner='Data'
+     id='Flag:USStateData'
+     position='1300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <imagesource>http://en.wikipedia.org/wiki/File:Flag_of_Kansas.svg</imagesource>
+   <microsources>
+    <microsource>USStateData</microsource>
+   </microsources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP101410h3g7gied7cfb5g000065dh7egbhi64b48h?MSPStoreType=image/gif&amp;s=16'
+       alt=''
+       title=''
+       width='55'
+       height='33'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='false' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Voting and registration rates'
+     scanner='Data'
+     id='VotingAndRegistrationRates:USStateData'
+     position='1400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>USStateData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>USCBVotingAndRegistration</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP101510h3g7gied7cfb5g0000151cbg3fae2i6f1c?MSPStoreType=image/gif&amp;s=16'
+       alt='total voting rate | 58.03%
+total registration rate | 67.12%
+(2016)'
+       title='total voting rate | 58.03%
+total registration rate | 67.12%
+(2016)'
+       width='237'
+       height='94'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>total voting rate | 58.03%
+total registration rate | 67.12%
+(2016)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='2'>
+   <state name='More'
+       input='VotingAndRegistrationRates:USStateData__More' />
+   <state name='Show history'
+       input='VotingAndRegistrationRates:USStateData__Show history' />
+  </states>
+ </pod>
+ <pod title='Public school finance information'
+     scanner='Data'
+     id='EducationFunding:USStateData'
+     position='1500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>USStateData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>USCBPublicElementarySecondaryEducationFinanceData</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP101610h3g7gied7cfb5g00000g56i16hd35ggg1h?MSPStoreType=image/gif&amp;s=16'
+       alt='total expenditures | $5.816 billion (US dollars) ($12370 per student)
+total revenue | $5.613 billion (US dollars) ($11939 per student)
+total debt | $4.378 billion (US dollars) ($9311 per student)
+total cash and securities | $2.403 billion (US dollars) ($5110 per student)
+(2009)'
+       title='total expenditures | $5.816 billion (US dollars) ($12370 per student)
+total revenue | $5.613 billion (US dollars) ($11939 per student)
+total debt | $4.378 billion (US dollars) ($9311 per student)
+total cash and securities | $2.403 billion (US dollars) ($5110 per student)
+(2009)'
+       width='492'
+       height='158'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>total expenditures | $5.816 billion (US dollars) ($12370 per student)
+total revenue | $5.613 billion (US dollars) ($11939 per student)
+total debt | $4.378 billion (US dollars) ($9311 per student)
+total cash and securities | $2.403 billion (US dollars) ($5110 per student)
+(2009)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='Show history'
+       input='EducationFunding:USStateData__Show history' />
+  </states>
+ </pod>
+ <pod title='State symbols'
+     scanner='Data'
+     id='Symbols:USStateData'
+     position='1600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>PlantData</microsource>
+    <microsource>SpeciesData</microsource>
+    <microsource>USStateData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>StateNamesSealsFlagsAndSymbols</datasource>
+    <datasource>CatalogueOfLife</datasource>
+    <datasource>PLANTSDatabase</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP101710h3g7gied7cfb5g00002727852ac7a46426?MSPStoreType=image/gif&amp;s=16'
+       alt='state bird | western meadowlark (Sturnella neglecta)
+state flower | wild native sunflower (Helianthus)
+state tree | cottonwood (Populus deltoides)
+state motto | Ad astra per aspera'
+       title='state bird | western meadowlark (Sturnella neglecta)
+state flower | wild native sunflower (Helianthus)
+state tree | cottonwood (Populus deltoides)
+state motto | Ad astra per aspera'
+       width='380'
+       height='132'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>state bird | western meadowlark (Sturnella neglecta)
+state flower | wild native sunflower (Helianthus)
+state tree | cottonwood (Populus deltoides)
+state motto | Ad astra per aspera</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='More'
+       input='Symbols:USStateData__More' />
+  </states>
+ </pod>
+ <pod title='Wikipedia summary'
+     scanner='Character'
+     id='WikipediaSummary:USStateData'
+     position='1700'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP101810h3g7gied7cfb5g000015b3i89ge6fie667?MSPStoreType=image/gif&amp;s=16'
+       alt='Kansas is a U.S. state in the Midwestern United States. Its capital is Topeka and its largest city is Wichita, with its most populated county being Johnson County. Kansas is bordered by Nebraska on the north; Missouri on the east; Oklahoma on the south; and Colorado on the west. Kansas is named after the Kansas River, which in turn was ...'
+       title='Kansas is a U.S. state in the Midwestern United States. Its capital is Topeka and its largest city is Wichita, with its most populated county being Johnson County. Kansas is bordered by Nebraska on the north; Missouri on the east; Oklahoma on the south; and Colorado on the west. Kansas is named after the Kansas River, which in turn was ...'
+       width='541'
+       height='89'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>Kansas is a U.S. state in the Midwestern United States. Its capital is Topeka and its largest city is Wichita, with its most populated county being Johnson County. Kansas is bordered by Nebraska on the north; Missouri on the east; Oklahoma on the south; and Colorado on the west. Kansas is named after the Kansas River, which in turn was ...</plaintext>
+   <infos count='1'>
+    <info>
+     <link url='http://en.wikipedia.org/wiki?curid=16716'
+         text='Full entry' />
+    </info>
+   </infos>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='More'
+       input='WikipediaSummary:USStateData__More' />
+  </states>
+ </pod>
+ <pod title='Wikipedia page hits history'
+     scanner='Data'
+     id='PopularityPod:WikipediaStatsData'
+     position='1800'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP101910h3g7gied7cfb5g000042eifhhhe8i3ehf6?MSPStoreType=image/gif&amp;s=16'
+       alt=''
+       title=''
+       width='546'
+       height='165'
+       type='TimeSeriesPlot_1'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='TimeSeriesPlot' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='Log scale'
+       input='PopularityPod:WikipediaStatsData__Log scale' />
+  </states>
+ </pod>
+ <assumptions count='1'>
+  <assumption type='Clash'
+      word='KS'
+      template='Assuming &quot;${word}&quot; is ${desc1}. Use as ${desc2} instead'
+      count='4'>
+   <value name='USState'
+       desc='a US state'
+       input='*C.KS-_*USState-' />
+   <value name='Particle'
+       desc='a particle'
+       input='*C.KS-_*Particle-' />
+   <value name='Unit'
+       desc='a unit'
+       input='*C.KS-_*Unit-' />
+   <value name='Word'
+       desc='a word'
+       input='*C.KS-_*Word-' />
+  </assumption>
+ </assumptions>
+ <sources count='5'>
+  <source url='https://www4c.wolframalpha.com/sources/ACSDataSourceInformationNotes.html'
+      text='ACS data' />
+  <source url='https://www4c.wolframalpha.com/sources/CrimeDataSourceInformationNotes.html'
+      text='Crime data' />
+  <source url='https://www4c.wolframalpha.com/sources/PlantDataSourceInformationNotes.html'
+      text='Plant data' />
+  <source url='https://www4c.wolframalpha.com/sources/SpeciesDataSourceInformationNotes.html'
+      text='Species data' />
+  <source url='https://www4c.wolframalpha.com/sources/USStateDataSourceInformationNotes.html'
+      text='US state data' />
+ </sources>
+</queryresult>

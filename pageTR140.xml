@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='5'
+    datatypes='Chemical,Element'
+    timedout=''
+    timedoutpods=''
+    timing='1.514'
+    parsetiming='0.359'
+    parsetimedout='false'
+    recalculate=''
+    id='MSP43151725b138b12cf69i00005edicfi3a668b3c9'
+    host='https://www4f.wolframalpha.com'
+    server='53'
+    related='https://www4f.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa43161725b138b12cf69i00006a6f6i1g151d7bc21494264905346578628'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP43171725b138b12cf69i000056f757gf17ebc1dd?MSPStoreType=image/gif&amp;s=53'
+       alt='Cr3CO3 (chemical compound)'
+       title='Cr3CO3 (chemical compound)'
+       width='198'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>Cr3CO3 (chemical compound)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Basic properties'
+     scanner='Data'
+     id='ChemicalStructureIdentifiers:ChemicalData'
+     position='200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+    <datasource>NISTAtomicWeights</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP43181725b138b12cf69i00005hf9029i5hf9h1i6?MSPStoreType=image/gif&amp;s=53'
+       alt='molar mass | 216 g/mol
+formula | Cr3CO3'
+       title='molar mass | 216 g/mol
+formula | Cr3CO3'
+       width='187'
+       height='68'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>molar mass | 216 g/mol
+formula | Cr3CO3</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='More'
+       input='ChemicalStructureIdentifiers:ChemicalData__More' />
+  </states>
+  <infos count='1'>
+   <info>
+    <units count='1'>
+     <unit short='g/mol'
+         long='grams per mole' />
+     <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP43191725b138b12cf69i00003fdbic61738f660d?MSPStoreType=image/gif&amp;s=53'
+         width='162'
+         height='26' />
+    </units>
+   </info>
+  </infos>
+ </pod>
+ <pod title='Molar mass'
+     scanner='Data'
+     id='MolecularMassPod:ChemicalData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+    <datasource>NISTAtomicWeights</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP43201725b138b12cf69i00001g12bi95eed202gg?MSPStoreType=image/gif&amp;s=53'
+       alt='216 g/mol (grams per mole)'
+       title='216 g/mol (grams per mole)'
+       width='179'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>216 g/mol (grams per mole)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Elemental composition'
+     scanner='Data'
+     id='UnknownIsomersPod:ChemicalData'
+     position='400'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+    <datasource>NISTAtomicWeights</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP43211725b138b12cf69i0000334a0b6fa66deh4f?MSPStoreType=image/gif&amp;s=53'
+       alt=' | number
+of atoms | atom
+percent | mass
+percent
+ Cr (chromium) | 3 | 42.9% | 72.22%
+ C (carbon) | 1 | 14.3% | 5.561%
+ O (oxygen) | 3 | 42.9% | 22.22%'
+       title=' | number
+of atoms | atom
+percent | mass
+percent
+ Cr (chromium) | 3 | 42.9% | 72.22%
+ C (carbon) | 1 | 14.3% | 5.561%
+ O (oxygen) | 3 | 42.9% | 22.22%'
+       width='357'
+       height='137'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext> | number
+of atoms | atom
+percent | mass
+percent
+ Cr (chromium) | 3 | 42.9% | 72.22%
+ C (carbon) | 1 | 14.3% | 5.561%
+ O (oxygen) | 3 | 42.9% | 22.22%</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='Step-by-step'
+       input='UnknownIsomersPod:ChemicalData__Step-by-step'
+       stepbystep='true' />
+  </states>
+ </pod>
+ <pod title='Mass fraction pie chart'
+     scanner='Data'
+     id='UnknownPieChart:ChemicalData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NISTAtomicWeights</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP43221725b138b12cf69i0000305i99acac5g2651?MSPStoreType=image/gif&amp;s=53'
+       alt=''
+       title=''
+       width='136'
+       height='100'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <sources count='2'>
+  <source url='https://www4f.wolframalpha.com/sources/ChemicalDataSourceInformationNotes.html'
+      text='Chemical data' />
+  <source url='https://www4f.wolframalpha.com/sources/ElementDataSourceInformationNotes.html'
+      text='Element data' />
+ </sources>
+</queryresult>

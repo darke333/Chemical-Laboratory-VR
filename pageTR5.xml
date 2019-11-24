@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='6'
+    datatypes='ChemicalIntermediate,Element'
+    timedout=''
+    timedoutpods=''
+    timing='1.236'
+    parsetiming='0.111'
+    parsetimedout='false'
+    recalculate=''
+    id='MSP14451115faa8dd3e4ebg000029eicb8c73454871'
+    host='https://www4c.wolframalpha.com'
+    server='39'
+    related='https://www4c.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa14461115faa8dd3e4ebg000014g231711a4500ic124097838276685837'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP14471115faa8dd3e4ebg00005c39a80993683d85?MSPStoreType=image/gif&amp;s=39'
+       alt='hydrogen carbonate (ion)'
+       title='hydrogen carbonate (ion)'
+       width='169'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>hydrogen carbonate (ion)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Structure diagram'
+     scanner='Data'
+     id='StructureDiagramPod:ChemicalIntermediateData'
+     position='200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalIntermediateData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>WebElements</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP14481115faa8dd3e4ebg0000433bggi3f44d5b4e?MSPStoreType=image/gif&amp;s=39'
+       alt=''
+       title=''
+       width='400'
+       height='66'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+  <states count='4'>
+   <statelist count='2'
+       value='Skeletal structure'
+       delimiters=''>
+    <state name='Skeletal structure'
+        input='StructureDiagramPod:ChemicalIntermediateData__Skeletal structure' />
+    <state name='Lewis structure'
+        input='StructureDiagramPod:ChemicalIntermediateData__Lewis structure' />
+   </statelist>
+   <state name='Show bond information'
+       input='StructureDiagramPod:ChemicalIntermediateData__Show bond information' />
+   <state name='Show graph properties'
+       input='StructureDiagramPod:ChemicalIntermediateData__Show graph properties' />
+   <state name='Step-by-step'
+       input='StructureDiagramPod:ChemicalIntermediateData__Step-by-step'
+       stepbystep='true' />
+  </states>
+ </pod>
+ <pod title='General properties'
+     scanner='Data'
+     id='GeneralProperties:ChemicalIntermediateData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalIntermediateData</microsource>
+   </microsources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP14491115faa8dd3e4ebg00003i1ebdgd099egf3d?MSPStoreType=image/gif&amp;s=39'
+       alt='formula | (HCO_3)^-
+net ionic charge | -1
+alternate names | bicarbonate | hydrogen trioxocarbonate | hydrogen trioxidocarbonate | hydrogen carbonate anion | hydrogen carbonate(1-)'
+       title='formula | (HCO_3)^-
+net ionic charge | -1
+alternate names | bicarbonate | hydrogen trioxocarbonate | hydrogen trioxidocarbonate | hydrogen carbonate anion | hydrogen carbonate(1-)'
+       width='546'
+       height='135'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>formula | (HCO_3)^-
+net ionic charge | -1
+alternate names | bicarbonate | hydrogen trioxocarbonate | hydrogen trioxidocarbonate | hydrogen carbonate anion | hydrogen carbonate(1-)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+ </pod>
+ <pod title='Ionic radius'
+     scanner='Data'
+     id='IonicRadiusPod:ChemicalIntermediateData'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalIntermediateData</microsource>
+   </microsources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP14501115faa8dd3e4ebg00002dhf02e34i1ae542?MSPStoreType=image/gif&amp;s=39'
+       alt='thermochemical radius | 156 pm'
+       title='thermochemical radius | 156 pm'
+       width='247'
+       height='36'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>thermochemical radius | 156 pm</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <infos count='1'>
+   <info>
+    <units count='1'>
+     <unit short='pm'
+         long='picometers' />
+     <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP14511115faa8dd3e4ebg00000d1aeei91gga1af8?MSPStoreType=image/gif&amp;s=39'
+         width='125'
+         height='26' />
+    </units>
+   </info>
+  </infos>
+ </pod>
+ <pod title='Other properties'
+     scanner='Data'
+     id='Other:ChemicalIntermediateData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalIntermediateData</microsource>
+   </microsources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP14521115faa8dd3e4ebg00002i0gcc0830e171bf?MSPStoreType=image/gif&amp;s=39'
+       alt='ion class | anions | biomolecule ions | ionic conjugate bases | oxoanions | polyatomic ions | ionic weak acids
+common sources of ion | ammonium bicarbonate (1 eq)'
+       title='ion class | anions | biomolecule ions | ionic conjugate bases | oxoanions | polyatomic ions | ionic weak acids
+common sources of ion | ammonium bicarbonate (1 eq)'
+       width='546'
+       height='102'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>ion class | anions | biomolecule ions | ionic conjugate bases | oxoanions | polyatomic ions | ionic weak acids
+common sources of ion | ammonium bicarbonate (1 eq)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+ </pod>
+ <pod title='Thermodynamic properties'
+     scanner='Data'
+     id='ThermodynamicProperties:ChemicalIntermediateData'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalIntermediateData</microsource>
+   </microsources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP14531115faa8dd3e4ebg0000578c63ba9ha7b8cb?MSPStoreType=image/gif&amp;s=39'
+       alt='molar free energy of formation Δ_fG° | aqueous | -586.8 kJ/mol (kilojoules per mole)
+molar heat of formation Δ_fH° | aqueous | -692 kJ/mol (kilojoules per mole)
+molar entropy S° | aqueous | 91.2 J/(mol K) (joules per mole kelvin)'
+       title='molar free energy of formation Δ_fG° | aqueous | -586.8 kJ/mol (kilojoules per mole)
+molar heat of formation Δ_fH° | aqueous | -692 kJ/mol (kilojoules per mole)
+molar entropy S° | aqueous | 91.2 J/(mol K) (joules per mole kelvin)'
+       width='546'
+       height='138'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>molar free energy of formation Δ_fG° | aqueous | -586.8 kJ/mol (kilojoules per mole)
+molar heat of formation Δ_fH° | aqueous | -692 kJ/mol (kilojoules per mole)
+molar entropy S° | aqueous | 91.2 J/(mol K) (joules per mole kelvin)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+ </pod>
+ <assumptions count='1'>
+  <assumption type='Clash'
+      word='HCO3'
+      template='Assuming &quot;${word}&quot; is ${desc1}. Use as ${desc2} instead'
+      count='2'>
+   <value name='ChemicalIntermediate'
+       desc='an ion'
+       input='*C.HCO3-_*ChemicalIntermediate-' />
+   <value name='Chemical'
+       desc='a chemical compound'
+       input='*C.HCO3-_*Chemical-' />
+  </assumption>
+ </assumptions>
+ <sources count='2'>
+  <source url='https://www4c.wolframalpha.com/sources/ChemicalIntermediateDataSourceInformationNotes.html'
+      text='Chemical intermediate data' />
+  <source url='https://www4c.wolframalpha.com/sources/ElementDataSourceInformationNotes.html'
+      text='Element data' />
+ </sources>
+</queryresult>

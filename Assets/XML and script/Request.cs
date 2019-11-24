@@ -134,7 +134,7 @@ public class Request : MonoBehaviour
         int i = 0;
         foreach (XmlDocument doc in docs)
         {
-            doc.Load("C:/ForHack/ForHack/" + pages[i]);// ПУТЬ-------------------------------------------------------------------------------
+            doc.Load("C:/ForHack/ChemHack/XML and script/" + pages[i]);// ПУТЬ-------------------------------------------------------------------------------
             bool solubility = false;
             double temp = 100;
             bool aggregate = false;
@@ -197,28 +197,41 @@ public class Request : MonoBehaviour
     void Start()
     {
         List<Subst> Substances = new List<Subst>();
-        FileStream FS = new FileStream("Sub2.txt", FileMode.OpenOrCreate);
+        FileStream FS = new FileStream("C:/ForHack/ChemHack/XML and script/Sub2.txt", FileMode.OpenOrCreate);
         StreamReader Str = new StreamReader(FS);
         string stroka = Str.ReadToEnd();
         FS.Close();
         Str.Close();
         string[] elements = System.Text.RegularExpressions.Regex.Split(stroka, "\r\n");
 
-        //int i = 0;
+       // int i = 0;
         /*
         foreach (string element in elements)
         {
-            get_http_write("http://api.wolframalpha.com/v2/query?input=" + element + "&appid=K58ETV-GTPAJVATGW", "page" + i + ".xml");
+        //    get_http_write("http://api.wolframalpha.com/v2/query?input=" + element + "&appid=K58ETV-GTPAJVATGW", "pageTR" + i + ".xml");
             i++;
         }
         */
-        string[] pages = new string[elements.Length];
+
+
+
+        
+        string[] pages = new string[elements.Length]; //Код записи СУЩЕСТВУЮЩИХ ФАЙЛОВ В МАССИВ Substances
         for (int j = 0; j<elements.Length; j++)
         {
             pages[j] = "page" + j + ".xml";
         }
+        
 
         FillArray(Substances, pages);
+
+        int h = 0;
+        foreach (Subst Sub in Substances)
+        {
+            Sub.name = elements[h];
+            h++;
+        }
+
 
         //get_http_write("http://api.wolframalpha.com/v2/query?input=Ag+%20+%20NO3-&appid=K58ETV-GTPAJVATGW", "page5.xml");
 

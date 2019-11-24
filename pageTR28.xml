@@ -1,0 +1,529 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='13'
+    datatypes='Gene,Genome,GenomeSequence,SNP'
+    timedout=''
+    timedoutpods=''
+    timing='3.848'
+    parsetiming='0.065'
+    parsetimedout='false'
+    recalculate=''
+    id='MSP3469237198d8ghd0chfc000064he64f853f0d336'
+    host='https://www4c.wolframalpha.com'
+    server='41'
+    related='https://www4c.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa3470237198d8ghd0chfc00004ag935f0f1e5dg592280401133652745401'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP3471237198d8ghd0chfc00000idfc36bcf89324f?MSPStoreType=image/gif&amp;s=41'
+       alt='SLC25A29 (human gene)'
+       title='SLC25A29 (human gene)'
+       width='164'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>SLC25A29 (human gene)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Standard name'
+     scanner='Data'
+     id='StandardName:GeneData'
+     position='200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+   </microsources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP3472237198d8ghd0chfc00003cf41i7if421bhh8?MSPStoreType=image/gif&amp;s=41'
+       alt='solute carrier family 25 (mitochondrial carnitine/acylcarnitine carrier), member 29'
+       title='solute carrier family 25 (mitochondrial carnitine/acylcarnitine carrier), member 29'
+       width='541'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>solute carrier family 25 (mitochondrial carnitine/acylcarnitine carrier), member 29</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Alternate names'
+     scanner='Data'
+     id='AlternateNames:GeneData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP3473237198d8ghd0chfc00004ae540bf1c1gc66c?MSPStoreType=image/gif&amp;s=41'
+       alt='CACL | ORNT3 | C14orf69 | solute carrier family 25, member 29 | ...'
+       title='CACL | ORNT3 | C14orf69 | solute carrier family 25, member 29 | ...'
+       width='493'
+       height='18'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>CACL | ORNT3 | C14orf69 | solute carrier family 25, member 29 | ...</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='More'
+       input='AlternateNames:GeneData__More' />
+  </states>
+ </pod>
+ <pod title='Location'
+     scanner='Data'
+     id='Location:GeneData'
+     position='400'
+     error='false'
+     numsubpods='2'>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+    <microsource>GenomeData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP3474237198d8ghd0chfc00005fh3gdb7d5d9602b?MSPStoreType=image/gif&amp;s=41'
+       alt='locus | chromosome 14 | q32.2
+strand | minus
+coordinates | 100757453 to 100772860'
+       title='locus | chromosome 14 | q32.2
+strand | minus
+coordinates | 100757453 to 100772860'
+       width='303'
+       height='100'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>locus | chromosome 14 | q32.2
+strand | minus
+coordinates | 100757453 to 100772860</plaintext>
+  </subpod>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+    <microsource>GenomeData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP3475237198d8ghd0chfc000040fg9h6bgig9if2a?MSPStoreType=image/gif&amp;s=41'
+       alt=''
+       title=''
+       width='413'
+       height='66'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='2'>
+   <expressiontype name='Grid' />
+   <expressiontype name='Default' />
+  </expressiontypes>
+  <states count='1'>
+   <statelist count='2'
+       value='genome build 37'
+       delimiters=''>
+    <state name='genome build 37'
+        input='Location:GeneData__genome build 37' />
+    <state name='genome build 36'
+        input='Location:GeneData__genome build 36' />
+   </statelist>
+  </states>
+ </pod>
+ <pod title='Reference sequence'
+     scanner='Data'
+     id='ReferenceSequence:GeneData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+    <microsource>GenomeSequenceData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP3476237198d8ghd0chfc00002gg9908h76159a8f?MSPStoreType=image/gif&amp;s=41'
+       alt='CCCCACCCGGGCCCTGCCGGCAGGCACGAGGGGCGGGGCG
+... GAAACTGTCAAGGGAATAAAGTGTTCTTTGTTTTTTAA'
+       title='CCCCACCCGGGCCCTGCCGGCAGGCACGAGGGGCGGGGCG
+... GAAACTGTCAAGGGAATAAAGTGTTCTTTGTTTTTTAA'
+       width='382'
+       height='36'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>CCCCACCCGGGCCCTGCCGGCAGGCACGAGGGGCGGGGCG
+... GAAACTGTCAAGGGAATAAAGTGTTCTTTGTTTTTTAA</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='More'
+       input='ReferenceSequence:GeneData__More' />
+  </states>
+ </pod>
+ <pod title='Reference sequence length'
+     scanner='Data'
+     id='Length:GeneData'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP3477237198d8ghd0chfc000058ebgcaf6h915f1e?MSPStoreType=image/gif&amp;s=41'
+       alt='15408 bp (base pairs)'
+       title='15408 bp (base pairs)'
+       width='141'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>15408 bp (base pairs)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Nearby genes'
+     scanner='Data'
+     id='NearbyGenes:GeneData'
+     position='700'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP3478237198d8ghd0chfc00006a1a714ccb14bi20?MSPStoreType=image/gif&amp;s=41'
+       alt=''
+       title=''
+       width='495'
+       height='81'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+  <states count='2'>
+   <state name='More'
+       input='NearbyGenes:GeneData__More' />
+   <state name='Show table'
+       input='NearbyGenes:GeneData__Show table' />
+  </states>
+ </pod>
+ <pod title='Gene splicing structures'
+     scanner='Data'
+     id='CodingSequencesGraphic:GeneData'
+     position='800'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+    <microsource>GenomeSequenceData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP3479237198d8ghd0chfc00005di4681eh598g8d1?MSPStoreType=image/gif&amp;s=41'
+       alt=''
+       title=''
+       width='495'
+       height='179'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+  <states count='2'>
+   <state name='Show legend'
+       input='CodingSequencesGraphic:GeneData__Show legend' />
+   <state name='Show table'
+       input='CodingSequencesGraphic:GeneData__Show table' />
+  </states>
+ </pod>
+ <pod title='Protein names'
+     scanner='Data'
+     id='ProteinNames:GeneData'
+     position='900'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP3480237198d8ghd0chfc00000i4h87f09d5gda67?MSPStoreType=image/gif&amp;s=41'
+       alt='mitochondrial carnitine/acylcarnitine carrier protein CACL | mitochondrial carnitine/acylcarnitine carrier protein CACL isoform X1 | mitochondrial carnitine/acylcarnitine carrier protein CACL isoform X2 | mitochondrial carnitine/acylcarnitine carrier protein CACL isoform X3 | mitochondrial carnitine/acylcarnitine carrier protein CACL isoform X4'
+       title='mitochondrial carnitine/acylcarnitine carrier protein CACL | mitochondrial carnitine/acylcarnitine carrier protein CACL isoform X1 | mitochondrial carnitine/acylcarnitine carrier protein CACL isoform X2 | mitochondrial carnitine/acylcarnitine carrier protein CACL isoform X3 | mitochondrial carnitine/acylcarnitine carrier protein CACL isoform X4'
+       width='500'
+       height='95'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>mitochondrial carnitine/acylcarnitine carrier protein CACL | mitochondrial carnitine/acylcarnitine carrier protein CACL isoform X1 | mitochondrial carnitine/acylcarnitine carrier protein CACL isoform X2 | mitochondrial carnitine/acylcarnitine carrier protein CACL isoform X3 | mitochondrial carnitine/acylcarnitine carrier protein CACL isoform X4</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+ </pod>
+ <pod title='Protein molecular weight'
+     scanner='Data'
+     id='ProteinMolecularWeight:GeneData'
+     position='1000'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP3481237198d8ghd0chfc000035f0f28e17698g89?MSPStoreType=image/gif&amp;s=41'
+       alt='31.93 kDa (kilodaltons)'
+       title='31.93 kDa (kilodaltons)'
+       width='146'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>31.93 kDa (kilodaltons)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Locations of identified SNPs'
+     scanner='Data'
+     id='SNPLocations:GeneData'
+     position='1100'
+     error='false'
+     numsubpods='2'>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+    <microsource>SNPData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+    <datasource>NCBIdbSNP</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP3482237198d8ghd0chfc000017bi0dh7g567gh79?MSPStoreType=image/gif&amp;s=41'
+       alt=''
+       title=''
+       width='440'
+       height='56'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+    <microsource>SNPData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+    <datasource>NCBIdbSNP</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP3483237198d8ghd0chfc00002a3eihih7f0dgg14?MSPStoreType=image/gif&amp;s=41'
+       alt='SNP | gene position | frequencies
+rs3825555 | 1594 | A : 78% | C : 22%
+rs3742379 | 1825 | T : 56% | C : 44%
+rs35529026 | 1831 | G : 99% | A : 1%
+rs3809409 | 2286 | T : 78% | G : 22%
+rs3809408 | 2513 | G : 93% | A : 7%
+(total: 12)'
+       title='SNP | gene position | frequencies
+rs3825555 | 1594 | A : 78% | C : 22%
+rs3742379 | 1825 | T : 56% | C : 44%
+rs35529026 | 1831 | G : 99% | A : 1%
+rs3809409 | 2286 | T : 78% | G : 22%
+rs3809408 | 2513 | G : 93% | A : 7%
+(total: 12)'
+       width='355'
+       height='217'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>SNP | gene position | frequencies
+rs3825555 | 1594 | A : 78% | C : 22%
+rs3742379 | 1825 | T : 56% | C : 44%
+rs35529026 | 1831 | G : 99% | A : 1%
+rs3809409 | 2286 | T : 78% | G : 22%
+rs3809408 | 2513 | G : 93% | A : 7%
+(total: 12)</plaintext>
+  </subpod>
+  <expressiontypes count='2'>
+   <expressiontype name='Default' />
+   <expressiontype name='Default' />
+  </expressiontypes>
+  <states count='2'>
+   <state name='More'
+       input='SNPLocations:GeneData__More' />
+   <state name='Show chromosome coordinates'
+       input='SNPLocations:GeneData__Show chromosome coordinates' />
+  </states>
+ </pod>
+ <pod title='Gene Ontology characteristics'
+     scanner='Data'
+     id='GeneOntologyCharacteristics:GeneData'
+     position='1200'
+     error='false'
+     numsubpods='3'>
+  <subpod title='Functions'>
+   <microsources>
+    <microsource>GeneData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP3484237198d8ghd0chfc00003e5a3c4293ei713a?MSPStoreType=image/gif&amp;s=41'
+       alt='binding | transporter activity | acyl carnitine transporter activity'
+       title='binding | transporter activity | acyl carnitine transporter activity'
+       width='447'
+       height='18'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>binding | transporter activity | acyl carnitine transporter activity</plaintext>
+  </subpod>
+  <subpod title='Locations'>
+   <microsources>
+    <microsource>GeneData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP3485237198d8ghd0chfc00006251603565g93g82?MSPStoreType=image/gif&amp;s=41'
+       alt='membrane | mitochondrion | integral to membrane | mitochondrial inner membrane'
+       title='membrane | mitochondrion | integral to membrane | mitochondrial inner membrane'
+       width='523'
+       height='38'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>membrane | mitochondrion | integral to membrane | mitochondrial inner membrane</plaintext>
+  </subpod>
+  <subpod title='Processes'>
+   <microsources>
+    <microsource>GeneData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP3486237198d8ghd0chfc0000526f2fdhfgh72452?MSPStoreType=image/gif&amp;s=41'
+       alt='transmembrane transport | acyl carnitine transport'
+       title='transmembrane transport | acyl carnitine transport'
+       width='350'
+       height='18'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>transmembrane transport | acyl carnitine transport</plaintext>
+  </subpod>
+  <expressiontypes count='3'>
+   <expressiontype name='Grid' />
+   <expressiontype name='Grid' />
+   <expressiontype name='Grid' />
+  </expressiontypes>
+ </pod>
+ <pod title='Homologs across organisms'
+     scanner='Data'
+     id='HomologsAcrossOrganisms:GeneData'
+     position='1300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP3487237198d8ghd0chfc000054g07b768e7gi7ib?MSPStoreType=image/gif&amp;s=41'
+       alt=''
+       title=''
+       width='539'
+       height='486'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='Show legend'
+       input='HomologsAcrossOrganisms:GeneData__Show legend' />
+  </states>
+ </pod>
+ <assumptions count='1'>
+  <assumption type='SubCategory'
+      word='CaCL'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='2'>
+   <value name='{SLC25A29, {Species -&gt; HomoSapiens}}'
+       desc='SLC25A29 (human gene)'
+       input='*DPClash.GeneE.CaCL-_**SLC25A29.*Species_HomoSapiens---' />
+   <value name='{Slc25a29, {Species -&gt; MusMusculus}}'
+       desc='Slc25a29 (mouse gene)'
+       input='*DPClash.GeneE.CaCL-_**Slc25a29.*Species_MusMusculus---' />
+  </assumption>
+ </assumptions>
+ <sources count='4'>
+  <source url='https://www4c.wolframalpha.com/sources/GeneDataSourceInformationNotes.html'
+      text='Gene data' />
+  <source url='https://www4c.wolframalpha.com/sources/GenomeDataSourceInformationNotes.html'
+      text='Genome data' />
+  <source url='https://www4c.wolframalpha.com/sources/GenomeSequenceDataSourceInformationNotes.html'
+      text='Genome sequence data' />
+  <source url='https://www4c.wolframalpha.com/sources/SNPDataSourceInformationNotes.html'
+      text='SNP data' />
+ </sources>
+</queryresult>

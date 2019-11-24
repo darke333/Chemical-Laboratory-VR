@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='5'
+    datatypes='Chemical,Element'
+    timedout=''
+    timedoutpods=''
+    timing='1.641'
+    parsetiming='0.232'
+    parsetimedout='false'
+    recalculate=''
+    id='MSP48123ed0egg6c56f8hc00004e343ahd3eg0ca7e'
+    host='https://www4c.wolframalpha.com'
+    server='34'
+    related='https://www4c.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa48223ed0egg6c56f8hc00001i0b97f91742dg737987964557008119690'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP48323ed0egg6c56f8hc0000641810h3ebbg8326?MSPStoreType=image/gif&amp;s=34'
+       alt='Fe2SO3 (chemical compound)'
+       title='Fe2SO3 (chemical compound)'
+       width='197'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>Fe2SO3 (chemical compound)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Basic properties'
+     scanner='Data'
+     id='ChemicalStructureIdentifiers:ChemicalData'
+     position='200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+    <datasource>NISTAtomicWeights</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP48423ed0egg6c56f8hc00006675e7g9470eie2f?MSPStoreType=image/gif&amp;s=34'
+       alt='molar mass | 191.75 g/mol
+formula | Fe2SO3'
+       title='molar mass | 191.75 g/mol
+formula | Fe2SO3'
+       width='207'
+       height='68'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>molar mass | 191.75 g/mol
+formula | Fe2SO3</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='More'
+       input='ChemicalStructureIdentifiers:ChemicalData__More' />
+  </states>
+  <infos count='1'>
+   <info>
+    <units count='1'>
+     <unit short='g/mol'
+         long='grams per mole' />
+     <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP48523ed0egg6c56f8hc000043d77dh65e35275b?MSPStoreType=image/gif&amp;s=34'
+         width='162'
+         height='26' />
+    </units>
+   </info>
+  </infos>
+ </pod>
+ <pod title='Molar mass'
+     scanner='Data'
+     id='MolecularMassPod:ChemicalData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+    <datasource>NISTAtomicWeights</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP48623ed0egg6c56f8hc00000f6481af0g8faff3?MSPStoreType=image/gif&amp;s=34'
+       alt='191.75 g/mol (grams per mole)'
+       title='191.75 g/mol (grams per mole)'
+       width='199'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>191.75 g/mol (grams per mole)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Elemental composition'
+     scanner='Data'
+     id='UnknownIsomersPod:ChemicalData'
+     position='400'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+    <datasource>NISTAtomicWeights</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP48723ed0egg6c56f8hc0000619g51hhi5b8b9g0?MSPStoreType=image/gif&amp;s=34'
+       alt=' | number
+of atoms | atom
+percent | mass
+percent
+ Fe (iron) | 2 | 33.3% | 58.25%
+ S (sulfur) | 1 | 16.7% | 16.72%
+ O (oxygen) | 3 | 50.0% | 25.03%'
+       title=' | number
+of atoms | atom
+percent | mass
+percent
+ Fe (iron) | 2 | 33.3% | 58.25%
+ S (sulfur) | 1 | 16.7% | 16.72%
+ O (oxygen) | 3 | 50.0% | 25.03%'
+       width='332'
+       height='137'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext> | number
+of atoms | atom
+percent | mass
+percent
+ Fe (iron) | 2 | 33.3% | 58.25%
+ S (sulfur) | 1 | 16.7% | 16.72%
+ O (oxygen) | 3 | 50.0% | 25.03%</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='Step-by-step'
+       input='UnknownIsomersPod:ChemicalData__Step-by-step'
+       stepbystep='true' />
+  </states>
+ </pod>
+ <pod title='Mass fraction pie chart'
+     scanner='Data'
+     id='UnknownPieChart:ChemicalData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NISTAtomicWeights</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP48823ed0egg6c56f8hc00001h4cf806ab13hb75?MSPStoreType=image/gif&amp;s=34'
+       alt=''
+       title=''
+       width='130'
+       height='100'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <sources count='2'>
+  <source url='https://www4c.wolframalpha.com/sources/ChemicalDataSourceInformationNotes.html'
+      text='Chemical data' />
+  <source url='https://www4c.wolframalpha.com/sources/ElementDataSourceInformationNotes.html'
+      text='Element data' />
+ </sources>
+</queryresult>

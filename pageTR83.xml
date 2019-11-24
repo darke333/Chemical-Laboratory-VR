@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='5'
+    datatypes='Chemical,Element'
+    timedout=''
+    timedoutpods=''
+    timing='1.3780000000000001'
+    parsetiming='0.44'
+    parsetimedout='false'
+    recalculate=''
+    id='MSP1052110h86cac7hg2249000005g489cff47g94gdi'
+    host='https://www4f.wolframalpha.com'
+    server='41'
+    related='https://www4f.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa1052210h86cac7hg22490000037b77f37bdd17egi9059329926228553144'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP1052310h86cac7hg224900000357h867e933ib17a?MSPStoreType=image/gif&amp;s=41'
+       alt='Ba2S (chemical compound)'
+       title='Ba2S (chemical compound)'
+       width='181'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>Ba2S (chemical compound)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Basic properties'
+     scanner='Data'
+     id='ChemicalStructureIdentifiers:ChemicalData'
+     position='200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+    <datasource>NISTAtomicWeights</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP1052410h86cac7hg2249000004f7efdfec42f413f?MSPStoreType=image/gif&amp;s=41'
+       alt='molar mass | 306.71 g/mol
+formula | Ba2S'
+       title='molar mass | 306.71 g/mol
+formula | Ba2S'
+       width='207'
+       height='68'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>molar mass | 306.71 g/mol
+formula | Ba2S</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='More'
+       input='ChemicalStructureIdentifiers:ChemicalData__More' />
+  </states>
+  <infos count='1'>
+   <info>
+    <units count='1'>
+     <unit short='g/mol'
+         long='grams per mole' />
+     <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP1052510h86cac7hg22490000037a70fh27c2f8b53?MSPStoreType=image/gif&amp;s=41'
+         width='162'
+         height='26' />
+    </units>
+   </info>
+  </infos>
+ </pod>
+ <pod title='Molar mass'
+     scanner='Data'
+     id='MolecularMassPod:ChemicalData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+    <datasource>NISTAtomicWeights</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP1052610h86cac7hg2249000004aibcbd7i8fh4hb9?MSPStoreType=image/gif&amp;s=41'
+       alt='306.71 g/mol (grams per mole)'
+       title='306.71 g/mol (grams per mole)'
+       width='199'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>306.71 g/mol (grams per mole)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Elemental composition'
+     scanner='Data'
+     id='UnknownIsomersPod:ChemicalData'
+     position='400'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+    <datasource>NISTAtomicWeights</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP1052710h86cac7hg2249000002heb311958bh119f?MSPStoreType=image/gif&amp;s=41'
+       alt=' | number
+of atoms | atom
+percent | mass
+percent
+ Ba (barium) | 2 | 66.7% | 89.55%
+ S (sulfur) | 1 | 33.3% | 10.45%'
+       title=' | number
+of atoms | atom
+percent | mass
+percent
+ Ba (barium) | 2 | 66.7% | 89.55%
+ S (sulfur) | 1 | 33.3% | 10.45%'
+       width='340'
+       height='109'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext> | number
+of atoms | atom
+percent | mass
+percent
+ Ba (barium) | 2 | 66.7% | 89.55%
+ S (sulfur) | 1 | 33.3% | 10.45%</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='Step-by-step'
+       input='UnknownIsomersPod:ChemicalData__Step-by-step'
+       stepbystep='true' />
+  </states>
+ </pod>
+ <pod title='Mass fraction pie chart'
+     scanner='Data'
+     id='UnknownPieChart:ChemicalData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NISTAtomicWeights</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP1052810h86cac7hg2249000003e6ei0a7f3aa6ba3?MSPStoreType=image/gif&amp;s=41'
+       alt=''
+       title=''
+       width='137'
+       height='100'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <assumptions count='1'>
+  <assumption type='MultiClash'
+      word=''
+      template='Assuming ${word1} is referring to ${desc1}. Use &quot;${word2}&quot; as ${desc2}.'
+      count='2'>
+   <value name='Chemical'
+       word='Ba2S'
+       desc='a chemical compound'
+       input='*MC.Ba2S-_*Chemical-' />
+   <value name='Element'
+       word='Ba'
+       desc='a chemical element'
+       input='*MC.Ba2S-_*Element-' />
+  </assumption>
+ </assumptions>
+ <sources count='2'>
+  <source url='https://www4f.wolframalpha.com/sources/ChemicalDataSourceInformationNotes.html'
+      text='Chemical data' />
+  <source url='https://www4f.wolframalpha.com/sources/ElementDataSourceInformationNotes.html'
+      text='Element data' />
+ </sources>
+</queryresult>

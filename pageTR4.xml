@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='5'
+    datatypes='ChemicalIntermediate,Element'
+    timedout=''
+    timedoutpods=''
+    timing='1.926'
+    parsetiming='0.112'
+    parsetimedout='false'
+    recalculate=''
+    id='MSP12161115fab71c2cd96c000027i2b118f554gg17'
+    host='https://www4c.wolframalpha.com'
+    server='39'
+    related='https://www4c.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa12171115fab71c2cd96c00002h49dd526fc230e1124097838276685837'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP12181115fab71c2cd96c00004c0dii0dc8ii97h1?MSPStoreType=image/gif&amp;s=39'
+       alt='hydrogen sulfate (ion)'
+       title='hydrogen sulfate (ion)'
+       width='147'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>hydrogen sulfate (ion)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Structure diagram'
+     scanner='Data'
+     id='StructureDiagramPod:ChemicalIntermediateData'
+     position='200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalIntermediateData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>WebElements</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP12191115fab71c2cd96c00001f9b1c70f20ea79b?MSPStoreType=image/gif&amp;s=39'
+       alt=''
+       title=''
+       width='400'
+       height='102'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+  <states count='4'>
+   <statelist count='2'
+       value='Skeletal structure'
+       delimiters=''>
+    <state name='Skeletal structure'
+        input='StructureDiagramPod:ChemicalIntermediateData__Skeletal structure' />
+    <state name='Lewis structure'
+        input='StructureDiagramPod:ChemicalIntermediateData__Lewis structure' />
+   </statelist>
+   <state name='Show bond information'
+       input='StructureDiagramPod:ChemicalIntermediateData__Show bond information' />
+   <state name='Show graph properties'
+       input='StructureDiagramPod:ChemicalIntermediateData__Show graph properties' />
+   <state name='Step-by-step'
+       input='StructureDiagramPod:ChemicalIntermediateData__Step-by-step'
+       stepbystep='true' />
+  </states>
+ </pod>
+ <pod title='General properties'
+     scanner='Data'
+     id='GeneralProperties:ChemicalIntermediateData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalIntermediateData</microsource>
+   </microsources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP12201115fab71c2cd96c000013a2436adchfe3bh?MSPStoreType=image/gif&amp;s=39'
+       alt='formula | (HSO_4)^-
+net ionic charge | -1
+alternate names | bisulfate | hydrogen tetraoxosulfate | hydrogen tetraoxidosulfate | hydrogen sulfate anion | hydrogen sulfate(1-)'
+       title='formula | (HSO_4)^-
+net ionic charge | -1
+alternate names | bisulfate | hydrogen tetraoxosulfate | hydrogen tetraoxidosulfate | hydrogen sulfate anion | hydrogen sulfate(1-)'
+       width='546'
+       height='135'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>formula | (HSO_4)^-
+net ionic charge | -1
+alternate names | bisulfate | hydrogen tetraoxosulfate | hydrogen tetraoxidosulfate | hydrogen sulfate anion | hydrogen sulfate(1-)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+ </pod>
+ <pod title='Other properties'
+     scanner='Data'
+     id='Other:ChemicalIntermediateData'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalIntermediateData</microsource>
+   </microsources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP12211115fab71c2cd96c000028a56eb8cb864e18?MSPStoreType=image/gif&amp;s=39'
+       alt='ion class | anions | biomolecule ions | ionic conjugate bases | oxoanions | polyatomic ions | ionic weak acids
+common sources of ion | variamine blue RT salt (1 eq) | Fast Garnet GBC salt (1 eq) | ammonium bisulfate (1 eq)'
+       title='ion class | anions | biomolecule ions | ionic conjugate bases | oxoanions | polyatomic ions | ionic weak acids
+common sources of ion | variamine blue RT salt (1 eq) | Fast Garnet GBC salt (1 eq) | ammonium bisulfate (1 eq)'
+       width='546'
+       height='119'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>ion class | anions | biomolecule ions | ionic conjugate bases | oxoanions | polyatomic ions | ionic weak acids
+common sources of ion | variamine blue RT salt (1 eq) | Fast Garnet GBC salt (1 eq) | ammonium bisulfate (1 eq)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+ </pod>
+ <pod title='Thermodynamic properties'
+     scanner='Data'
+     id='ThermodynamicProperties:ChemicalIntermediateData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalIntermediateData</microsource>
+   </microsources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP12221115fab71c2cd96c00004ddicaf8b604ihe9?MSPStoreType=image/gif&amp;s=39'
+       alt='molar heat capacity c_p | aqueous | -84 J/(mol K) (joules per mole kelvin difference)
+molar free energy of formation Δ_fG° | aqueous | -755.9 kJ/mol (kilojoules per mole)
+molar heat of formation Δ_fH° | aqueous | -887.3 kJ/mol (kilojoules per mole)
+molar entropy S° | aqueous | 131.8 J/(mol K) (joules per mole kelvin)'
+       title='molar heat capacity c_p | aqueous | -84 J/(mol K) (joules per mole kelvin difference)
+molar free energy of formation Δ_fG° | aqueous | -755.9 kJ/mol (kilojoules per mole)
+molar heat of formation Δ_fH° | aqueous | -887.3 kJ/mol (kilojoules per mole)
+molar entropy S° | aqueous | 131.8 J/(mol K) (joules per mole kelvin)'
+       width='546'
+       height='202'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>molar heat capacity c_p | aqueous | -84 J/(mol K) (joules per mole kelvin difference)
+molar free energy of formation Δ_fG° | aqueous | -755.9 kJ/mol (kilojoules per mole)
+molar heat of formation Δ_fH° | aqueous | -887.3 kJ/mol (kilojoules per mole)
+molar entropy S° | aqueous | 131.8 J/(mol K) (joules per mole kelvin)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+ </pod>
+ <assumptions count='1'>
+  <assumption type='Clash'
+      word='HSO4'
+      template='Assuming &quot;${word}&quot; is ${desc1}. Use as ${desc2} instead'
+      count='2'>
+   <value name='ChemicalIntermediate'
+       desc='an ion'
+       input='*C.HSO4-_*ChemicalIntermediate-' />
+   <value name='Chemical'
+       desc='a chemical compound'
+       input='*C.HSO4-_*Chemical-' />
+  </assumption>
+ </assumptions>
+ <sources count='2'>
+  <source url='https://www4c.wolframalpha.com/sources/ChemicalIntermediateDataSourceInformationNotes.html'
+      text='Chemical intermediate data' />
+  <source url='https://www4c.wolframalpha.com/sources/ElementDataSourceInformationNotes.html'
+      text='Element data' />
+ </sources>
+</queryresult>

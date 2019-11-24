@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='5'
+    datatypes='Chemical,Element'
+    timedout=''
+    timedoutpods=''
+    timing='1.408'
+    parsetiming='0.226'
+    parsetimedout='false'
+    recalculate=''
+    id='MSP1049810h86chg7dhcb37000001g8h9fbhf2bgd44c'
+    host='https://www4f.wolframalpha.com'
+    server='41'
+    related='https://www4f.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa1049910h86chg7dhcb370000065i8dg3gde006g649059329926228553144'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP1050010h86chg7dhcb370000022i50f833i3dgdge?MSPStoreType=image/gif&amp;s=41'
+       alt='Cu2NO3 (chemical compound)'
+       title='Cu2NO3 (chemical compound)'
+       width='204'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>Cu2NO3 (chemical compound)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Basic properties'
+     scanner='Data'
+     id='ChemicalStructureIdentifiers:ChemicalData'
+     position='200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+    <datasource>NISTAtomicWeights</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP1050110h86chg7dhcb370000064g6ef9b6c2cafee?MSPStoreType=image/gif&amp;s=41'
+       alt='molar mass | 189.1 g/mol
+formula | Cu2NO3'
+       title='molar mass | 189.1 g/mol
+formula | Cu2NO3'
+       width='199'
+       height='68'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>molar mass | 189.1 g/mol
+formula | Cu2NO3</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='More'
+       input='ChemicalStructureIdentifiers:ChemicalData__More' />
+  </states>
+  <infos count='1'>
+   <info>
+    <units count='1'>
+     <unit short='g/mol'
+         long='grams per mole' />
+     <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP1050210h86chg7dhcb37000005b7e3c9a7ddh05fi?MSPStoreType=image/gif&amp;s=41'
+         width='162'
+         height='26' />
+    </units>
+   </info>
+  </infos>
+ </pod>
+ <pod title='Molar mass'
+     scanner='Data'
+     id='MolecularMassPod:ChemicalData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+    <datasource>NISTAtomicWeights</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP1050310h86chg7dhcb370000015cfid5360be80h4?MSPStoreType=image/gif&amp;s=41'
+       alt='189.1 g/mol (grams per mole)'
+       title='189.1 g/mol (grams per mole)'
+       width='191'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>189.1 g/mol (grams per mole)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Elemental composition'
+     scanner='Data'
+     id='UnknownIsomersPod:ChemicalData'
+     position='400'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+    <datasource>NISTAtomicWeights</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP1050410h86chg7dhcb37000002i8c0481ei9fd7if?MSPStoreType=image/gif&amp;s=41'
+       alt=' | number
+of atoms | atom
+percent | mass
+percent
+ Cu (copper) | 2 | 33.3% | 67.21%
+ N (nitrogen) | 1 | 16.7% | 7.407%
+ O (oxygen) | 3 | 50.0% | 25.38%'
+       title=' | number
+of atoms | atom
+percent | mass
+percent
+ Cu (copper) | 2 | 33.3% | 67.21%
+ N (nitrogen) | 1 | 16.7% | 7.407%
+ O (oxygen) | 3 | 50.0% | 25.38%'
+       width='342'
+       height='137'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext> | number
+of atoms | atom
+percent | mass
+percent
+ Cu (copper) | 2 | 33.3% | 67.21%
+ N (nitrogen) | 1 | 16.7% | 7.407%
+ O (oxygen) | 3 | 50.0% | 25.38%</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='Step-by-step'
+       input='UnknownIsomersPod:ChemicalData__Step-by-step'
+       stepbystep='true' />
+  </states>
+ </pod>
+ <pod title='Mass fraction pie chart'
+     scanner='Data'
+     id='UnknownPieChart:ChemicalData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NISTAtomicWeights</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP1050510h86chg7dhcb37000003712ddbhcidcbf6g?MSPStoreType=image/gif&amp;s=41'
+       alt=''
+       title=''
+       width='137'
+       height='100'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <sources count='2'>
+  <source url='https://www4f.wolframalpha.com/sources/ChemicalDataSourceInformationNotes.html'
+      text='Chemical data' />
+  <source url='https://www4f.wolframalpha.com/sources/ElementDataSourceInformationNotes.html'
+      text='Element data' />
+ </sources>
+</queryresult>

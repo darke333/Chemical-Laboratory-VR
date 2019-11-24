@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='6'
+    datatypes='ChemicalIntermediate,Element'
+    timedout=''
+    timedoutpods=''
+    timing='2.987'
+    parsetiming='0.133'
+    parsetimedout='false'
+    recalculate=''
+    id='MSP12071115fab71c2cd96c000031h3b384i11d17f5'
+    host='https://www4c.wolframalpha.com'
+    server='39'
+    related='https://www4c.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa12081115fab71c2cd96c00003e18384c3h14b877124097838276685837'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP12091115fab71c2cd96c0000400gb5ced31cbbfc?MSPStoreType=image/gif&amp;s=39'
+       alt='hydrosulfide (ion)'
+       title='hydrosulfide (ion)'
+       width='118'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>hydrosulfide (ion)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Structure diagram'
+     scanner='Data'
+     id='StructureDiagramPod:ChemicalIntermediateData'
+     position='200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalIntermediateData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>WebElements</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP12101115fab71c2cd96c00001g27c6c3512c5gf6?MSPStoreType=image/gif&amp;s=39'
+       alt=''
+       title=''
+       width='400'
+       height='63'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+  <states count='4'>
+   <statelist count='2'
+       value='Skeletal structure'
+       delimiters=''>
+    <state name='Skeletal structure'
+        input='StructureDiagramPod:ChemicalIntermediateData__Skeletal structure' />
+    <state name='Lewis structure'
+        input='StructureDiagramPod:ChemicalIntermediateData__Lewis structure' />
+   </statelist>
+   <state name='Show bond information'
+       input='StructureDiagramPod:ChemicalIntermediateData__Show bond information' />
+   <state name='Show graph properties'
+       input='StructureDiagramPod:ChemicalIntermediateData__Show graph properties' />
+   <state name='Step-by-step'
+       input='StructureDiagramPod:ChemicalIntermediateData__Step-by-step'
+       stepbystep='true' />
+  </states>
+ </pod>
+ <pod title='General properties'
+     scanner='Data'
+     id='GeneralProperties:ChemicalIntermediateData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalIntermediateData</microsource>
+   </microsources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP12111115fab71c2cd96c0000236ba6267b625hg2?MSPStoreType=image/gif&amp;s=39'
+       alt='formula | (HS)^-
+net ionic charge | -1
+alternate names | bisulfide | sulfanide | hydrosulfide anion | hydrosulfide(1-)'
+       title='formula | (HS)^-
+net ionic charge | -1
+alternate names | bisulfide | sulfanide | hydrosulfide anion | hydrosulfide(1-)'
+       width='546'
+       height='117'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>formula | (HS)^-
+net ionic charge | -1
+alternate names | bisulfide | sulfanide | hydrosulfide anion | hydrosulfide(1-)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+ </pod>
+ <pod title='Ionic radius'
+     scanner='Data'
+     id='IonicRadiusPod:ChemicalIntermediateData'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalIntermediateData</microsource>
+   </microsources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP12121115fab71c2cd96c000042cbi1890h05d01e?MSPStoreType=image/gif&amp;s=39'
+       alt='thermochemical radius | 207 pm'
+       title='thermochemical radius | 207 pm'
+       width='247'
+       height='36'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>thermochemical radius | 207 pm</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <infos count='1'>
+   <info>
+    <units count='1'>
+     <unit short='pm'
+         long='picometers' />
+     <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP12131115fab71c2cd96c00002ef719dbh9c93e8b?MSPStoreType=image/gif&amp;s=39'
+         width='125'
+         height='26' />
+    </units>
+   </info>
+  </infos>
+ </pod>
+ <pod title='Other properties'
+     scanner='Data'
+     id='Other:ChemicalIntermediateData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalIntermediateData</microsource>
+   </microsources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP12141115fab71c2cd96c00001dg41152g7fe68h3?MSPStoreType=image/gif&amp;s=39'
+       alt='ion class | anions | biomolecule ions | ionic conjugate bases | polyatomic ions | ionic weak bases'
+       title='ion class | anions | biomolecule ions | ionic conjugate bases | polyatomic ions | ionic weak bases'
+       width='546'
+       height='53'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>ion class | anions | biomolecule ions | ionic conjugate bases | polyatomic ions | ionic weak bases</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+ </pod>
+ <pod title='Thermodynamic properties'
+     scanner='Data'
+     id='ThermodynamicProperties:ChemicalIntermediateData'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalIntermediateData</microsource>
+   </microsources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP12151115fab71c2cd96c00003h7bd0adig9g9g2c?MSPStoreType=image/gif&amp;s=39'
+       alt='molar free energy of formation Δ_fG° | aqueous | 12.1 kJ/mol (kilojoules per mole)
+molar heat of formation Δ_fH° | aqueous | -17.6 kJ/mol (kilojoules per mole)
+molar entropy S° | aqueous | 62.8 J/(mol K) (joules per mole kelvin)'
+       title='molar free energy of formation Δ_fG° | aqueous | 12.1 kJ/mol (kilojoules per mole)
+molar heat of formation Δ_fH° | aqueous | -17.6 kJ/mol (kilojoules per mole)
+molar entropy S° | aqueous | 62.8 J/(mol K) (joules per mole kelvin)'
+       width='546'
+       height='138'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>molar free energy of formation Δ_fG° | aqueous | 12.1 kJ/mol (kilojoules per mole)
+molar heat of formation Δ_fH° | aqueous | -17.6 kJ/mol (kilojoules per mole)
+molar entropy S° | aqueous | 62.8 J/(mol K) (joules per mole kelvin)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+ </pod>
+ <assumptions count='1'>
+  <assumption type='Clash'
+      word='HS'
+      template='Assuming &quot;${word}&quot; is ${desc1}. Use as ${desc2} instead'
+      count='3'>
+   <value name='ChemicalIntermediate'
+       desc='an ion'
+       input='*C.HS-_*ChemicalIntermediate-' />
+   <value name='Unit'
+       desc='a unit'
+       input='*C.HS-_*Unit-' />
+   <value name='Financial'
+       desc='a financial entity'
+       input='*C.HS-_*Financial-' />
+  </assumption>
+ </assumptions>
+ <sources count='2'>
+  <source url='https://www4c.wolframalpha.com/sources/ChemicalIntermediateDataSourceInformationNotes.html'
+      text='Chemical intermediate data' />
+  <source url='https://www4c.wolframalpha.com/sources/ElementDataSourceInformationNotes.html'
+      text='Element data' />
+ </sources>
+</queryresult>

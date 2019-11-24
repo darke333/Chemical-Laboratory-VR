@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='5'
+    datatypes='Chemical,Element'
+    timedout=''
+    timedoutpods=''
+    timing='1.364'
+    parsetiming='0.464'
+    parsetimedout='false'
+    recalculate=''
+    id='MSP42571725b138b12cf69i00001139abga29da1h69'
+    host='https://www4f.wolframalpha.com'
+    server='53'
+    related='https://www4f.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa42581725b138b12cf69i00004bgb57cbhb69ee851494264905346578628'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP42591725b138b12cf69i000063f8a38c8g4h17hd?MSPStoreType=image/gif&amp;s=53'
+       alt='Al3S (chemical compound)'
+       title='Al3S (chemical compound)'
+       width='179'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>Al3S (chemical compound)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Basic properties'
+     scanner='Data'
+     id='ChemicalStructureIdentifiers:ChemicalData'
+     position='200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+    <datasource>NISTAtomicWeights</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP42601725b138b12cf69i00005802c8f0dbc3gghb?MSPStoreType=image/gif&amp;s=53'
+       alt='molar mass | 113 g/mol
+formula | Al3S'
+       title='molar mass | 113 g/mol
+formula | Al3S'
+       width='187'
+       height='68'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>molar mass | 113 g/mol
+formula | Al3S</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='More'
+       input='ChemicalStructureIdentifiers:ChemicalData__More' />
+  </states>
+  <infos count='1'>
+   <info>
+    <units count='1'>
+     <unit short='g/mol'
+         long='grams per mole' />
+     <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP42611725b138b12cf69i00002ga7dagegi9i77d1?MSPStoreType=image/gif&amp;s=53'
+         width='162'
+         height='26' />
+    </units>
+   </info>
+  </infos>
+ </pod>
+ <pod title='Molar mass'
+     scanner='Data'
+     id='MolecularMassPod:ChemicalData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+    <datasource>NISTAtomicWeights</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP42621725b138b12cf69i00004hb25bbh0a7h66d1?MSPStoreType=image/gif&amp;s=53'
+       alt='113 g/mol (grams per mole)'
+       title='113 g/mol (grams per mole)'
+       width='179'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>113 g/mol (grams per mole)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Elemental composition'
+     scanner='Data'
+     id='UnknownIsomersPod:ChemicalData'
+     position='400'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+    <datasource>NISTAtomicWeights</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP42631725b138b12cf69i00003350205598b6h9ci?MSPStoreType=image/gif&amp;s=53'
+       alt=' | number
+of atoms | atom
+percent | mass
+percent
+ Al (aluminum) | 3 | 75.0% | 71.63%
+ S (sulfur) | 1 | 25.0% | 28.37%'
+       title=' | number
+of atoms | atom
+percent | mass
+percent
+ Al (aluminum) | 3 | 75.0% | 71.63%
+ S (sulfur) | 1 | 25.0% | 28.37%'
+       width='358'
+       height='109'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext> | number
+of atoms | atom
+percent | mass
+percent
+ Al (aluminum) | 3 | 75.0% | 71.63%
+ S (sulfur) | 1 | 25.0% | 28.37%</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='Step-by-step'
+       input='UnknownIsomersPod:ChemicalData__Step-by-step'
+       stepbystep='true' />
+  </states>
+ </pod>
+ <pod title='Mass fraction pie chart'
+     scanner='Data'
+     id='UnknownPieChart:ChemicalData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NISTAtomicWeights</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP42641725b138b12cf69i00005d984hbh0dcdei14?MSPStoreType=image/gif&amp;s=53'
+       alt=''
+       title=''
+       width='132'
+       height='100'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <assumptions count='1'>
+  <assumption type='MultiClash'
+      word=''
+      template='Assuming ${word1} is referring to ${desc1}. Use &quot;${word2}&quot; as ${desc2}. Use &quot;${word3}&quot; as ${desc3}.'
+      count='3'>
+   <value name='Chemical'
+       word='Al3S'
+       desc='a chemical compound'
+       input='*MC.Al3S-_*Chemical-' />
+   <value name='Element'
+       word='Al'
+       desc='a chemical element'
+       input='*MC.Al3S-_*Element-' />
+   <value name='GivenName'
+       word='Al'
+       desc='a given name'
+       input='*MC.Al3S-_*GivenName-' />
+  </assumption>
+ </assumptions>
+ <sources count='2'>
+  <source url='https://www4f.wolframalpha.com/sources/ChemicalDataSourceInformationNotes.html'
+      text='Chemical data' />
+  <source url='https://www4f.wolframalpha.com/sources/ElementDataSourceInformationNotes.html'
+      text='Element data' />
+ </sources>
+</queryresult>

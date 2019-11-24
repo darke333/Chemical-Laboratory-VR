@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='6'
+    datatypes='Chemical'
+    timedout=''
+    timedoutpods=''
+    timing='3.5620000000000003'
+    parsetiming='0.491'
+    parsetimedout='false'
+    recalculate=''
+    id='MSP14461708ge9b79d7g26d0000138d5d8g9ibf30cd'
+    host='https://www4f.wolframalpha.com'
+    server='42'
+    related='https://www4f.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa14471708ge9b79d7g26d000043eb8ie32693igi84086047748590067375'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP14481708ge9b79d7g26d000039bca00c7f9i06hd?MSPStoreType=image/gif&amp;s=42'
+       alt='iron | temperature | 3 °S (degrees Smurdley)'
+       title='iron | temperature | 3 °S (degrees Smurdley)'
+       width='351'
+       height='32'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>iron | temperature | 3 °S (degrees Smurdley)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Thermodynamic properties'
+     scanner='Data'
+     id='TemperatureComputedThermodynamicProperties:ChemicalData'
+     position='200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>CRCHandbook</datasource>
+    <datasource>EncyclopediaOfChemicalProcessingAndDesign</datasource>
+    <datasource>PhysicalPropertyDataBook</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP14491708ge9b79d7g26d0000204e3bgg5hae50ah?MSPStoreType=image/gif&amp;s=42'
+       alt='phase | solid
+density | 7874 kg/m^3
+7.874 g/cm^3
+(assuming 1 atm)'
+       title='phase | solid
+density | 7874 kg/m^3
+7.874 g/cm^3
+(assuming 1 atm)'
+       width='173'
+       height='114'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>phase | solid
+density | 7874 kg/m^3
+7.874 g/cm^3
+(assuming 1 atm)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='More'
+       input='TemperatureComputedThermodynamicProperties:ChemicalData__More' />
+  </states>
+  <infos count='1'>
+   <info>
+    <units count='2'>
+     <unit short='g/cm^3'
+         long='grams per cubic centimeter' />
+     <unit short='kg/m^3'
+         long='kilograms per cubic meter' />
+     <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP14501708ge9b79d7g26d00005a5i1643aef6g1d1?MSPStoreType=image/gif&amp;s=42'
+         width='231'
+         height='49' />
+    </units>
+   </info>
+  </infos>
+ </pod>
+ <pod title='Structure diagram'
+     scanner='Data'
+     id='StructureDiagramPod:ChemicalData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP14511708ge9b79d7g26d000039i9240fi9c62a2e?MSPStoreType=image/gif&amp;s=42'
+       alt=''
+       title=''
+       width='79'
+       height='56'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Basic properties'
+     scanner='Data'
+     id='BasicWithConditions:ChemicalData'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP14521708ge9b79d7g26d0000616007f6f4b2e89g?MSPStoreType=image/gif&amp;s=42'
+       alt='formula | Fe
+name | iron
+molar mass | 55.845 g/mol'
+       title='formula | Fe
+name | iron
+molar mass | 55.845 g/mol'
+       width='207'
+       height='100'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>formula | Fe
+name | iron
+molar mass | 55.845 g/mol</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <infos count='1'>
+   <info>
+    <units count='1'>
+     <unit short='g/mol'
+         long='grams per mole' />
+     <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP14531708ge9b79d7g26d0000378664591cg6g37d?MSPStoreType=image/gif&amp;s=42'
+         width='162'
+         height='26' />
+    </units>
+   </info>
+  </infos>
+ </pod>
+ <pod title='Basic drug properties'
+     scanner='Data'
+     id='DrugNamesProperties:ChemicalData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+   </microsources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP14541708ge9b79d7g26d000050fg7a13c336gba8?MSPStoreType=image/gif&amp;s=42'
+       alt='approval status | approved | small molecule
+drug categories | antianemic agent | iron supplement | trace element
+dosage forms | oral: capsule | intravenous: liquid | oral: liquid | sublingual: liquid | oral: solution / drops | oral: syrup | oral: tablet | oral: tablet, coated | oral: tablet, extended release'
+       title='approval status | approved | small molecule
+drug categories | antianemic agent | iron supplement | trace element
+dosage forms | oral: capsule | intravenous: liquid | oral: liquid | sublingual: liquid | oral: solution / drops | oral: syrup | oral: tablet | oral: tablet, coated | oral: tablet, extended release'
+       width='546'
+       height='151'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>approval status | approved | small molecule
+drug categories | antianemic agent | iron supplement | trace element
+dosage forms | oral: capsule | intravenous: liquid | oral: liquid | sublingual: liquid | oral: solution / drops | oral: syrup | oral: tablet | oral: tablet, coated | oral: tablet, extended release</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='More'
+       input='DrugNamesProperties:ChemicalData__More' />
+  </states>
+ </pod>
+ <pod title='Chemical identifiers'
+     scanner='Data'
+     id='ChemicalIdentifiers:ChemicalData'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP14551708ge9b79d7g26d00000h5i48649b576hae?MSPStoreType=image/gif&amp;s=42'
+       alt='CAS number | 7439-89-6
+PubChem CID number | 23925
+PubChem SID number | 24855469
+SMILES identifier | [Fe]'
+       title='CAS number | 7439-89-6
+PubChem CID number | 23925
+PubChem SID number | 24855469
+SMILES identifier | [Fe]'
+       width='266'
+       height='132'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>CAS number | 7439-89-6
+PubChem CID number | 23925
+PubChem SID number | 24855469
+SMILES identifier | [Fe]</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='More'
+       input='ChemicalIdentifiers:ChemicalData__More' />
+  </states>
+ </pod>
+ <assumptions count='1'>
+  <assumption type='MultiClash'
+      word=''
+      template='Assuming ${word1} is referring to ${desc1}. Use &quot;${word2}&quot; as ${desc2}. Use &quot;${word3}&quot; as ${desc3}.'
+      count='3'>
+   <value name='Element'
+       word='Fe'
+       desc='a chemical element'
+       input='*MC.Fe3S-_*Element-' />
+   <value name='Chemical'
+       word='Fe3S'
+       desc='a chemical compound'
+       input='*MC.Fe3S-_*Chemical-' />
+   <value name='Formula'
+       word='Fe3S'
+       desc='a formula'
+       input='*MC.Fe3S-_*Formula-' />
+  </assumption>
+ </assumptions>
+ <sources count='1'>
+  <source url='https://www4f.wolframalpha.com/sources/ChemicalDataSourceInformationNotes.html'
+      text='Chemical data' />
+ </sources>
+</queryresult>

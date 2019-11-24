@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='5'
+    datatypes='Chemical,Element'
+    timedout=''
+    timedoutpods=''
+    timing='1.667'
+    parsetiming='0.161'
+    parsetimedout='false'
+    recalculate=''
+    id='MSP31511igc7bec507h3hcc00003g35691fd7474282'
+    host='https://www4c.wolframalpha.com'
+    server='38'
+    related='https://www4c.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa31521igc7bec507h3hcc00003ccdiadd4bc45ah7566960663505388612'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP31531igc7bec507h3hcc00004cd1f7a2513d4b49?MSPStoreType=image/gif&amp;s=38'
+       alt='Hg2SiO3 (chemical compound)'
+       title='Hg2SiO3 (chemical compound)'
+       width='205'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>Hg2SiO3 (chemical compound)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Basic properties'
+     scanner='Data'
+     id='ChemicalStructureIdentifiers:ChemicalData'
+     position='200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+    <datasource>NISTAtomicWeights</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP31541igc7bec507h3hcc0000560f8h3e832ibif1?MSPStoreType=image/gif&amp;s=38'
+       alt='molar mass | 477.27 g/mol
+formula | Hg2SiO3'
+       title='molar mass | 477.27 g/mol
+formula | Hg2SiO3'
+       width='207'
+       height='68'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>molar mass | 477.27 g/mol
+formula | Hg2SiO3</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='More'
+       input='ChemicalStructureIdentifiers:ChemicalData__More' />
+  </states>
+  <infos count='1'>
+   <info>
+    <units count='1'>
+     <unit short='g/mol'
+         long='grams per mole' />
+     <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP31551igc7bec507h3hcc000012giahdaa0096242?MSPStoreType=image/gif&amp;s=38'
+         width='162'
+         height='26' />
+    </units>
+   </info>
+  </infos>
+ </pod>
+ <pod title='Molar mass'
+     scanner='Data'
+     id='MolecularMassPod:ChemicalData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+    <datasource>NISTAtomicWeights</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP31561igc7bec507h3hcc000043f0a2562ff96cc1?MSPStoreType=image/gif&amp;s=38'
+       alt='477.27 g/mol (grams per mole)'
+       title='477.27 g/mol (grams per mole)'
+       width='199'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>477.27 g/mol (grams per mole)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Elemental composition'
+     scanner='Data'
+     id='UnknownIsomersPod:ChemicalData'
+     position='400'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+    <datasource>NISTAtomicWeights</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP31571igc7bec507h3hcc000021a8a8iihgdda3ec?MSPStoreType=image/gif&amp;s=38'
+       alt=' | number
+of atoms | atom
+percent | mass
+percent
+ Hg (mercury) | 2 | 33.3% | 84.06%
+ Si (silicon) | 1 | 16.7% | 5.885%
+ O (oxygen) | 3 | 50.0% | 10.06%'
+       title=' | number
+of atoms | atom
+percent | mass
+percent
+ Hg (mercury) | 2 | 33.3% | 84.06%
+ Si (silicon) | 1 | 16.7% | 5.885%
+ O (oxygen) | 3 | 50.0% | 10.06%'
+       width='349'
+       height='137'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext> | number
+of atoms | atom
+percent | mass
+percent
+ Hg (mercury) | 2 | 33.3% | 84.06%
+ Si (silicon) | 1 | 16.7% | 5.885%
+ O (oxygen) | 3 | 50.0% | 10.06%</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='Step-by-step'
+       input='UnknownIsomersPod:ChemicalData__Step-by-step'
+       stepbystep='true' />
+  </states>
+ </pod>
+ <pod title='Mass fraction pie chart'
+     scanner='Data'
+     id='UnknownPieChart:ChemicalData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NISTAtomicWeights</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP31581igc7bec507h3hcc000059f3b81f586dd1ca?MSPStoreType=image/gif&amp;s=38'
+       alt=''
+       title=''
+       width='140'
+       height='100'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <sources count='2'>
+  <source url='https://www4c.wolframalpha.com/sources/ChemicalDataSourceInformationNotes.html'
+      text='Chemical data' />
+  <source url='https://www4c.wolframalpha.com/sources/ElementDataSourceInformationNotes.html'
+      text='Element data' />
+ </sources>
+</queryresult>

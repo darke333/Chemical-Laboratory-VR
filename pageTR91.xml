@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='false'
+    error='false'
+    numpods='0'
+    datatypes=''
+    timedout=''
+    timedoutpods=''
+    timing='0.20800000000000002'
+    parsetiming='0.043000000000000003'
+    parsetimedout='false'
+    recalculate=''
+    id=''
+    parseidserver='53'
+    host='https://www4f.wolframalpha.com'
+    server='53'
+    related=''
+    version='2.6'>
+ <tips count='1'>
+  <tip text='Try spelling out abbreviations' />
+ </tips>
+</queryresult>

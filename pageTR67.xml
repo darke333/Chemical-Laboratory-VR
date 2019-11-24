@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='5'
+    datatypes='Chemical,Element'
+    timedout=''
+    timedoutpods=''
+    timing='1.48'
+    parsetiming='0.211'
+    parsetimedout='false'
+    recalculate=''
+    id='MSP26792339edcic3dhhia900001b1gi972h8ifch71'
+    host='https://www4c.wolframalpha.com'
+    server='19'
+    related='https://www4c.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa26802339edcic3dhhia900002847cid5b97hd1465333240914891044718'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP26812339edcic3dhhia900002052276i06d5gc60?MSPStoreType=image/gif&amp;s=19'
+       alt='NH4SO4 (chemical compound)'
+       title='NH4SO4 (chemical compound)'
+       width='207'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>NH4SO4 (chemical compound)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Basic properties'
+     scanner='Data'
+     id='ChemicalStructureIdentifiers:ChemicalData'
+     position='200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+    <datasource>NISTAtomicWeights</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP26822339edcic3dhhia9000034f025308i5628f8?MSPStoreType=image/gif&amp;s=19'
+       alt='molar mass | 114.1 g/mol
+formula | NH4SO4'
+       title='molar mass | 114.1 g/mol
+formula | NH4SO4'
+       width='199'
+       height='68'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>molar mass | 114.1 g/mol
+formula | NH4SO4</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='More'
+       input='ChemicalStructureIdentifiers:ChemicalData__More' />
+  </states>
+  <infos count='1'>
+   <info>
+    <units count='1'>
+     <unit short='g/mol'
+         long='grams per mole' />
+     <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP26832339edcic3dhhia900002c723e37dbd0gdce?MSPStoreType=image/gif&amp;s=19'
+         width='162'
+         height='26' />
+    </units>
+   </info>
+  </infos>
+ </pod>
+ <pod title='Molar mass'
+     scanner='Data'
+     id='MolecularMassPod:ChemicalData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+    <datasource>NISTAtomicWeights</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP26842339edcic3dhhia9000041if095a6d63835a?MSPStoreType=image/gif&amp;s=19'
+       alt='114.1 g/mol (grams per mole)'
+       title='114.1 g/mol (grams per mole)'
+       width='191'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>114.1 g/mol (grams per mole)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Elemental composition'
+     scanner='Data'
+     id='UnknownIsomersPod:ChemicalData'
+     position='400'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+    <datasource>NISTAtomicWeights</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP26852339edcic3dhhia900003ei8694h583919ae?MSPStoreType=image/gif&amp;s=19'
+       alt=' | number
+of atoms | atom
+percent | mass
+percent
+ N (nitrogen) | 1 | 10.00% | 12.28%
+ H (hydrogen) | 4 | 40.0% | 3.534%
+ S (sulfur) | 1 | 10.00% | 28.10%
+ O (oxygen) | 4 | 40.0% | 56.09%'
+       title=' | number
+of atoms | atom
+percent | mass
+percent
+ N (nitrogen) | 1 | 10.00% | 12.28%
+ H (hydrogen) | 4 | 40.0% | 3.534%
+ S (sulfur) | 1 | 10.00% | 28.10%
+ O (oxygen) | 4 | 40.0% | 56.09%'
+       width='347'
+       height='165'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext> | number
+of atoms | atom
+percent | mass
+percent
+ N (nitrogen) | 1 | 10.00% | 12.28%
+ H (hydrogen) | 4 | 40.0% | 3.534%
+ S (sulfur) | 1 | 10.00% | 28.10%
+ O (oxygen) | 4 | 40.0% | 56.09%</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='Step-by-step'
+       input='UnknownIsomersPod:ChemicalData__Step-by-step'
+       stepbystep='true' />
+  </states>
+ </pod>
+ <pod title='Mass fraction pie chart'
+     scanner='Data'
+     id='UnknownPieChart:ChemicalData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NISTAtomicWeights</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP26862339edcic3dhhia900004idd6880e4c4g9h9?MSPStoreType=image/gif&amp;s=19'
+       alt=''
+       title=''
+       width='126'
+       height='100'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <sources count='2'>
+  <source url='https://www4c.wolframalpha.com/sources/ChemicalDataSourceInformationNotes.html'
+      text='Chemical data' />
+  <source url='https://www4c.wolframalpha.com/sources/ElementDataSourceInformationNotes.html'
+      text='Element data' />
+ </sources>
+</queryresult>

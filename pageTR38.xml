@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='5'
+    datatypes='Chemical'
+    timedout=''
+    timedoutpods=''
+    timing='3.694'
+    parsetiming='0.379'
+    parsetimedout='false'
+    recalculate=''
+    id='MSP27741igc7bec50bcaf8600003hafg6e5ed11h8hd'
+    host='https://www4c.wolframalpha.com'
+    server='38'
+    related='https://www4c.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa27751igc7bec50bcaf8600004e10817bgf88hf16566960663505388612'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP27761igc7bec50bcaf86000064h4i12a5i90e92g?MSPStoreType=image/gif&amp;s=38'
+       alt='mercury | temperature | 2 °S (degrees Smurdley)'
+       title='mercury | temperature | 2 °S (degrees Smurdley)'
+       width='380'
+       height='32'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>mercury | temperature | 2 °S (degrees Smurdley)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Thermodynamic properties'
+     scanner='Data'
+     id='TemperatureComputedThermodynamicProperties:ChemicalData'
+     position='200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>CRCHandbook</datasource>
+    <datasource>EncyclopediaOfChemicalProcessingAndDesign</datasource>
+    <datasource>PhysicalPropertyDataBook</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP27771igc7bec50bcaf86000011170828e8deg630?MSPStoreType=image/gif&amp;s=38'
+       alt='phase | solid
+boiling point | 356.6 °C
+(assuming 1 atm)'
+       title='phase | solid
+boiling point | 356.6 °C
+(assuming 1 atm)'
+       width='186'
+       height='94'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>phase | solid
+boiling point | 356.6 °C
+(assuming 1 atm)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='More'
+       input='TemperatureComputedThermodynamicProperties:ChemicalData__More' />
+  </states>
+ </pod>
+ <pod title='Structure diagram'
+     scanner='Data'
+     id='StructureDiagramPod:ChemicalData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP27781igc7bec50bcaf8600005cce9ggc403a2ed3?MSPStoreType=image/gif&amp;s=38'
+       alt=''
+       title=''
+       width='79'
+       height='43'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Basic properties'
+     scanner='Data'
+     id='BasicWithConditions:ChemicalData'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP27791igc7bec50bcaf8600002a15c86101b6afe3?MSPStoreType=image/gif&amp;s=38'
+       alt='formula | Hg
+name | mercury
+molar mass | 200.592 g/mol'
+       title='formula | Hg
+name | mercury
+molar mass | 200.592 g/mol'
+       width='215'
+       height='100'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>formula | Hg
+name | mercury
+molar mass | 200.592 g/mol</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <infos count='1'>
+   <info>
+    <units count='1'>
+     <unit short='g/mol'
+         long='grams per mole' />
+     <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP27801igc7bec50bcaf860000271df0ab78db5c1f?MSPStoreType=image/gif&amp;s=38'
+         width='162'
+         height='26' />
+    </units>
+   </info>
+  </infos>
+ </pod>
+ <pod title='Chemical identifiers'
+     scanner='Data'
+     id='ChemicalIdentifiers:ChemicalData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP27811igc7bec50bcaf86000050hibchb7ec0b201?MSPStoreType=image/gif&amp;s=38'
+       alt='CAS number | 7439-97-6
+PubChem CID number | 23931
+PubChem SID number | 24855784
+SMILES identifier | [Hg]'
+       title='CAS number | 7439-97-6
+PubChem CID number | 23931
+PubChem SID number | 24855784
+SMILES identifier | [Hg]'
+       width='266'
+       height='132'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>CAS number | 7439-97-6
+PubChem CID number | 23931
+PubChem SID number | 24855784
+SMILES identifier | [Hg]</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='More'
+       input='ChemicalIdentifiers:ChemicalData__More' />
+  </states>
+ </pod>
+ <assumptions count='1'>
+  <assumption type='MultiClash'
+      word=''
+      template='Assuming ${word1} is referring to ${desc1}. Use &quot;${word2}&quot; as ${desc2}.'
+      count='2'>
+   <value name='Element'
+       word='Hg'
+       desc='a chemical element'
+       input='*MC.Hg2S-_*Element-' />
+   <value name='Chemical'
+       word='Hg2S'
+       desc='a chemical compound'
+       input='*MC.Hg2S-_*Chemical-' />
+  </assumption>
+ </assumptions>
+ <sources count='1'>
+  <source url='https://www4c.wolframalpha.com/sources/ChemicalDataSourceInformationNotes.html'
+      text='Chemical data' />
+ </sources>
+</queryresult>

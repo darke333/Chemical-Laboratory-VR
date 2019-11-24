@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='2'
+    datatypes=''
+    timedout=''
+    timedoutpods=''
+    timing='0.406'
+    parsetiming='0.098'
+    parsetimedout='false'
+    recalculate=''
+    id='MSP40410bhcdh60ie66h5i00003c9bigd9ad231310'
+    host='https://www4c.wolframalpha.com'
+    server='49'
+    related='https://www4c.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa40510bhcdh60ie66h5i000033759027g8d1cf075993178497346123851'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP40610bhcdh60ie66h5i00004f870ec38949690e?MSPStoreType=image/gif&amp;s=49'
+       alt='HCL (acronym)'
+       title='HCL (acronym)'
+       width='102'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>HCL (acronym)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Possible interpretations'
+     scanner='Data'
+     id='Result'
+     position='200'
+     error='false'
+     numsubpods='2'
+     primary='true'>
+  <subpod title=''>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP40710bhcdh60ie66h5i000053hai5091d71h21e?MSPStoreType=image/gif&amp;s=49'
+       alt='hardware compatibility list'
+       title='hardware compatibility list'
+       width='177'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>hardware compatibility list</plaintext>
+  </subpod>
+  <subpod title=''>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP40810bhcdh60ie66h5i000069f7fbhdi997540c?MSPStoreType=image/gif&amp;s=49'
+       alt='host control links'
+       title='host control links'
+       width='115'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>host control links</plaintext>
+  </subpod>
+  <expressiontypes count='2'>
+   <expressiontype name='Default' />
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <assumptions count='1'>
+  <assumption type='Clash'
+      word='HCL'
+      template='Assuming &quot;${word}&quot; is ${desc1}. Use as ${desc2} instead'
+      count='2'>
+   <value name='AcronymClass'
+       desc='an acronym'
+       input='*C.HCL-_*AcronymClass-' />
+   <value name='Financial'
+       desc='a financial entity'
+       input='*C.HCL-_*Financial-' />
+  </assumption>
+ </assumptions>
+</queryresult>

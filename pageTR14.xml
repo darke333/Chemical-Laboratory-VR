@@ -1,0 +1,358 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='11'
+    datatypes='Gene,GenomeSequence'
+    timedout=''
+    timedoutpods=''
+    timing='2.46'
+    parsetiming='0.105'
+    parsetimedout='false'
+    recalculate=''
+    id='MSP2416173e975ga0965062000044c754fdgcd1c5if'
+    host='https://www4c.wolframalpha.com'
+    server='23'
+    related='https://www4c.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa2417173e975ga096506200006a30gdhfbe668b747586355370270816603'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP2418173e975ga09650620000143353a1e3865c79?MSPStoreType=image/gif&amp;s=23'
+       alt='KCO3 (thale cress gene)'
+       title='KCO3 (thale cress gene)'
+       width='154'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>KCO3 (thale cress gene)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Standard name'
+     scanner='Data'
+     id='StandardName:GeneData'
+     position='200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+   </microsources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP2419173e975ga09650620000304iddag6g0466a7?MSPStoreType=image/gif&amp;s=23'
+       alt='calcium-activated outward-rectifying potassium channel 3'
+       title='calcium-activated outward-rectifying potassium channel 3'
+       width='390'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>calcium-activated outward-rectifying potassium channel 3</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Alternate names'
+     scanner='Data'
+     id='AlternateNames:GeneData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP2420173e975ga09650620000521d139ie9f0h5eb?MSPStoreType=image/gif&amp;s=23'
+       alt='ATKCO3 | MPL12_16 | MPL12.16 | Ca2+ activated outward rectifying K+ channel 3 | CA2+ ACTIVATED OUTWARD RECTIFYING K+ CHANNEL 3'
+       title='ATKCO3 | MPL12_16 | MPL12.16 | Ca2+ activated outward rectifying K+ channel 3 | CA2+ ACTIVATED OUTWARD RECTIFYING K+ CHANNEL 3'
+       width='407'
+       height='57'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>ATKCO3 | MPL12_16 | MPL12.16 | Ca2+ activated outward rectifying K+ channel 3 | CA2+ ACTIVATED OUTWARD RECTIFYING K+ CHANNEL 3</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+ </pod>
+ <pod title='Location'
+     scanner='Data'
+     id='Location:GeneData'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP2421173e975ga0965062000054dcf0043ah443ea?MSPStoreType=image/gif&amp;s=23'
+       alt='species | Arabidopsis thaliana (thale cress)
+locus | chromosome V
+strand | minus
+coordinates | 18806563 to 18808224'
+       title='species | Arabidopsis thaliana (thale cress)
+locus | chromosome V
+strand | minus
+coordinates | 18806563 to 18808224'
+       width='339'
+       height='132'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>species | Arabidopsis thaliana (thale cress)
+locus | chromosome V
+strand | minus
+coordinates | 18806563 to 18808224</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+ </pod>
+ <pod title='Reference sequence'
+     scanner='Data'
+     id='ReferenceSequence:GeneData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+    <microsource>GenomeSequenceData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP2422173e975ga0965062000046g396172i4ich02?MSPStoreType=image/gif&amp;s=23'
+       alt='TAAGATCGTGTCAATCGATTTATCAACAACAAGGACCCAT
+... TACTTATATTTTTTTTTTAATGAATTTATCTTTCCTCC'
+       title='TAAGATCGTGTCAATCGATTTATCAACAACAAGGACCCAT
+... TACTTATATTTTTTTTTTAATGAATTTATCTTTCCTCC'
+       width='381'
+       height='36'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>TAAGATCGTGTCAATCGATTTATCAACAACAAGGACCCAT
+... TACTTATATTTTTTTTTTAATGAATTTATCTTTCCTCC</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='More'
+       input='ReferenceSequence:GeneData__More' />
+  </states>
+ </pod>
+ <pod title='Reference sequence length'
+     scanner='Data'
+     id='Length:GeneData'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP2423173e975ga096506200003fcf1847ff9b9h6g?MSPStoreType=image/gif&amp;s=23'
+       alt='1662 bp (base pairs)'
+       title='1662 bp (base pairs)'
+       width='131'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>1662 bp (base pairs)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Nearby genes'
+     scanner='Data'
+     id='NearbyGenes:GeneData'
+     position='700'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP2424173e975ga09650620000185g741c927ih0bb?MSPStoreType=image/gif&amp;s=23'
+       alt=''
+       title=''
+       width='495'
+       height='88'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+  <states count='2'>
+   <state name='More'
+       input='NearbyGenes:GeneData__More' />
+   <state name='Show table'
+       input='NearbyGenes:GeneData__Show table' />
+  </states>
+ </pod>
+ <pod title='Gene splicing structures'
+     scanner='Data'
+     id='CodingSequencesGraphic:GeneData'
+     position='800'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+    <microsource>GenomeSequenceData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP2425173e975ga096506200004ic2e5f2e651bhi8?MSPStoreType=image/gif&amp;s=23'
+       alt=''
+       title=''
+       width='495'
+       height='117'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+  <states count='2'>
+   <state name='Show legend'
+       input='CodingSequencesGraphic:GeneData__Show legend' />
+   <state name='Show table'
+       input='CodingSequencesGraphic:GeneData__Show table' />
+  </states>
+ </pod>
+ <pod title='Protein name'
+     scanner='Data'
+     id='ProteinNames:GeneData'
+     position='900'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP2426173e975ga096506200002ef66d9eacf5c88d?MSPStoreType=image/gif&amp;s=23'
+       alt='putative calcium-activated outward-rectifying potassium channel 3'
+       title='putative calcium-activated outward-rectifying potassium channel 3'
+       width='448'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>putative calcium-activated outward-rectifying potassium channel 3</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+ </pod>
+ <pod title='Protein molecular weight'
+     scanner='Data'
+     id='ProteinMolecularWeight:GeneData'
+     position='1000'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP2427173e975ga096506200001a0e35c6d68a527h?MSPStoreType=image/gif&amp;s=23'
+       alt='28.98 kDa (kilodaltons)'
+       title='28.98 kDa (kilodaltons)'
+       width='146'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>28.98 kDa (kilodaltons)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Homologs across organisms'
+     scanner='Data'
+     id='HomologsAcrossOrganisms:GeneData'
+     position='1100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP2428173e975ga096506200002ai9dag12h85e14h?MSPStoreType=image/gif&amp;s=23'
+       alt=''
+       title=''
+       width='539'
+       height='325'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='Show legend'
+       input='HomologsAcrossOrganisms:GeneData__Show legend' />
+  </states>
+ </pod>
+ <assumptions count='1'>
+  <assumption type='Clash'
+      word='KCO3'
+      template='Assuming &quot;${word}&quot; is ${desc1}. Use as ${desc2} instead'
+      count='2'>
+   <value name='Gene'
+       desc='a gene'
+       input='*C.KCO3-_*Gene-' />
+   <value name='Chemical'
+       desc='a chemical compound'
+       input='*C.KCO3-_*Chemical-' />
+  </assumption>
+ </assumptions>
+ <sources count='2'>
+  <source url='https://www4c.wolframalpha.com/sources/GeneDataSourceInformationNotes.html'
+      text='Gene data' />
+  <source url='https://www4c.wolframalpha.com/sources/GenomeSequenceDataSourceInformationNotes.html'
+      text='Genome sequence data' />
+ </sources>
+</queryresult>

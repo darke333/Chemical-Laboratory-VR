@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='2'
+    datatypes='Financial'
+    timedout=''
+    timedoutpods=''
+    timing='0.778'
+    parsetiming='0.105'
+    parsetimedout='false'
+    recalculate=''
+    id='MSP481918h581ge63beaab100001c5h90b83d7678i6'
+    host='https://www4c.wolframalpha.com'
+    server='50'
+    related='https://www4c.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa482018h581ge63beaab1000037a6c221ad9a401c2883977977439258118'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP482118h581ge63beaab1000069b3332707979627?MSPStoreType=image/gif&amp;s=50'
+       alt='Ageas SA (AGS)'
+       title='Ageas SA (AGS)'
+       width='103'
+       height='18'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>Ageas SA (AGS)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Last close'
+     scanner='FinancialData'
+     id='Quote'
+     position='200'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''
+      primary='true'>
+   <microsources>
+    <microsource>FinancialData</microsource>
+   </microsources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP482218h581ge63beaab1000024i09e802b0h6ab1?MSPStoreType=image/gif&amp;s=50'
+       alt='(no data available)'
+       title='(no data available)'
+       width='120'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>(no data available)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <assumptions count='2'>
+  <assumption type='Clash'
+      word='AgS'
+      template='Assuming &quot;${word}&quot; is ${desc1}. Use as ${desc2} instead'
+      count='2'>
+   <value name='Financial'
+       desc='a financial entity'
+       input='*C.AgS-_*Financial-' />
+   <value name='Chemical'
+       desc='a chemical compound'
+       input='*C.AgS-_*Chemical-' />
+  </assumption>
+  <assumption type='SubCategory'
+      word='AgS'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='2'>
+   <value name='BR:AGS'
+       desc='BR:AGS'
+       input='*DPClash.FinancialE.AgS-_*BR%3AAGS-' />
+   <value name='XMCE:AGS'
+       desc='XMCE:AGS'
+       input='*DPClash.FinancialE.AgS-_*XMCE%3AAGS-' />
+  </assumption>
+ </assumptions>
+ <sources count='1'>
+  <source url='https://www4c.wolframalpha.com/sources/FinancialDataSourceInformationNotes.html'
+      text='Financial data' />
+ </sources>
+</queryresult>

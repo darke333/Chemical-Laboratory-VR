@@ -1,0 +1,506 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='13'
+    datatypes='Movie,MusicAct,Person'
+    timedout=''
+    timedoutpods=''
+    timing='4.214'
+    parsetiming='0.11800000000000001'
+    parsetimedout='false'
+    recalculate=''
+    id='MSP349413079da6916a6de000004g4be53629f9ee4d'
+    host='https://www4f.wolframalpha.com'
+    server='37'
+    related='https://www4f.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa349513079da6916a6de0000019fd5ade96echcia6906199230979105176'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP349613079da6916a6de00000102g0cbce50g831b?MSPStoreType=image/gif&amp;s=37'
+       alt='Nas (rapper)'
+       title='Nas (rapper)'
+       width='85'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>Nas (rapper)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Basic information'
+     scanner='Data'
+     id='BasicInformation:PeopleData'
+     position='200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>PeopleData</microsource>
+   </microsources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP349713079da6916a6de00000667h4ci105912f0a?MSPStoreType=image/gif&amp;s=37'
+       alt='full name | Nasir Bin Olu Dara Jones
+date of birth | Friday, September 14, 1973 (age: 46 years)
+place of birth | New York City, New York, United States'
+       title='full name | Nasir Bin Olu Dara Jones
+date of birth | Friday, September 14, 1973 (age: 46 years)
+place of birth | New York City, New York, United States'
+       width='415'
+       height='100'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>full name | Nasir Bin Olu Dara Jones
+date of birth | Friday, September 14, 1973 (age: 46 years)
+place of birth | New York City, New York, United States</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+ </pod>
+ <pod title='Image'
+     scanner='Data'
+     id='Image:PeopleData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <imagesource>http://en.wikipedia.org/wiki/File:NasirJones.png</imagesource>
+   <microsources>
+    <microsource>PeopleData</microsource>
+   </microsources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP349813079da6916a6de000001bfd9iefa2de4525?MSPStoreType=image/gif&amp;s=37'
+       alt=''
+       title=''
+       width='146'
+       height='150'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='false' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Timeline'
+     scanner='Data'
+     id='Timeline:PeopleData'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>PeopleData</microsource>
+   </microsources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP349913079da6916a6de00000552f3503if3c2i2b?MSPStoreType=image/gif&amp;s=37'
+       alt=''
+       title=''
+       width='550'
+       height='38'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='TimelinePlot' />
+  </expressiontypes>
+ </pod>
+ <pod title='Notable facts'
+     scanner='Data'
+     id='NotableFacts:PeopleData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>PeopleData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>TheWikimediaFoundationIncWikipedia</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP350013079da6916a6de000003a8a93b484h230b9?MSPStoreType=image/gif&amp;s=37'
+       alt='New York-based rapper whose 1994 debut abum Illmatic gained critical and commercial acclaim
+Known for public feud with rapper Jay-Z
+Has released nine studio albums and earned nine Grammy Award nominations
+Son of jazz musician Olu Dara'
+       title='New York-based rapper whose 1994 debut abum Illmatic gained critical and commercial acclaim
+Known for public feud with rapper Jay-Z
+Has released nine studio albums and earned nine Grammy Award nominations
+Son of jazz musician Olu Dara'
+       width='519'
+       height='117'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>New York-based rapper whose 1994 debut abum Illmatic gained critical and commercial acclaim
+Known for public feud with rapper Jay-Z
+Has released nine studio albums and earned nine Grammy Award nominations
+Son of jazz musician Olu Dara</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+ </pod>
+ <pod title='Music albums'
+     scanner='Data'
+     id='Albums:MusicActData'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>MusicActData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>MusicBrainz</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP350113079da6916a6de00000150d5993813f10fh?MSPStoreType=image/gif&amp;s=37'
+       alt='Illmatic | April 19, 1994
+It Was Written | July 1, 1996
+I Am... | April 6, 1999
+Nastradamus | November 23, 1999
+Stillmatic | December 18, 2001
+⋮ | 
+Bravehearted 2 | 2008
+[untitled] | July 11, 2008
+Distant Relatives | May 14, 2010
+Life Is Good | July 13, 2012
+NASIR | June 15, 2018'
+       title='Illmatic | April 19, 1994
+It Was Written | July 1, 1996
+I Am... | April 6, 1999
+Nastradamus | November 23, 1999
+Stillmatic | December 18, 2001
+⋮ | 
+Bravehearted 2 | 2008
+[untitled] | July 11, 2008
+Distant Relatives | May 14, 2010
+Life Is Good | July 13, 2012
+NASIR | June 15, 2018'
+       width='285'
+       height='310'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>Illmatic | April 19, 1994
+It Was Written | July 1, 1996
+I Am... | April 6, 1999
+Nastradamus | November 23, 1999
+Stillmatic | December 18, 2001
+⋮ | 
+Bravehearted 2 | 2008
+[untitled] | July 11, 2008
+Distant Relatives | May 14, 2010
+Life Is Good | July 13, 2012
+NASIR | June 15, 2018</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='More'
+       input='Albums:MusicActData__More' />
+  </states>
+ </pod>
+ <pod title='Associated music acts'
+     scanner='Data'
+     id='AssociatedArtists:MusicianData'
+     position='700'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>MusicActData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>MusicBrainz</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP350213079da6916a6de00000416b944hii96b9i7?MSPStoreType=image/gif&amp;s=37'
+       alt=' (solo artist) | 1994 to present'
+       title=' (solo artist) | 1994 to present'
+       width='226'
+       height='32'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext> (solo artist) | 1994 to present</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='Show timeline'
+       input='AssociatedArtists:MusicianData__Show timeline' />
+  </states>
+ </pod>
+ <pod title='Physical characteristics'
+     scanner='Data'
+     id='PhysicalCharacteristics:PeopleData'
+     position='800'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>PeopleData</microsource>
+   </microsources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP350313079da6916a6de0000030f7787fc90aaf08?MSPStoreType=image/gif&amp;s=37'
+       alt='height | 1.77 meters'
+       title='height | 1.77 meters'
+       width='166'
+       height='36'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>height | 1.77 meters</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='Show non-metric'
+       input='PhysicalCharacteristics:PeopleData__Show non-metric' />
+  </states>
+ </pod>
+ <pod title='Familial relationships'
+     scanner='Data'
+     id='FamilialRelationships:PeopleData'
+     position='900'
+     error='false'
+     numsubpods='4'>
+  <subpod title='Parents'>
+   <microsources>
+    <microsource>PeopleData</microsource>
+   </microsources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP350413079da6916a6de000005861149bieig6dd7?MSPStoreType=image/gif&amp;s=37'
+       alt='Olu Dara | Fannie Ann Jones'
+       title='Olu Dara | Fannie Ann Jones'
+       width='203'
+       height='18'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>Olu Dara | Fannie Ann Jones</plaintext>
+  </subpod>
+  <subpod title='Sibling'>
+   <microsources>
+    <microsource>PeopleData</microsource>
+   </microsources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP350513079da6916a6de000003hiab0gfdc51i15c?MSPStoreType=image/gif&amp;s=37'
+       alt='Jungle'
+       title='Jungle'
+       width='44'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>Jungle</plaintext>
+  </subpod>
+  <subpod title='Spouse'>
+   <microsources>
+    <microsource>PeopleData</microsource>
+   </microsources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP350613079da6916a6de0000015724bh4299ib944?MSPStoreType=image/gif&amp;s=37'
+       alt='Kelis (2005-2010)'
+       title='Kelis (2005-2010)'
+       width='118'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>Kelis (2005-2010)</plaintext>
+  </subpod>
+  <subpod title='Children'>
+   <microsources>
+    <microsource>PeopleData</microsource>
+   </microsources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP350713079da6916a6de000000f55ae5abfe328aa?MSPStoreType=image/gif&amp;s=37'
+       alt='Destiny Jones | Knight Jones'
+       title='Destiny Jones | Knight Jones'
+       width='199'
+       height='18'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>Destiny Jones | Knight Jones</plaintext>
+  </subpod>
+  <expressiontypes count='4'>
+   <expressiontype name='Grid' />
+   <expressiontype name='Grid' />
+   <expressiontype name='Grid' />
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='Show full dates'
+       input='FamilialRelationships:PeopleData__Show full dates' />
+  </states>
+ </pod>
+ <pod title='Notable films'
+     scanner='Data'
+     id='NotableFilms:PeopleData'
+     position='1000'
+     error='false'
+     numsubpods='2'>
+  <subpod title='Appeared in'>
+   <microsources>
+    <microsource>MovieData</microsource>
+    <microsource>PeopleData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>TheNumbers</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP350813079da6916a6de000003c6b8g1gii8b3ae3?MSPStoreType=image/gif&amp;s=37'
+       alt='Belly (1998) | Uptown Girls (2003) | Black Nativity (2013) | In Too Deep (1999) | Ticker (2001) | ... (total: 10)'
+       title='Belly (1998) | Uptown Girls (2003) | Black Nativity (2013) | In Too Deep (1999) | Ticker (2001) | ... (total: 10)'
+       width='505'
+       height='38'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>Belly (1998) | Uptown Girls (2003) | Black Nativity (2013) | In Too Deep (1999) | Ticker (2001) | ... (total: 10)</plaintext>
+  </subpod>
+  <subpod title='Writer'>
+   <microsources>
+    <microsource>MovieData</microsource>
+    <microsource>PeopleData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>TheNumbers</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP350913079da6916a6de000002952cbh7di2eb07b?MSPStoreType=image/gif&amp;s=37'
+       alt='Belly (1998)'
+       title='Belly (1998)'
+       width='76'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>Belly (1998)</plaintext>
+  </subpod>
+  <expressiontypes count='2'>
+   <expressiontype name='Grid' />
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='More'
+       input='NotableFilms:PeopleData__More' />
+  </states>
+ </pod>
+ <pod title='Estimated net worth'
+     scanner='Data'
+     id='NetWorth:PeopleData'
+     position='1100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>PeopleData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>ForbesBillionairesList</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP351013079da6916a6de000001659deg98cei45i3?MSPStoreType=image/gif&amp;s=37'
+       alt='$60 million (US dollars)
+(as of 2018)'
+       title='$60 million (US dollars)
+(as of 2018)'
+       width='148'
+       height='41'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>$60 million (US dollars)
+(as of 2018)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Wikipedia summary'
+     scanner='Character'
+     id='WikipediaSummary:PeopleData'
+     position='1200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP351113079da6916a6de0000064heg3i7631fg9ec?MSPStoreType=image/gif&amp;s=37'
+       alt='Nasir bin Olu Dara Jones (born September 14, 1973), known professionally as Nas, is an American rapper, songwriter, entrepreneur and investor. The son of jazz musician Olu Dara, Nas has released eight consecutive platinum and multi-platinum albums and has sold over 30 million records worldwide. He is also an entrepreneur through his own record label; he serves as associate publisher of Mass Appeal magazine and the co-founder of Mass Appeal Records.'
+       title='Nasir bin Olu Dara Jones (born September 14, 1973), known professionally as Nas, is an American rapper, songwriter, entrepreneur and investor. The son of jazz musician Olu Dara, Nas has released eight consecutive platinum and multi-platinum albums and has sold over 30 million records worldwide. He is also an entrepreneur through his own record label; he serves as associate publisher of Mass Appeal magazine and the co-founder of Mass Appeal Records.'
+       width='541'
+       height='109'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>Nasir bin Olu Dara Jones (born September 14, 1973), known professionally as Nas, is an American rapper, songwriter, entrepreneur and investor. The son of jazz musician Olu Dara, Nas has released eight consecutive platinum and multi-platinum albums and has sold over 30 million records worldwide. He is also an entrepreneur through his own record label; he serves as associate publisher of Mass Appeal magazine and the co-founder of Mass Appeal Records.</plaintext>
+   <infos count='1'>
+    <info>
+     <link url='http://en.wikipedia.org/wiki?curid=146167'
+         text='Full entry' />
+    </info>
+   </infos>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Wikipedia page hits history'
+     scanner='Data'
+     id='PopularityPod:WikipediaStatsData'
+     position='1300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP351213079da6916a6de000004f5b1b4c0f81hhbh?MSPStoreType=image/gif&amp;s=37'
+       alt=''
+       title=''
+       width='546'
+       height='164'
+       type='TimeSeriesPlot_1'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='TimeSeriesPlot' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='Log scale'
+       input='PopularityPod:WikipediaStatsData__Log scale' />
+  </states>
+ </pod>
+ <assumptions count='1'>
+  <assumption type='Clash'
+      word='NaS'
+      template='Assuming &quot;${word}&quot; is ${desc1}. Use as ${desc2} instead'
+      count='4'>
+   <value name='Person'
+       desc='a person'
+       input='*C.NaS-_*Person-' />
+   <value name='MusicAct'
+       desc='a music act'
+       input='*C.NaS-_*MusicAct-' />
+   <value name='MaterialClass'
+       desc='a class of materials'
+       input='*C.NaS-_*MaterialClass-' />
+   <value name='Chemical'
+       desc='a chemical compound'
+       input='*C.NaS-_*Chemical-' />
+  </assumption>
+ </assumptions>
+ <sources count='3'>
+  <source url='https://www4f.wolframalpha.com/sources/MovieDataSourceInformationNotes.html'
+      text='Movie data' />
+  <source url='https://www4f.wolframalpha.com/sources/MusicActDataSourceInformationNotes.html'
+      text='Music act data' />
+  <source url='https://www4f.wolframalpha.com/sources/PeopleDataSourceInformationNotes.html'
+      text='People data' />
+ </sources>
+</queryresult>

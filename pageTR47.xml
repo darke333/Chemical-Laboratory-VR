@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='6'
+    datatypes='Chemical'
+    timedout=''
+    timedoutpods=''
+    timing='3.4330000000000003'
+    parsetiming='0.371'
+    parsetimedout='false'
+    recalculate=''
+    id='MSP4740165ac101af4cc77f0000119a0di49492id3a'
+    host='https://www4c.wolframalpha.com'
+    server='25'
+    related='https://www4c.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa4741165ac101af4cc77f00003h9a5c8a0b1753bf5387209453045679458'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP4742165ac101af4cc77f00004c5cad1b778ge2h8?MSPStoreType=image/gif&amp;s=25'
+       alt='zinc | temperature | 2 °S (degrees Smurdley)'
+       title='zinc | temperature | 2 °S (degrees Smurdley)'
+       width='351'
+       height='32'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>zinc | temperature | 2 °S (degrees Smurdley)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Thermodynamic properties'
+     scanner='Data'
+     id='TemperatureComputedThermodynamicProperties:ChemicalData'
+     position='200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>CRCHandbook</datasource>
+    <datasource>EncyclopediaOfChemicalProcessingAndDesign</datasource>
+    <datasource>PhysicalPropertyDataBook</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP4743165ac101af4cc77f000069af08fh3efb9hdf?MSPStoreType=image/gif&amp;s=25'
+       alt='phase | solid
+density | 7140 kg/m^3
+7.14 g/cm^3
+(assuming 1 atm)'
+       title='phase | solid
+density | 7140 kg/m^3
+7.14 g/cm^3
+(assuming 1 atm)'
+       width='169'
+       height='114'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>phase | solid
+density | 7140 kg/m^3
+7.14 g/cm^3
+(assuming 1 atm)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='More'
+       input='TemperatureComputedThermodynamicProperties:ChemicalData__More' />
+  </states>
+  <infos count='1'>
+   <info>
+    <units count='2'>
+     <unit short='g/cm^3'
+         long='grams per cubic centimeter' />
+     <unit short='kg/m^3'
+         long='kilograms per cubic meter' />
+     <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP4744165ac101af4cc77f000033c9ibfc5c8b5f29?MSPStoreType=image/gif&amp;s=25'
+         width='231'
+         height='49' />
+    </units>
+   </info>
+  </infos>
+ </pod>
+ <pod title='Structure diagram'
+     scanner='Data'
+     id='StructureDiagramPod:ChemicalData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP4745165ac101af4cc77f000043g8b4d6b7100853?MSPStoreType=image/gif&amp;s=25'
+       alt=''
+       title=''
+       width='79'
+       height='52'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Basic properties'
+     scanner='Data'
+     id='BasicWithConditions:ChemicalData'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP4746165ac101af4cc77f00005h2ge8g55bh3fchb?MSPStoreType=image/gif&amp;s=25'
+       alt='formula | Zn
+name | zinc
+molar mass | 65.38 g/mol'
+       title='formula | Zn
+name | zinc
+molar mass | 65.38 g/mol'
+       width='199'
+       height='100'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>formula | Zn
+name | zinc
+molar mass | 65.38 g/mol</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <infos count='1'>
+   <info>
+    <units count='1'>
+     <unit short='g/mol'
+         long='grams per mole' />
+     <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP4747165ac101af4cc77f00006ad03gi74i2hib8g?MSPStoreType=image/gif&amp;s=25'
+         width='162'
+         height='26' />
+    </units>
+   </info>
+  </infos>
+ </pod>
+ <pod title='Basic drug properties'
+     scanner='Data'
+     id='DrugNamesProperties:ChemicalData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+   </microsources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP4748165ac101af4cc77f0000419d7hi6i43efhe4?MSPStoreType=image/gif&amp;s=25'
+       alt='approval status | approved | small molecule
+drug categories | trace element
+dosage forms | oral: aerosol | oral: capsule | topical: cream | topical: dressing | oral: liquid | sublingual: liquid | topical: liquid | topical: lotion | oral: lozenge | rectal: ointment | topical: ointment | topical: paste | oral: powder | topical: powder | intravenous: solution | oral: solution / drops | rectal: suppository | oral: tablet | oral: tablet, extended release'
+       title='approval status | approved | small molecule
+drug categories | trace element
+dosage forms | oral: aerosol | oral: capsule | topical: cream | topical: dressing | oral: liquid | sublingual: liquid | topical: liquid | topical: lotion | oral: lozenge | rectal: ointment | topical: ointment | topical: paste | oral: powder | topical: powder | intravenous: solution | oral: solution / drops | rectal: suppository | oral: tablet | oral: tablet, extended release'
+       width='546'
+       height='202'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>approval status | approved | small molecule
+drug categories | trace element
+dosage forms | oral: aerosol | oral: capsule | topical: cream | topical: dressing | oral: liquid | sublingual: liquid | topical: liquid | topical: lotion | oral: lozenge | rectal: ointment | topical: ointment | topical: paste | oral: powder | topical: powder | intravenous: solution | oral: solution / drops | rectal: suppository | oral: tablet | oral: tablet, extended release</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+ </pod>
+ <pod title='Chemical identifiers'
+     scanner='Data'
+     id='ChemicalIdentifiers:ChemicalData'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+   </datasources>
+   <img src='https://www4c.wolframalpha.com/Calculate/MSP/MSP4749165ac101af4cc77f000032ec826i047b3944?MSPStoreType=image/gif&amp;s=25'
+       alt='CAS number | 7440-66-6
+PubChem CID number | 23994
+PubChem SID number | 24852898
+SMILES identifier | [Zn]'
+       title='CAS number | 7440-66-6
+PubChem CID number | 23994
+PubChem SID number | 24852898
+SMILES identifier | [Zn]'
+       width='266'
+       height='132'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>CAS number | 7440-66-6
+PubChem CID number | 23994
+PubChem SID number | 24852898
+SMILES identifier | [Zn]</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='More'
+       input='ChemicalIdentifiers:ChemicalData__More' />
+  </states>
+ </pod>
+ <assumptions count='1'>
+  <assumption type='MultiClash'
+      word=''
+      template='Assuming ${word1} is referring to ${desc1}. Use &quot;${word2}&quot; as ${desc2}.'
+      count='2'>
+   <value name='Element'
+       word='Zn'
+       desc='a chemical element'
+       input='*MC.Zn2S-_*Element-' />
+   <value name='Chemical'
+       word='Zn2S'
+       desc='a chemical compound'
+       input='*MC.Zn2S-_*Chemical-' />
+  </assumption>
+ </assumptions>
+ <sources count='1'>
+  <source url='https://www4c.wolframalpha.com/sources/ChemicalDataSourceInformationNotes.html'
+      text='Chemical data' />
+ </sources>
+</queryresult>

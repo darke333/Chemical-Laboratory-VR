@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='2'
+    datatypes='Financial'
+    timedout=''
+    timedoutpods=''
+    timing='0.796'
+    parsetiming='0.112'
+    parsetimedout='false'
+    recalculate=''
+    id='MSP23911725b4145g6a147100002hci3fg5if5a5f1e'
+    host='https://www4f.wolframalpha.com'
+    server='53'
+    related='https://www4f.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa23921725b4145g6a1471000022109264i8d4ac2i1494264905346578628'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP23931725b4145g6a1471000050c194e749d6610b?MSPStoreType=image/gif&amp;s=53'
+       alt='Macro Games (MGS)'
+       title='Macro Games (MGS)'
+       width='135'
+       height='18'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>Macro Games (MGS)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Last close'
+     scanner='FinancialData'
+     id='Quote'
+     position='200'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''
+      primary='true'>
+   <microsources>
+    <microsource>FinancialData</microsource>
+   </microsources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP23941725b4145g6a147100002diee2687h1g492a?MSPStoreType=image/gif&amp;s=53'
+       alt='(no data available)'
+       title='(no data available)'
+       width='120'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>(no data available)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <assumptions count='2'>
+  <assumption type='Clash'
+      word='MgS'
+      template='Assuming &quot;${word}&quot; is ${desc1}. Use as ${desc2} instead'
+      count='2'>
+   <value name='Financial'
+       desc='a financial entity'
+       input='*C.MgS-_*Financial-' />
+   <value name='Chemical'
+       desc='a chemical compound'
+       input='*C.MgS-_*Chemical-' />
+  </assumption>
+  <assumption type='SubCategory'
+      word='MgS'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='3'>
+   <value name='WA:MGS'
+       desc='WA:MGS'
+       input='*DPClash.FinancialE.MgS-_*WA%3AMGS-' />
+   <value name='AX:MGS'
+       desc='AX:MGS'
+       input='*DPClash.FinancialE.MgS-_*AX%3AMGS-' />
+   <value name='NYSE:MGS'
+       desc='NYSE:MGS'
+       input='*DPClash.FinancialE.MgS-_*NYSE%3AMGS-' />
+  </assumption>
+ </assumptions>
+ <sources count='1'>
+  <source url='https://www4f.wolframalpha.com/sources/FinancialDataSourceInformationNotes.html'
+      text='Financial data' />
+ </sources>
+</queryresult>
