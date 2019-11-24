@@ -18,23 +18,23 @@ public class Mixing : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+
         if (other.tag == "substance" && gameObject.tag == "water" || gameObject.tag == "substance" && other.tag == "water")
         {
-            if(gameObject.tag == "water")
+            print("Inside");
+            if (water)
             {
-                if (mix)
-                {
-                    if (water)
-                    {
-                        Color color = Color.Lerp(WaterRenderer.particleColor, FluidRederer.particleColor, 0.5f);
-                        WaterRenderer.particleColor = color;
-                        FluidRederer.particleColor = color;
-                    }
-                    else
-                    {
-                        HardSubstance.SetActive(false);
-                    }
-                }
+                print("Liq");
+
+                Color color = Color.Lerp(WaterRenderer.particleColor, FluidRederer.particleColor, 0.5f);
+                WaterRenderer.particleColor = color;
+                FluidRederer.particleColor = color;
+            }
+            else
+            {
+                print("Hard");
+
+                HardSubstance.SetActive(false);
             }
         }
     }

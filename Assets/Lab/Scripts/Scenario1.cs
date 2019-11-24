@@ -8,7 +8,7 @@ public class Scenario1 : MonoBehaviour
     public List<GameObject> Hints;
     public OVRGrabbable colba;
     public WaterControll rechag;
-    public DebugPool debugPool;
+    //public DebugPool debugPool;
     public TextMeshPro text1;
     public TextMeshPro text2;
     public TextMeshPro text3;
@@ -72,7 +72,7 @@ public class Scenario1 : MonoBehaviour
         }
     }
 
-    void MistaceTwo()
+    /*void MistaceTwo()
     {
         if (debugPool.Splited)
         {
@@ -83,7 +83,7 @@ public class Scenario1 : MonoBehaviour
             text4.gameObject.SetActive(false);
         }
 
-    }
+    }*/
 
     // Update is called once per frame
     void Update()
@@ -91,6 +91,6 @@ public class Scenario1 : MonoBehaviour
         PhaseOne();
         PhaseTwo();
         MistakeOne();
-        MistaceTwo();
+       // MistaceTwo();
     }
 }
