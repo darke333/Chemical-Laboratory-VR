@@ -1,0 +1,405 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='10'
+    datatypes='Chemical,ChemicalIntermediate,Element'
+    timedout=''
+    timedoutpods=''
+    timing='3.696'
+    parsetiming='0.065'
+    parsetimedout='false'
+    recalculate=''
+    id='MSP54571fgd2g91d02i9a2700004f17121g6g47c403'
+    host='https://www4f.wolframalpha.com'
+    server='46'
+    related='https://www4f.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa54581fgd2g91d02i9a27000035g23c43af4ca9846761110708085623651'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP54591fgd2g91d02i9a270000238986ce4f5a5850?MSPStoreType=image/gif&amp;s=46'
+       alt='rubidium hydroxide'
+       title='rubidium hydroxide'
+       width='130'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>rubidium hydroxide</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Chemical names and formulas'
+     scanner='Data'
+     id='ChemicalNamesFormulas:ChemicalData'
+     position='200'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP54601fgd2g91d02i9a2700002e6g53e49674f1hh?MSPStoreType=image/gif&amp;s=46'
+       alt='formula | RbOH
+Hill formula | HORb
+name | rubidium hydroxide
+IUPAC name | rubidium(+1) cation hydroxide'
+       title='formula | RbOH
+Hill formula | HORb
+name | rubidium hydroxide
+IUPAC name | rubidium(+1) cation hydroxide'
+       width='330'
+       height='132'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>formula | RbOH
+Hill formula | HORb
+name | rubidium hydroxide
+IUPAC name | rubidium(+1) cation hydroxide</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='More'
+       input='ChemicalNamesFormulas:ChemicalData__More' />
+  </states>
+ </pod>
+ <pod title='Structure diagram'
+     scanner='Data'
+     id='StructureDiagramPod:ChemicalData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP54611fgd2g91d02i9a27000042f1a13aca854ghg?MSPStoreType=image/gif&amp;s=46'
+       alt=''
+       title=''
+       width='79'
+       height='41'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+  <states count='2'>
+   <state name='Show bond information'
+       input='StructureDiagramPod:ChemicalData__Show bond information' />
+   <state name='Show graph properties'
+       input='StructureDiagramPod:ChemicalData__Show graph properties' />
+  </states>
+ </pod>
+ <pod title='Basic properties'
+     scanner='Data'
+     id='Basic:ChemicalData'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>SOLV-DB</datasource>
+    <datasource>PubChem</datasource>
+    <datasource>CRCHandbook</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP54621fgd2g91d02i9a2700000dhf2d9a2febce30?MSPStoreType=image/gif&amp;s=46'
+       alt='molar mass | 102.47 g/mol
+phase | solid (at STP)
+melting point | 301 °C
+boiling point | 1390 °C
+density | 1.74 g/cm^3
+solubility in water | soluble'
+       title='molar mass | 102.47 g/mol
+phase | solid (at STP)
+melting point | 301 °C
+boiling point | 1390 °C
+density | 1.74 g/cm^3
+solubility in water | soluble'
+       width='250'
+       height='196'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>molar mass | 102.47 g/mol
+phase | solid (at STP)
+melting point | 301 °C
+boiling point | 1390 °C
+density | 1.74 g/cm^3
+solubility in water | soluble</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <infos count='1'>
+   <info>
+    <units count='2'>
+     <unit short='g/cm^3'
+         long='grams per cubic centimeter' />
+     <unit short='g/mol'
+         long='grams per mole' />
+     <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP54631fgd2g91d02i9a27000049i19g6g19h11b6f?MSPStoreType=image/gif&amp;s=46'
+         width='231'
+         height='48' />
+    </units>
+   </info>
+  </infos>
+ </pod>
+ <pod title='Solid properties (at STP)'
+     scanner='Data'
+     id='SolidProperties:ChemicalData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>CRCHandbook</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP54641fgd2g91d02i9a2700002h7dchii76ceai02?MSPStoreType=image/gif&amp;s=46'
+       alt='density | 1.74 g/cm^3'
+       title='density | 1.74 g/cm^3'
+       width='165'
+       height='36'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>density | 1.74 g/cm^3</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <infos count='1'>
+   <info>
+    <units count='1'>
+     <unit short='g/cm^3'
+         long='grams per cubic centimeter' />
+     <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP54651fgd2g91d02i9a27000044c220778fd1b2a0?MSPStoreType=image/gif&amp;s=46'
+         width='231'
+         height='27' />
+    </units>
+   </info>
+  </infos>
+ </pod>
+ <pod title='Thermodynamic properties'
+     scanner='Data'
+     id='Thermodynamics:ChemicalData'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+    <datasource>WebElements</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP54661fgd2g91d02i9a27000044cg1g8f1idhf3a5?MSPStoreType=image/gif&amp;s=46'
+       alt='specific heat capacity c_p | gas | 0.483 J/(g K)
+ | solid | 0.6733 J/(g K)
+specific free energy of formation Δ_fG° | gas | -2.333 kJ/g
+ | solid | -3.649 kJ/g
+specific heat of formation Δ_fH° | gas | -2.323 kJ/g
+ | solid | -4.087 kJ/g
+specific heat of fusion | 0.08 kJ/g | 
+(at STP)'
+       title='specific heat capacity c_p | gas | 0.483 J/(g K)
+ | solid | 0.6733 J/(g K)
+specific free energy of formation Δ_fG° | gas | -2.333 kJ/g
+ | solid | -3.649 kJ/g
+specific heat of formation Δ_fH° | gas | -2.323 kJ/g
+ | solid | -4.087 kJ/g
+specific heat of fusion | 0.08 kJ/g | 
+(at STP)'
+       width='428'
+       height='241'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>specific heat capacity c_p | gas | 0.483 J/(g K)
+ | solid | 0.6733 J/(g K)
+specific free energy of formation Δ_fG° | gas | -2.333 kJ/g
+ | solid | -3.649 kJ/g
+specific heat of formation Δ_fH° | gas | -2.323 kJ/g
+ | solid | -4.087 kJ/g
+specific heat of fusion | 0.08 kJ/g | 
+(at STP)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='More'
+       input='Thermodynamics:ChemicalData__More' />
+  </states>
+  <infos count='1'>
+   <info>
+    <units count='2'>
+     <unit short='J/(g K)'
+         long='joules per gram kelvin difference' />
+     <unit short='kJ/g'
+         long='kilojoules per gram' />
+     <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP54671fgd2g91d02i9a27000033821ig87ia7hca1?MSPStoreType=image/gif&amp;s=46'
+         width='257'
+         height='47' />
+    </units>
+   </info>
+  </infos>
+ </pod>
+ <pod title='Chemical identifiers'
+     scanner='Data'
+     id='ChemicalIdentifiers:ChemicalData'
+     position='700'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP54681fgd2g91d02i9a2700003297fd601g2gibc5?MSPStoreType=image/gif&amp;s=46'
+       alt='CAS number | 1310-82-3
+PubChem CID number | 62393
+PubChem SID number | 24854632
+SMILES identifier | [OH-].[Rb+]'
+       title='CAS number | 1310-82-3
+PubChem CID number | 62393
+PubChem SID number | 24854632
+SMILES identifier | [OH-].[Rb+]'
+       width='270'
+       height='132'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>CAS number | 1310-82-3
+PubChem CID number | 62393
+PubChem SID number | 24854632
+SMILES identifier | [OH-].[Rb+]</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='More'
+       input='ChemicalIdentifiers:ChemicalData__More' />
+  </states>
+ </pod>
+ <pod title='NFPA label'
+     scanner='Data'
+     id='NFPALabel:ChemicalData'
+     position='800'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+   </microsources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP54691fgd2g91d02i9a27000053aficgi7830b805?MSPStoreType=image/gif&amp;s=46'
+       alt=''
+       title=''
+       width='40'
+       height='40'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='Table'
+       input='NFPALabel:ChemicalData__Table' />
+  </states>
+ </pod>
+ <pod title='Toxicity properties'
+     scanner='Data'
+     id='ToxicityProperties:ChemicalData'
+     position='900'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>MacmillansChemicalAndPhysicalData</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP54701fgd2g91d02i9a27000060bd6a75hgh2ab8b?MSPStoreType=image/gif&amp;s=46'
+       alt='RTECS classes | other'
+       title='RTECS classes | other'
+       width='175'
+       height='36'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>RTECS classes | other</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+ </pod>
+ <pod title='Ion equivalents'
+     scanner='Data'
+     id='IonProperties:ChemicalData'
+     position='1000'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ChemicalIntermediateData</microsource>
+   </microsources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP54711fgd2g91d02i9a2700003779ah7e99d223f1?MSPStoreType=image/gif&amp;s=46'
+       alt='Rb^+ (rubidium) | 1
+(OH)^- (hydroxide) | 1'
+       title='Rb^+ (rubidium) | 1
+(OH)^- (hydroxide) | 1'
+       width='162'
+       height='61'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>Rb^+ (rubidium) | 1
+(OH)^- (hydroxide) | 1</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <sources count='3'>
+  <source url='https://www4f.wolframalpha.com/sources/ChemicalDataSourceInformationNotes.html'
+      text='Chemical data' />
+  <source url='https://www4f.wolframalpha.com/sources/ChemicalIntermediateDataSourceInformationNotes.html'
+      text='Chemical intermediate data' />
+  <source url='https://www4f.wolframalpha.com/sources/ElementDataSourceInformationNotes.html'
+      text='Element data' />
+ </sources>
+</queryresult>

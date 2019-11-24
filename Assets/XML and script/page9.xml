@@ -1,0 +1,540 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='13'
+    datatypes='Gene,Genome,GenomeSequence,SNP'
+    timedout=''
+    timedoutpods=''
+    timing='3.2600000000000002'
+    parsetiming='0.11'
+    parsetimedout='false'
+    recalculate=''
+    id='MSP64361bhfc41e97e6b3ca00003ah397480f6229d0'
+    host='https://www4f.wolframalpha.com'
+    server='55'
+    related='https://www4f.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa64371bhfc41e97e6b3ca00005f135b1f9ag758ig8707379056943765232'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP64381bhfc41e97e6b3ca00006a25aa48h348eab6?MSPStoreType=image/gif&amp;s=55'
+       alt='GFER (human gene)'
+       title='GFER (human gene)'
+       width='134'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>GFER (human gene)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Standard name'
+     scanner='Data'
+     id='StandardName:GeneData'
+     position='200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+   </microsources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP64391bhfc41e97e6b3ca00002i5gh6d9515cf258?MSPStoreType=image/gif&amp;s=55'
+       alt='growth factor, augmenter of liver regeneration'
+       title='growth factor, augmenter of liver regeneration'
+       width='309'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>growth factor, augmenter of liver regeneration</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Alternate names'
+     scanner='Data'
+     id='AlternateNames:GeneData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP64401bhfc41e97e6b3ca00005ghbh4fgeb9eea61?MSPStoreType=image/gif&amp;s=55'
+       alt='ALR | HPO | HSS | ERV1 | ...'
+       title='ALR | HPO | HSS | ERV1 | ...'
+       width='234'
+       height='18'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>ALR | HPO | HSS | ERV1 | ...</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='More'
+       input='AlternateNames:GeneData__More' />
+  </states>
+ </pod>
+ <pod title='Location'
+     scanner='Data'
+     id='Location:GeneData'
+     position='400'
+     error='false'
+     numsubpods='2'>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+    <microsource>GenomeData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP64411bhfc41e97e6b3ca000024389c9i538ia80g?MSPStoreType=image/gif&amp;s=55'
+       alt='locus | chromosome 16 | p13.3
+strand | plus
+coordinates | 2034150 to 2037749'
+       title='locus | chromosome 16 | p13.3
+strand | plus
+coordinates | 2034150 to 2037749'
+       width='290'
+       height='100'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>locus | chromosome 16 | p13.3
+strand | plus
+coordinates | 2034150 to 2037749</plaintext>
+  </subpod>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+    <microsource>GenomeData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP64421bhfc41e97e6b3ca00005gfcabb797fa046e?MSPStoreType=image/gif&amp;s=55'
+       alt=''
+       title=''
+       width='413'
+       height='66'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='2'>
+   <expressiontype name='Grid' />
+   <expressiontype name='Default' />
+  </expressiontypes>
+  <states count='1'>
+   <statelist count='2'
+       value='genome build 37'
+       delimiters=''>
+    <state name='genome build 37'
+        input='Location:GeneData__genome build 37' />
+    <state name='genome build 36'
+        input='Location:GeneData__genome build 36' />
+   </statelist>
+  </states>
+ </pod>
+ <pod title='Reference sequence'
+     scanner='Data'
+     id='ReferenceSequence:GeneData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+    <microsource>GenomeSequenceData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP64431bhfc41e97e6b3ca00005i33905d9a6589a6?MSPStoreType=image/gif&amp;s=55'
+       alt='GCTGGCCTGGAGGCTGACCTGGAGGCTCATCTGGAGGCCG
+... AAGTTTCACTCCTGAATAAAACTTCACTTTGCCTTAGA'
+       title='GCTGGCCTGGAGGCTGACCTGGAGGCTCATCTGGAGGCCG
+... AAGTTTCACTCCTGAATAAAACTTCACTTTGCCTTAGA'
+       width='382'
+       height='36'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>GCTGGCCTGGAGGCTGACCTGGAGGCTCATCTGGAGGCCG
+... AAGTTTCACTCCTGAATAAAACTTCACTTTGCCTTAGA</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='More'
+       input='ReferenceSequence:GeneData__More' />
+  </states>
+ </pod>
+ <pod title='Reference sequence length'
+     scanner='Data'
+     id='Length:GeneData'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP64441bhfc41e97e6b3ca00004084hhb27cdfa419?MSPStoreType=image/gif&amp;s=55'
+       alt='3600 bp (base pairs)'
+       title='3600 bp (base pairs)'
+       width='131'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>3600 bp (base pairs)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Nearby genes'
+     scanner='Data'
+     id='NearbyGenes:GeneData'
+     position='700'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP64451bhfc41e97e6b3ca000033i4e03giae80916?MSPStoreType=image/gif&amp;s=55'
+       alt=''
+       title=''
+       width='495'
+       height='110'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+  <states count='2'>
+   <state name='More'
+       input='NearbyGenes:GeneData__More' />
+   <state name='Show table'
+       input='NearbyGenes:GeneData__Show table' />
+  </states>
+ </pod>
+ <pod title='Gene splicing structure'
+     scanner='Data'
+     id='CodingSequencesGraphic:GeneData'
+     position='800'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+    <microsource>GenomeSequenceData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP64461bhfc41e97e6b3ca000053c139f8db247h53?MSPStoreType=image/gif&amp;s=55'
+       alt=''
+       title=''
+       width='495'
+       height='87'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+  <states count='2'>
+   <state name='Show legend'
+       input='CodingSequencesGraphic:GeneData__Show legend' />
+   <state name='Show table'
+       input='CodingSequencesGraphic:GeneData__Show table' />
+  </states>
+ </pod>
+ <pod title='Protein name'
+     scanner='Data'
+     id='ProteinNames:GeneData'
+     position='900'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP64471bhfc41e97e6b3ca00004b3h54gca06ea972?MSPStoreType=image/gif&amp;s=55'
+       alt='FAD-linked sulfhydryl oxidase ALR'
+       title='FAD-linked sulfhydryl oxidase ALR'
+       width='230'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>FAD-linked sulfhydryl oxidase ALR</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+ </pod>
+ <pod title='Protein molecular weight'
+     scanner='Data'
+     id='ProteinMolecularWeight:GeneData'
+     position='1000'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP64481bhfc41e97e6b3ca00005da36ac5dd07a07d?MSPStoreType=image/gif&amp;s=55'
+       alt='23.32 kDa (kilodaltons)'
+       title='23.32 kDa (kilodaltons)'
+       width='146'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>23.32 kDa (kilodaltons)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Locations of identified SNPs'
+     scanner='Data'
+     id='SNPLocations:GeneData'
+     position='1100'
+     error='false'
+     numsubpods='2'>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+    <microsource>SNPData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+    <datasource>NCBIdbSNP</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP64491bhfc41e97e6b3ca000034e474368fi7ad14?MSPStoreType=image/gif&amp;s=55'
+       alt=''
+       title=''
+       width='440'
+       height='46'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+    <microsource>SNPData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+    <datasource>NCBIdbSNP</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP64501bhfc41e97e6b3ca000032845ea85e76d209?MSPStoreType=image/gif&amp;s=55'
+       alt='SNP | gene position | frequencies
+rs2238412 | 1274 (5&apos;) | C : 71% | T : 29%
+rs2238413 | 1248 (5&apos;) | G : 71% | A : 29%
+rs2238414 | 776 (5&apos;) | A : 66% | G : 34%
+rs1465258 | 392 (5&apos;) | A : 57% | G : 43%
+rs1122949 | 350 (5&apos;) | G : 73% | C : 27%
+(total: 17)'
+       title='SNP | gene position | frequencies
+rs2238412 | 1274 (5&apos;) | C : 71% | T : 29%
+rs2238413 | 1248 (5&apos;) | G : 71% | A : 29%
+rs2238414 | 776 (5&apos;) | A : 66% | G : 34%
+rs1465258 | 392 (5&apos;) | A : 57% | G : 43%
+rs1122949 | 350 (5&apos;) | G : 73% | C : 27%
+(total: 17)'
+       width='348'
+       height='217'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>SNP | gene position | frequencies
+rs2238412 | 1274 (5&apos;) | C : 71% | T : 29%
+rs2238413 | 1248 (5&apos;) | G : 71% | A : 29%
+rs2238414 | 776 (5&apos;) | A : 66% | G : 34%
+rs1465258 | 392 (5&apos;) | A : 57% | G : 43%
+rs1122949 | 350 (5&apos;) | G : 73% | C : 27%
+(total: 17)</plaintext>
+  </subpod>
+  <expressiontypes count='2'>
+   <expressiontype name='Default' />
+   <expressiontype name='Default' />
+  </expressiontypes>
+  <states count='2'>
+   <state name='More'
+       input='SNPLocations:GeneData__More' />
+   <state name='Show chromosome coordinates'
+       input='SNPLocations:GeneData__Show chromosome coordinates' />
+  </states>
+ </pod>
+ <pod title='Gene Ontology characteristics'
+     scanner='Data'
+     id='GeneOntologyCharacteristics:GeneData'
+     position='1200'
+     error='false'
+     numsubpods='3'>
+  <subpod title='Functions'>
+   <microsources>
+    <microsource>GeneData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP64511bhfc41e97e6b3ca00004b4i3a3190317a8c?MSPStoreType=image/gif&amp;s=55'
+       alt='protein binding | thiol oxidase activity | oxidoreductase activity'
+       title='protein binding | thiol oxidase activity | oxidoreductase activity'
+       width='439'
+       height='18'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>protein binding | thiol oxidase activity | oxidoreductase activity</plaintext>
+  </subpod>
+  <subpod title='Locations'>
+   <microsources>
+    <microsource>GeneData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP64521bhfc41e97e6b3ca00004d2ee37ab68ce4a8?MSPStoreType=image/gif&amp;s=55'
+       alt='mitochondrion'
+       title='mitochondrion'
+       width='97'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>mitochondrion</plaintext>
+  </subpod>
+  <subpod title='Processes'>
+   <microsources>
+    <microsource>GeneData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP64531bhfc41e97e6b3ca00003f7d2gb45eci9bfc?MSPStoreType=image/gif&amp;s=55'
+       alt='spermatogenesis | cell proliferation | oxidation reduction'
+       title='spermatogenesis | cell proliferation | oxidation reduction'
+       width='397'
+       height='18'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>spermatogenesis | cell proliferation | oxidation reduction</plaintext>
+  </subpod>
+  <expressiontypes count='3'>
+   <expressiontype name='Grid' />
+   <expressiontype name='Grid' />
+   <expressiontype name='Grid' />
+  </expressiontypes>
+ </pod>
+ <pod title='Homologs across organisms'
+     scanner='Data'
+     id='HomologsAcrossOrganisms:GeneData'
+     position='1300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>GeneData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>NCBIRefSeq</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP64541bhfc41e97e6b3ca00002g0892h4hf4hf4e4?MSPStoreType=image/gif&amp;s=55'
+       alt=''
+       title=''
+       width='539'
+       height='445'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='Show legend'
+       input='HomologsAcrossOrganisms:GeneData__Show legend' />
+  </states>
+ </pod>
+ <assumptions count='2'>
+  <assumption type='Clash'
+      word='HPO2'
+      template='Assuming &quot;${word}&quot; is ${desc1}. Use as ${desc2} instead'
+      count='2'>
+   <value name='Gene'
+       desc='a gene'
+       input='*C.HPO2-_*Gene-' />
+   <value name='Chemical'
+       desc='a chemical compound'
+       input='*C.HPO2-_*Chemical-' />
+  </assumption>
+  <assumption type='SubCategory'
+      word='HPO2'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='2'>
+   <value name='{GFER, {Species -&gt; HomoSapiens}}'
+       desc='GFER (human gene)'
+       input='*DPClash.GeneE.HPO2-_**GFER.*Species_HomoSapiens---' />
+   <value name='{PKC1, {Species -&gt; SaccharomycesCerevisiae}}'
+       desc='PKC1 (yeast gene)'
+       input='*DPClash.GeneE.HPO2-_**PKC1.*Species_SaccharomycesCerevisiae---' />
+  </assumption>
+ </assumptions>
+ <sources count='4'>
+  <source url='https://www4f.wolframalpha.com/sources/GeneDataSourceInformationNotes.html'
+      text='Gene data' />
+  <source url='https://www4f.wolframalpha.com/sources/GenomeDataSourceInformationNotes.html'
+      text='Genome data' />
+  <source url='https://www4f.wolframalpha.com/sources/GenomeSequenceDataSourceInformationNotes.html'
+      text='Genome sequence data' />
+  <source url='https://www4f.wolframalpha.com/sources/SNPDataSourceInformationNotes.html'
+      text='SNP data' />
+ </sources>
+</queryresult>
