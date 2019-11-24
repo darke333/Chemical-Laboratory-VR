@@ -307,6 +307,8 @@ GameObject:
   - component: {fileID: 6555848277411535881}
   - component: {fileID: 5587628753047794963}
   - component: {fileID: 1206853846840890855}
+  - component: {fileID: 8888196018851204613}
+  - component: {fileID: 2358268131941413689}
   m_Layer: 0
   m_Name: ColbaSalt
   m_TagString: bottle
@@ -421,6 +423,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnableOutline: 0
   OutlinedObj: {fileID: 6965224770784609965}
+--- !u!65 &8888196018851204613
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238706391601318884}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2358268131941413689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238706391601318884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748d9f789c060a64aa6a38013905ef8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  water: 0
+  mix: 0
+  WaterRenderer: {fileID: 0}
+  FluidRederer: {fileID: 0}
+  HardSubstance: {fileID: 0}
 --- !u!1 &1285165294138334472
 GameObject:
   m_ObjectHideFlags: 0
@@ -438,7 +470,7 @@ GameObject:
   - component: {fileID: 836926767765947979}
   m_Layer: 0
   m_Name: Sphere (15)
-  m_TagString: Untagged
+  m_TagString: substance
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -977,7 +1009,7 @@ GameObject:
   - component: {fileID: 7226594961136100579}
   m_Layer: 0
   m_Name: Sphere (7)
-  m_TagString: Untagged
+  m_TagString: substance
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1411,7 +1443,7 @@ GameObject:
   - component: {fileID: 3373318303858318751}
   m_Layer: 0
   m_Name: Sphere (8)
-  m_TagString: Untagged
+  m_TagString: substance
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1553,7 +1585,7 @@ GameObject:
   - component: {fileID: 4454381763854983065}
   m_Layer: 0
   m_Name: Sphere (4)
-  m_TagString: Untagged
+  m_TagString: substance
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1695,7 +1727,7 @@ GameObject:
   - component: {fileID: 1389943947531268271}
   m_Layer: 0
   m_Name: Sphere (6)
-  m_TagString: Untagged
+  m_TagString: substance
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1910,7 +1942,7 @@ GameObject:
   - component: {fileID: 1957334449523657031}
   m_Layer: 0
   m_Name: Sphere (3)
-  m_TagString: Untagged
+  m_TagString: substance
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2052,7 +2084,7 @@ GameObject:
   - component: {fileID: 7178222733742782313}
   m_Layer: 0
   m_Name: Sphere (13)
-  m_TagString: Untagged
+  m_TagString: substance
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2240,7 +2272,7 @@ GameObject:
   - component: {fileID: 645930975276694958}
   m_Layer: 0
   m_Name: Sphere (9)
-  m_TagString: Untagged
+  m_TagString: substance
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2382,7 +2414,7 @@ GameObject:
   - component: {fileID: 7372204556516577694}
   m_Layer: 0
   m_Name: Sphere (14)
-  m_TagString: Untagged
+  m_TagString: substance
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2524,7 +2556,7 @@ GameObject:
   - component: {fileID: 856059018687916281}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: substance
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2666,7 +2698,7 @@ GameObject:
   - component: {fileID: 1164511067533126995}
   m_Layer: 0
   m_Name: Sphere (11)
-  m_TagString: Untagged
+  m_TagString: substance
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2907,7 +2939,7 @@ GameObject:
   - component: {fileID: 3620339795114856745}
   m_Layer: 0
   m_Name: Sphere (1)
-  m_TagString: Untagged
+  m_TagString: substance
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3049,7 +3081,7 @@ GameObject:
   - component: {fileID: 7883643565138003015}
   m_Layer: 0
   m_Name: Sphere (12)
-  m_TagString: Untagged
+  m_TagString: substance
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3191,7 +3223,7 @@ GameObject:
   - component: {fileID: 859951882116727749}
   m_Layer: 0
   m_Name: Sphere (10)
-  m_TagString: Untagged
+  m_TagString: substance
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3403,9 +3435,11 @@ GameObject:
   - component: {fileID: 9088895918031637682}
   - component: {fileID: 677610384163301939}
   - component: {fileID: 798244713922744602}
+  - component: {fileID: 6893904730564033097}
+  - component: {fileID: 142626265728938501}
   m_Layer: 0
   m_Name: Colba Down (1)
-  m_TagString: Untagged
+  m_TagString: substance
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3534,6 +3568,36 @@ MonoBehaviour:
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
+--- !u!65 &6893904730564033097
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6965224770784609965}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2, y: 1.4741055, z: 1.2000002}
+  m_Center: {x: 0.060996264, y: 3.363324, z: 1.9100348}
+--- !u!114 &142626265728938501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6965224770784609965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748d9f789c060a64aa6a38013905ef8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  water: 0
+  mix: 0
+  WaterRenderer: {fileID: 0}
+  FluidRederer: {fileID: 0}
+  HardSubstance: {fileID: 4938054282746558248}
 --- !u!1 &7095042212845278009
 GameObject:
   m_ObjectHideFlags: 0
@@ -3624,7 +3688,7 @@ GameObject:
   - component: {fileID: 4339209381119916988}
   m_Layer: 0
   m_Name: Sphere (2)
-  m_TagString: Untagged
+  m_TagString: substance
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3766,7 +3830,7 @@ GameObject:
   - component: {fileID: 652348713999527511}
   m_Layer: 0
   m_Name: Sphere (5)
-  m_TagString: Untagged
+  m_TagString: substance
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
