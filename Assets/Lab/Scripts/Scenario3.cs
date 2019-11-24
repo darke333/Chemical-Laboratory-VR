@@ -26,6 +26,8 @@ public class Scenario3 : MonoBehaviour
     {
         //Hints[0].SetActive(true);
         Hints[1].SetActive(true);
+        string s = "f";
+        text1.text += s;
 
     }
 

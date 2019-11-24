@@ -18,7 +18,7 @@ public class AddButtonOnArray : MonoBehaviour
             GameObject NewButton = Instantiate(Button, Button.transform.parent);
             NewButton.transform.position -= new Vector3(0,3*i,0);
             NewButton.transform.GetChild(0).GetComponent<Text>().text = "Вещество " +(i+1);
-            NewButton.GetComponent<Button>().onClick.AddListener(gameObject.GetComponent<ControlIsparitel>().ReloadSc);
+            //NewButton.GetComponent<Button>().onClick.AddListener(gameObject.GetComponent<AddSearchedSubstance>().OnClicked(gameObject.GetComponent<Button>()));
 
         }
     }
