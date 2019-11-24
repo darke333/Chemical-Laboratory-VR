@@ -7,14 +7,15 @@ public class Scenario3 : MonoBehaviour
 {
     public List<GameObject> Hints;
     public OVRGrabbable colba;
-    public DebugPool debugPool;
+    //public DebugPool debugPool;
     public TextMeshPro text1;
     public TextMeshPro text2;
     public TextMeshPro text3;
     public TextMeshPro text4;
-
+    
     public OnPump onPump;
     public int SaltOut;
+    public int necessaryTemp;
     public UIPanelControll Temperature;
     public ControlIsparitel contr;
     public NewWaterControll water;
@@ -26,7 +27,7 @@ public class Scenario3 : MonoBehaviour
     {
         //Hints[0].SetActive(true);
         Hints[1].SetActive(true);
-        string s = "f";
+        string s = necessaryTemp.ToString();
         text1.text += s;
 
     }
@@ -35,7 +36,7 @@ public class Scenario3 : MonoBehaviour
 
     void PhaseOne()
     {
-        if (Temperature.CurrentNumber == 100)
+        if (Temperature.CurrentNumber == necessaryTemp)
         {
             text1.color = Color.green;
             text2.gameObject.SetActive(true);

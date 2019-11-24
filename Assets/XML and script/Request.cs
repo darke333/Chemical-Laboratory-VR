@@ -24,6 +24,7 @@ public class Subst
 }
 public class Request : MonoBehaviour
 {
+    public List<Subst> Substances = new List<Subst>();
     /// <summary>
     /// Если Solid -> true, Если Liquid -> false
     /// </summary>
@@ -134,7 +135,7 @@ public class Request : MonoBehaviour
         int i = 0;
         foreach (XmlDocument doc in docs)
         {
-            doc.Load("C:/ForHack/ChemHack/XML and script/" + pages[i]);// ПУТЬ-------------------------------------------------------------------------------
+            doc.Load("D:/ChemHack/Assets/XML and script/" + pages[i]);// ПУТЬ-------------------------------------------------------------------------------
             bool solubility = false;
             double temp = 100;
             bool aggregate = false;
@@ -193,11 +194,12 @@ public class Request : MonoBehaviour
             i++;
         }
     }
+
+
     // Start is called before the first frame update
     void Start()
     {
-        List<Subst> Substances = new List<Subst>();
-        FileStream FS = new FileStream("C:/ForHack/ChemHack/XML and script/Sub2.txt", FileMode.OpenOrCreate);
+        FileStream FS = new FileStream("D:/ChemHack/Assets/XML and script/Sub2.txt", FileMode.OpenOrCreate);
         StreamReader Str = new StreamReader(FS);
         string stroka = Str.ReadToEnd();
         FS.Close();

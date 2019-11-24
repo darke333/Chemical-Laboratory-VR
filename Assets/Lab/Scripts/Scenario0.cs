@@ -8,7 +8,7 @@ public class Scenario0 : MonoBehaviour
 {
     public List<GameObject> Hints;
     public OVRGrabbable colba;
-    public DebugPool debugPool;
+    //public DebugPool debugPool;
     public TextMeshPro text1;
     public TextMeshPro text2;
     public TextMeshPro text3;
@@ -16,7 +16,7 @@ public class Scenario0 : MonoBehaviour
     public int SaltOut;
     public bool EmptyPlaced;
     public bool SaltyPlaced;
-    float RestTime;
+    public float RestTime;
     public GameObject NextPhase;
     public GameObject FirstPlace;
     public GameObject SecondPlace;
@@ -95,18 +95,7 @@ public class Scenario0 : MonoBehaviour
         }
     }
 
-    void MistaceTwo()
-    {
-        if (debugPool.Splited)
-        {
-            text4.gameObject.SetActive(true);
-        }
-        else
-        {
-            text4.gameObject.SetActive(false);
-        }
 
-    }
 
     // Update is called once per frame
     void Update()
@@ -114,7 +103,7 @@ public class Scenario0 : MonoBehaviour
         PhaseOne();
         PhaseTwo();
         MistakeOne();
-        MistaceTwo();
+        //MistaceTwo();
         if (SaltyPlaced && EmptyPlaced && !text3.gameObject.active && !text4.gameObject.active)
         {
             RestTime -= Time.deltaTime;
