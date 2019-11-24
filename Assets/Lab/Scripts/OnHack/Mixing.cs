@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Obi;
+using UnityEngine.UI;
+using TMPro;
 
 public class Mixing : MonoBehaviour
 {
+    public TextMeshProUGUI SubstName;
     public bool water;
     public bool mix;
     public ObiParticleRenderer WaterRenderer;

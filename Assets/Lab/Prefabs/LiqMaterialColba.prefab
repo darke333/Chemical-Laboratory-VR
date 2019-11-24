@@ -232,6 +232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748d9f789c060a64aa6a38013905ef8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SubstName: {fileID: 3145208740838385272}
   water: 1
   mix: 0
   WaterRenderer: {fileID: 0}

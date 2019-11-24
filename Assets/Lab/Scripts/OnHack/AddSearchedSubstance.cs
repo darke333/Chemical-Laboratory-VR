@@ -63,6 +63,7 @@ public class AddSearchedSubstance : MonoBehaviour
                     Camera.GetComponent<ObiFluidRenderer>().particleRenderers[0] = Instatieted.transform.GetChild(0).GetChild(0).GetComponent<Mixing>().FluidRederer;
                 }
                 Scenario3.necessaryTemp = (int)subst.temp;
+                Instatieted.transform.GetChild(0).GetChild(0).GetComponent<Mixing>().SubstName.text = subst.name;
                 break;
             }
         }

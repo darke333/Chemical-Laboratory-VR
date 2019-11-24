@@ -758,6 +758,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748d9f789c060a64aa6a38013905ef8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SubstName: {fileID: 3885888946112031131}
   water: 0
   mix: 0
   WaterRenderer: {fileID: 0}
@@ -3313,6 +3314,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748d9f789c060a64aa6a38013905ef8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SubstName: {fileID: 0}
   water: 0
   mix: 0
   WaterRenderer: {fileID: 0}
