@@ -12,6 +12,7 @@ TagManager:
   - Salt
   - substance
   - water
+  - scenario1
   layers:
   - Default
   - TransparentFX

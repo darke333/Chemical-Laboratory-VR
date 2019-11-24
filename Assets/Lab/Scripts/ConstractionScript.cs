@@ -10,6 +10,7 @@ public class ConstractionScript : MonoBehaviour
     public bool ToMove;
     GameObject par;
     public Scenario0 scenario;
+    public Scenario1 Scenario1;
     public Transform NewParent;
 
     // Start is called before the first frame update
@@ -41,12 +42,26 @@ public class ConstractionScript : MonoBehaviour
                 gameObject.transform.GetChild(0).GetComponent<MeshRenderer>().enabled = true;
                 if (gameObject.name == "Sphere (1)")
                 {
-                    scenario.SaltyPlaced = false;
+                    if (scenario.gameObject.activeSelf)
+                    {
+                        scenario.SaltyPlaced = false;
+                    }
+                    else
+                    {
+                        Scenario1.SaltyPlaced = false;
+                    }
 
                 }
                 else
                 {
-                    scenario.EmptyPlaced = false;
+                    if (scenario.gameObject.activeSelf)
+                    {
+                        scenario.SaltyPlaced = false;
+                    }
+                    else
+                    {
+                        Scenario1.SaltyPlaced = false;
+                    }
                 }
 
             }
@@ -79,12 +94,26 @@ public class ConstractionScript : MonoBehaviour
             {
                 if(gameObject.name == "Sphere (1)")
                 {
-                    scenario.SaltyPlaced = true;
+                    if (scenario.gameObject.activeSelf)
+                    {
+                        scenario.SaltyPlaced = true;
+                    }
+                    else
+                    {
+                        Scenario1.SaltyPlaced = true;
+                    }
 
                 }
                 else
                 {
-                    scenario.EmptyPlaced = true;
+                    if (scenario.gameObject.activeSelf)
+                    {
+                        scenario.SaltyPlaced = true;
+                    }
+                    else
+                    {
+                        Scenario1.SaltyPlaced = true;
+                    }
                 }
                 if (parent)
                 {

@@ -22,6 +22,7 @@ public class Scenario0 : MonoBehaviour
     public GameObject SecondPlace;
     int number;
 
+
     // Start is called before the first frame update
     void Start()
     {

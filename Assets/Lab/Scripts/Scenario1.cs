@@ -5,6 +5,8 @@ using TMPro;
 
 public class Scenario1 : MonoBehaviour
 {
+    public bool SaltyPlaced;
+    public bool Selected;
     public List<GameObject> Hints;
     public OVRGrabbable colba;
     public WaterControll rechag;
@@ -13,6 +15,8 @@ public class Scenario1 : MonoBehaviour
     public TextMeshPro text2;
     public TextMeshPro text3;
     public TextMeshPro text4;
+    public TextMeshPro text5;
+    public bool Mixed;
     public int SaltOut;
     float RestTime;
     public GameObject NextPhase;
@@ -40,9 +44,52 @@ public class Scenario1 : MonoBehaviour
 
     void PhaseTwo()
     {
-        if (rechag.Emitting && !text3.gameObject.active && !text4.gameObject.active)
+        if (rechag.Emitting)
         {
             text2.color = Color.green;
+            text5.gameObject.SetActive(true);
+
+        }
+        else
+        {
+            text2.color = Color.white;
+        }
+    }
+
+    void PhaseOnePlus()
+    {
+        if (Selected)
+        {
+            text3.color = Color.green;
+            text4.gameObject.SetActive(true);
+        }
+        else
+        {
+            text3.color = Color.white;
+        }
+
+    }
+
+    void PhaseTwoPlus()
+    {
+        if (SaltyPlaced)
+        {
+            text4.color = Color.green;
+            text1.gameObject.SetActive(true);
+            text2.gameObject.SetActive(true);
+
+        }
+        else
+        {
+            text4.color = Color.white;
+        }
+    }
+
+    void PhaseFive()
+    {
+        if (Mixed)
+        {
+            text4.color = Color.green;
             RestTime -= Time.deltaTime;
             if (RestTime < 0)
             {
@@ -53,44 +100,22 @@ public class Scenario1 : MonoBehaviour
                 }
                 Destroy(gameObject);
             }
+            else
+            {
+                text5.color = Color.white;
+            }
         }
-        else
-        {
-            text2.color = Color.white;
-        }
+
     }
 
-    void MistakeOne()
-    {
-        if(SaltOut > 10)
-        {
-            text3.gameObject.SetActive(true);
-        }
-        else
-        {
-            text3.gameObject.SetActive(false);
-        }
-    }
 
-    /*void MistaceTwo()
-    {
-        if (debugPool.Splited)
-        {
-            text4.gameObject.SetActive(true);
-        }
-        else
-        {
-            text4.gameObject.SetActive(false);
-        }
 
-    }*/
-
-    // Update is called once per frame
     void Update()
     {
+        PhaseOnePlus();
+        PhaseTwoPlus();
         PhaseOne();
         PhaseTwo();
-        MistakeOne();
-       // MistaceTwo();
+        PhaseFive();
     }
 }

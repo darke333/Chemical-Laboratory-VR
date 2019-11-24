@@ -13,6 +13,7 @@ public class Mixing : MonoBehaviour
     public ObiParticleRenderer WaterRenderer;
     public ObiParticleRenderer FluidRederer;
     public GameObject HardSubstance;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,7 +28,6 @@ public class Mixing : MonoBehaviour
             print("Inside");
             if (water)
             {
-                print("Liq");
 
                 Color color = Color.Lerp(WaterRenderer.particleColor, FluidRederer.particleColor, 0.5f);
                 WaterRenderer.particleColor = color;
@@ -35,10 +35,10 @@ public class Mixing : MonoBehaviour
             }
             else
             {
-                print("Hard");
-
                 HardSubstance.SetActive(false);
             }
+            GameObject.FindGameObjectWithTag("scenario1").GetComponent<Scenario1>().Mixed = true;
+
         }
     }
 

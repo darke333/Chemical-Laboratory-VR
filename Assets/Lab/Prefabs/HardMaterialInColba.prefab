@@ -620,7 +620,7 @@ GameObject:
   - component: {fileID: 1550721243599031061}
   - component: {fileID: 7487159282392612141}
   m_Layer: 0
-  m_Name: ColbaSalt
+  m_Name: Sphere (1)
   m_TagString: bottle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

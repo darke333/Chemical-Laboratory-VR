@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class AddSearchedSubstance : MonoBehaviour
 {
     float time;
+    public Scenario1 Scenario1;
     public GameObject Instatieted;
     public GameObject HardSubstance;
     public GameObject LiqSubstance;
@@ -26,7 +27,8 @@ public class AddSearchedSubstance : MonoBehaviour
 
     public void OnClicked(Button button)
     {
-        if(Instatieted != null)
+        Scenario1.Selected = true;
+        if (Instatieted != null)
         {
             Destroy(Instatieted);
             Instatieted = null;
