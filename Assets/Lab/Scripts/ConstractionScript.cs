@@ -56,7 +56,7 @@ public class ConstractionScript : MonoBehaviour
                 {
                     if (scenario.gameObject.activeSelf)
                     {
-                        scenario.SaltyPlaced = false;
+                        scenario.EmptyPlaced = false;
                     }
                     else
                     {
@@ -108,7 +108,7 @@ public class ConstractionScript : MonoBehaviour
                 {
                     if (scenario.gameObject.activeSelf)
                     {
-                        scenario.SaltyPlaced = true;
+                        scenario.EmptyPlaced = true;
                     }
                     else
                     {

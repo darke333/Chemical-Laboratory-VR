@@ -34,7 +34,7 @@ public class Scenario0 : MonoBehaviour
 
     void PhaseOne()
     {
-        if (SaltyPlaced && !text3.gameObject.active && !text4.gameObject.active)
+        if (SaltyPlaced )
         {
             text1.color = Color.green;
             text2.gameObject.SetActive(true);
@@ -48,33 +48,12 @@ public class Scenario0 : MonoBehaviour
         }
     }
 
-    void ChangeHint(bool forward)
-    {
-        if (forward)
-        {
-            number++;
-            Hints[number].SetActive(true);
-            if(number > 0)
-            {
-                Hints[number - 1].SetActive(false);
-            }
-        }
-        else
-        {
-            number--;
-            Hints[number].SetActive(true);
-            if (number < Hints.Count)
-            {
-                Hints[number + 1].SetActive(false);
-            }
-            
-        }
-    }
+
     
     
     void PhaseTwo()
     {
-        if (EmptyPlaced && !text3.gameObject.active && !text4.gameObject.active)
+        if (EmptyPlaced)
         {
             text2.color = Color.green;
         }

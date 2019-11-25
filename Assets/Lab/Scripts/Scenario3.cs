@@ -27,6 +27,7 @@ public class Scenario3 : MonoBehaviour
     {
         //Hints[0].SetActive(true);
         Hints[1].SetActive(true);
+        necessaryTemp = 100;
         string s = necessaryTemp.ToString();
         text1.text += s;
 
