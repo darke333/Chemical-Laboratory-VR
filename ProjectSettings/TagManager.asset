@@ -4,15 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - button
-  - Floor
-  - bottle
-  - FingerContact
-  - Obstacle
-  - Salt
-  - substance
   - water
+  - Obstacle
+  - button
+  - bottle
   - scenario1
+  - substance
+  - FingerContact
   layers:
   - Default
   - TransparentFX
@@ -22,7 +20,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - InBottleMaterials
   - 
   - 
   - 
