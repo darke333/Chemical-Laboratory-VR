@@ -170,7 +170,7 @@ public class Request : MonoBehaviour
                     }
                 }
             }
-            /*
+            
             foreach (XmlNode childnode in xRoot) //Код для получения имени из XML файла
             {
                 if (childnode.Name == "pod" && childnode.Attributes.GetNamedItem("title").Value == "Chemical names and formulas")
@@ -190,7 +190,7 @@ public class Request : MonoBehaviour
                     }
                 }
             }
-            */
+            
             Subs.Add(new Subst(name, solubility, temp, aggregate));
             i++;
         }
