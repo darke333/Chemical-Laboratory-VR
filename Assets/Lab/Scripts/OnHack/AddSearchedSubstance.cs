@@ -16,6 +16,8 @@ public class AddSearchedSubstance : MonoBehaviour
     public Scenario3 Scenario3;
     public GameObject Camera;
     List<Subst> Substances = new List<Subst>();
+    public GameObject EndWaterEmitter;
+    public GameObject EndLiqSubstEmitter;
 
 
     // Start is called before the first frame update
@@ -38,6 +40,7 @@ public class AddSearchedSubstance : MonoBehaviour
         {
             if(subst.name == name)
             {
+                int temperature = (int)subst.temp;
                 if (subst.aggregate)
                 {
                     Instatieted = Instantiate(HardSubstance);
@@ -49,6 +52,8 @@ public class AddSearchedSubstance : MonoBehaviour
                     {
                         Instatieted.transform.GetChild(0).GetChild(0).GetComponent<Mixing>().mix = false;
                     }
+                    temperature = 100;
+                    GameObject.FindGameObjectWithTag("controller").GetComponent<ControlIsparitel>().HardSubstActivatel = Instatieted.transform.GetChild(0).GetChild(0).GetComponent<Mixing>().HardSubstance;
                 }
                 else
                 {
@@ -63,8 +68,18 @@ public class AddSearchedSubstance : MonoBehaviour
                         Instatieted.transform.GetChild(0).GetChild(0).GetComponent<Mixing>().mix = false;
                     }
                     Camera.GetComponent<ObiFluidRenderer>().particleRenderers[0] = Instatieted.transform.GetChild(0).GetChild(0).GetComponent<Mixing>().FluidRederer;
+                    if(temperature > 100)
+                    {
+                        temperature = 100;
+                    }
+                    else
+                    {
+                        GameObject.FindGameObjectWithTag("controller").GetComponent<ControlIsparitel>().emitter1 = null;
+                        GameObject.FindGameObjectWithTag("controller").GetComponent<ControlIsparitel>().emitter2 = EndLiqSubstEmitter;
+
+                    }
                 }
-                Scenario3.necessaryTemp = (int)subst.temp;
+                Scenario3.necessaryTemp = temperature;
                 Instatieted.transform.GetChild(0).GetChild(0).GetComponent<Mixing>().SubstName.text = subst.name;
                 break;
             }

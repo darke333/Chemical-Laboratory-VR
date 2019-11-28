@@ -13,6 +13,7 @@ public class ControlIsparitel : MonoBehaviour
     float TimeOperation;
     public GameObject emitter1;
     public GameObject emitter2;
+    public GameObject HardSubstActivatel;
     public GameObject Text1;
     public GameObject Text2;
     public bool Finished;
@@ -29,10 +30,17 @@ public class ControlIsparitel : MonoBehaviour
 
     void FinishProg()
     {
-        emitter1.SetActive(false);
+        if (emitter1)
+        {
+            emitter1.SetActive(false);
+        }
         emitter2.SetActive(true);
         Text1.SetActive(false);
         Text2.SetActive(true);
+        if (HardSubstActivatel)
+        {
+            HardSubstActivatel.SetActive(true);
+        }
     }
 
     // Update is called once per frame
