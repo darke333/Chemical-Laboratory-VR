@@ -135,14 +135,14 @@ public class Request : MonoBehaviour
         int i = 0;
         foreach (XmlDocument doc in docs)
         {
-            doc.Load("D:/ChemHack/Assets/XML and script/" + pages[i]);// ПУТЬ-------------------------------------------------------------------------------
+            doc.Load(System.Environment.CurrentDirectory+"/Assets/XML and script/" + pages[i]);// ПУТЬ-------------------------------------------------------------------------------
             bool solubility = false;
             double temp = 100;
             bool aggregate = false;
             string name = "noname";
             XmlElement xRoot = doc.DocumentElement;
 
-            foreach (XmlNode childnode in xRoot)
+            foreach (XmlNode childnode in xRoot) //Цикл для получения трех параметров (имя мы получаем из Sub2.txt)
             {
                 if (childnode.Name == "pod" && childnode.Attributes.GetNamedItem("title").Value == "Basic properties")
                 {
@@ -170,8 +170,8 @@ public class Request : MonoBehaviour
                     }
                 }
             }
-
-            foreach (XmlNode childnode in xRoot)
+            /*
+            foreach (XmlNode childnode in xRoot) //Код для получения имени из XML файла
             {
                 if (childnode.Name == "pod" && childnode.Attributes.GetNamedItem("title").Value == "Chemical names and formulas")
                 {
@@ -190,16 +190,23 @@ public class Request : MonoBehaviour
                     }
                 }
             }
+            */
             Subs.Add(new Subst(name, solubility, temp, aggregate));
             i++;
+        }
+
+        foreach (Subst sub in Substances) //Удаление всех ошибочных веществ на последней стадии формирования массива
+        {
+            if (sub.name == "noname")
+                Substances.Remove(sub);
         }
     }
 
 
     // Start is called before the first frame update
     void Start()
-    {
-        FileStream FS = new FileStream("D:/ChemHack/Assets/XML and script/Sub2.txt", FileMode.OpenOrCreate);
+    {      
+        FileStream FS = new FileStream(System.Environment.CurrentDirectory+"/Assets/XML and script/Sub2.txt", FileMode.OpenOrCreate);
         StreamReader Str = new StreamReader(FS);
         string stroka = Str.ReadToEnd();
         FS.Close();
@@ -228,52 +235,13 @@ public class Request : MonoBehaviour
         FillArray(Substances, pages);
 
         int h = 0;
-        foreach (Subst Sub in Substances)
+        foreach (Subst Sub in Substances) //заполнение имен веществ
         {
             Sub.name = elements[h];
             h++;
         }
-
-
-        //get_http_write("http://api.wolframalpha.com/v2/query?input=Ag+%20+%20NO3-&appid=K58ETV-GTPAJVATGW", "page5.xml");
-
-
-        // FillArray(Substances, "page5.xml");
-
-
-
-        /*
-        for (int i = 0; i < Substances.Count; i++) //Заполнение массива
-        {
-            //Substances[i].temp = 
-        }
-        //print(get_http("http://api.wolframalpha.com/v2/query?input=NaCl&appid=HP44EW-XHHUV3698T"));
-        */
     }
         
-            /*
-            //CookieContainer cookies = new CookieContainer();
-            private string get_http(string url)
-            {
-                HttpWebRequest req = (HttpWebRequest)WebRequest.Create(url);
-                //req.UserAgent = "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:17.0) Gecko/20100101 Firefox/17.0";
-                //req.CookieContainer = cookies;
-                //req.Headers.Add("DNT", "1");
-
-                HttpWebResponse resp = (HttpWebResponse)req.GetResponse();
-                Stream stream = resp.GetResponseStream();
-                StreamReader sr = new StreamReader(stream);
-                resp.Close();
-                string text = sr.ReadToEnd();
-                sr.Close();
-                return text;
-
-            }
-            */
-    
-
-           
-
             // Update is called once per frame
             void Update()
             {
