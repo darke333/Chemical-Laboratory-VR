@@ -22,8 +22,8 @@ TagManager:
   - 
   - 
   - InBottleMaterials
-  - 
-  - 
+  - ButtonCollideIgnore
+  - Buttons
   - 
   - 
   - 

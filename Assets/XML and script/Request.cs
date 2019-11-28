@@ -135,7 +135,7 @@ public class Request : MonoBehaviour
         int i = 0;
         foreach (XmlDocument doc in docs)
         {
-            doc.Load(System.Environment.CurrentDirectory+"/Assets/XML and script/" + pages[i]);// ПУТЬ-------------------------------------------------------------------------------
+            doc.Load(System.Environment.CurrentDirectory+"/XML and script/" + pages[i]);// ПУТЬ-------------------------------------------------------------------------------
             bool solubility = false;
             double temp = 100;
             bool aggregate = false;
@@ -206,7 +206,7 @@ public class Request : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {      
-        FileStream FS = new FileStream(System.Environment.CurrentDirectory+"/Assets/XML and script/Sub2.txt", FileMode.OpenOrCreate);
+        FileStream FS = new FileStream(System.Environment.CurrentDirectory+ "/XML and script/Sub2.txt", FileMode.OpenOrCreate);
         StreamReader Str = new StreamReader(FS);
         string stroka = Str.ReadToEnd();
         FS.Close();

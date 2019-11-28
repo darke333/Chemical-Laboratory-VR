@@ -8,6 +8,7 @@ public class Scenario3 : MonoBehaviour
     public List<GameObject> Hints;
     public OVRGrabbable colba;
     //public DebugPool debugPool;
+    public TextMeshPro text0;
     public TextMeshPro text1;
     public TextMeshPro text2;
     public TextMeshPro text3;
@@ -21,19 +22,48 @@ public class Scenario3 : MonoBehaviour
     public NewWaterControll water;
     float RestTime;
     int number;
+    public bool DownReached;
+    public Transform TEstingDOwnObject;
+    public Transform DownPosition;
 
     // Start is called before the first frame update
     void Start()
     {
+        DownReached = false;
         //Hints[0].SetActive(true);
         Hints[1].SetActive(true);
-        //necessaryTemp = 100;
         string s = necessaryTemp.ToString();
         text1.text += s;
 
     }
 
+    void TestIfMovingPartOnPos()
+    {
+        if ((TEstingDOwnObject.position - DownPosition.position).magnitude < 0.1f)
+        {
+            DownReached = true;
 
+        }
+        else
+        {
+            DownReached = false;
+        }
+    }
+
+
+
+    void PhaseZero()
+    {
+        if (DownReached)
+        {
+            text0.color = Color.green;
+            text1.gameObject.SetActive(true);
+        }
+        else
+        {
+            text0.color = Color.white;
+        }
+    }
 
     void PhaseOne()
     {
@@ -111,6 +141,8 @@ public class Scenario3 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        TestIfMovingPartOnPos();
+        PhaseZero();
         PhaseOne();
         PhaseTwo();
         PhaseThree();

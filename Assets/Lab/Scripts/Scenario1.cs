@@ -5,6 +5,7 @@ using TMPro;
 
 public class Scenario1 : MonoBehaviour
 {
+    public GameObject FirstPlaceTrigger;
     public bool SaltyPlaced;
     public bool Selected;
     public List<GameObject> Hints;
@@ -62,6 +63,7 @@ public class Scenario1 : MonoBehaviour
         {
             text3.color = Color.green;
             text4.gameObject.SetActive(true);
+            FirstPlaceTrigger.SetActive(true);
         }
         else
         {

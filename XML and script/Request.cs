@@ -7,14 +7,14 @@ using System.IO;
 using System.Text.RegularExpressions;
 using System.Text;
 
-public class Substance
+public class Subst
 {
     public string name;
     public bool solubility;
     public double temp;
     public bool aggregate;
 
-    public Substance(string Name, bool Solubility, double Temp, bool Aggregate)
+    public Subst(string Name, bool Solubility, double Temp, bool Aggregate)
     {
         name = Name;
         solubility = Solubility;
@@ -24,6 +24,7 @@ public class Substance
 }
 public class Request : MonoBehaviour
 {
+    public List<Subst> Substances = new List<Subst>();
     /// <summary>
     /// Если Solid -> true, Если Liquid -> false
     /// </summary>
@@ -124,7 +125,7 @@ public class Request : MonoBehaviour
     /// </summary>
     /// <param name="Subs"></param>
     /// <param name="pages"></param>
-    public void FillArray(List<Substance> Subs, string[] pages)
+    public void FillArray(List<Subst> Subs, string[] pages)
     {
         List<XmlDocument> docs = new List<XmlDocument>();
         for (int j = 0; j <= pages.Length-1; j++)
@@ -134,14 +135,14 @@ public class Request : MonoBehaviour
         int i = 0;
         foreach (XmlDocument doc in docs)
         {
-            doc.Load("C:/ForHack/ForHack/" + pages[i]);// ПУТЬ-------------------------------------------------------------------------------
+            doc.Load(System.Environment.CurrentDirectory+"/XML and script/" + pages[i]);// ПУТЬ-------------------------------------------------------------------------------
             bool solubility = false;
             double temp = 100;
             bool aggregate = false;
             string name = "noname";
             XmlElement xRoot = doc.DocumentElement;
 
-            foreach (XmlNode childnode in xRoot)
+            foreach (XmlNode childnode in xRoot) //Цикл для получения трех параметров (имя мы получаем из Sub2.txt)
             {
                 if (childnode.Name == "pod" && childnode.Attributes.GetNamedItem("title").Value == "Basic properties")
                 {
@@ -169,8 +170,8 @@ public class Request : MonoBehaviour
                     }
                 }
             }
-
-            foreach (XmlNode childnode in xRoot)
+            /*
+            foreach (XmlNode childnode in xRoot) //Код для получения имени из XML файла
             {
                 if (childnode.Name == "pod" && childnode.Attributes.GetNamedItem("title").Value == "Chemical names and formulas")
                 {
@@ -189,76 +190,58 @@ public class Request : MonoBehaviour
                     }
                 }
             }
-            Subs.Add(new Substance(name, solubility, temp, aggregate));
+            */
+            Subs.Add(new Subst(name, solubility, temp, aggregate));
             i++;
         }
+
+        foreach (Subst sub in Substances) //Удаление всех ошибочных веществ на последней стадии формирования массива
+        {
+            if (sub.name == "noname")
+                Substances.Remove(sub);
+        }
     }
+
+
     // Start is called before the first frame update
     void Start()
-    {
-        List<Substance> Substances = new List<Substance>();
-        FileStream FS = new FileStream("Sub2.txt", FileMode.OpenOrCreate);
+    {      
+        FileStream FS = new FileStream(System.Environment.CurrentDirectory+"/XML and script/Sub2.txt", FileMode.OpenOrCreate);
         StreamReader Str = new StreamReader(FS);
         string stroka = Str.ReadToEnd();
         FS.Close();
         Str.Close();
         string[] elements = System.Text.RegularExpressions.Regex.Split(stroka, "\r\n");
 
-        //int i = 0;
+       // int i = 0;
         /*
         foreach (string element in elements)
         {
-            get_http_write("http://api.wolframalpha.com/v2/query?input=" + element + "&appid=K58ETV-GTPAJVATGW", "page" + i + ".xml");
+        //    get_http_write("http://api.wolframalpha.com/v2/query?input=" + element + "&appid=K58ETV-GTPAJVATGW", "pageTR" + i + ".xml");
             i++;
         }
         */
-        string[] pages = new string[elements.Length];
+
+
+
+        
+        string[] pages = new string[elements.Length]; //Код записи СУЩЕСТВУЮЩИХ ФАЙЛОВ В МАССИВ Substances
         for (int j = 0; j<elements.Length; j++)
         {
             pages[j] = "page" + j + ".xml";
         }
+        
 
         FillArray(Substances, pages);
 
-        //get_http_write("http://api.wolframalpha.com/v2/query?input=Ag+%20+%20NO3-&appid=K58ETV-GTPAJVATGW", "page5.xml");
-
-
-        // FillArray(Substances, "page5.xml");
-
-
-
-        /*
-        for (int i = 0; i < Substances.Count; i++) //Заполнение массива
+        int h = 0;
+        foreach (Subst Sub in Substances) //заполнение имен веществ
         {
-            //Substances[i].temp = 
+            Sub.name = elements[h];
+            h++;
         }
-        //print(get_http("http://api.wolframalpha.com/v2/query?input=NaCl&appid=HP44EW-XHHUV3698T"));
-        */
     }
         
-            /*
-            //CookieContainer cookies = new CookieContainer();
-            private string get_http(string url)
-            {
-                HttpWebRequest req = (HttpWebRequest)WebRequest.Create(url);
-                //req.UserAgent = "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:17.0) Gecko/20100101 Firefox/17.0";
-                //req.CookieContainer = cookies;
-                //req.Headers.Add("DNT", "1");
-
-                HttpWebResponse resp = (HttpWebResponse)req.GetResponse();
-                Stream stream = resp.GetResponseStream();
-                StreamReader sr = new StreamReader(stream);
-                resp.Close();
-                string text = sr.ReadToEnd();
-                sr.Close();
-                return text;
-
-            }
-            */
-    
-
-           
-
             // Update is called once per frame
             void Update()
             {
