@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/ChemicalScene.unity
+    guid: 408ba2bcbdd271b4897fab6b9cb5188f
+  - enabled: 1
+    path: Assets/Oculus/Avatar/Samples/LocalAvatar/LocalAvatar.unity
+    guid: c65ef87480e70eb43931036c9c66d08d
   m_configObjects: {}
