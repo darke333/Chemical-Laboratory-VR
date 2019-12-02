@@ -16,16 +16,29 @@ public class AddButtonOnArray : MonoBehaviour
 
     void AddButton()
     {
+
         List<Subst> Substances = gameObject.GetComponent<Request>().Substances;
-        count = Substances.Count;
-        Button.transform.GetChild(0).GetComponent<Text>().text = Substances[0].name;
+        List<Subst> substs = new List<Subst>();
+        foreach (Subst subst in Substances)
+        {
+            if(subst.temp > 50)
+            {
+                substs.Add(subst);
+            }
+        }
+        count = substs.Count;
+        Button.transform.GetChild(0).GetComponent<Text>().text = substs[0].name;
         //Button.GetComponent<Button>().onClick.AddListener(gameObject.GetComponent<ControlIsparitel>().ReloadSc);
 
         for (int i = 1; i < count; i++)
         {
-            GameObject NewButton = Instantiate(Button, Button.transform.parent);
-            NewButton.transform.position -= new Vector3(0, 3 * i, 0);
-            NewButton.transform.GetChild(0).GetComponent<Text>().text = Substances[i].name;
+            if (substs[i].temp > 50)
+            {
+                GameObject NewButton = Instantiate(Button, Button.transform.parent);
+                NewButton.transform.position -= new Vector3(0, 3 * i, 0);
+                NewButton.transform.GetChild(0).GetComponent<Text>().text = substs[i].name;
+            }
+
             //NewButton.GetComponent<Button>().onClick.AddListener(gameObject.GetComponent<AddSearchedSubstance>().OnClicked(gameObject.GetComponent<Button>()));
 
         }

@@ -39,7 +39,7 @@ public class Scenario3 : MonoBehaviour
 
     void TestIfMovingPartOnPos()
     {
-        if ((TEstingDOwnObject.position - DownPosition.position).magnitude < 0.1f)
+        if ((TEstingDOwnObject.position - DownPosition.position).magnitude < 0.0001f)
         {
             DownReached = true;
 

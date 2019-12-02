@@ -9,6 +9,7 @@ public class UIPanelControll : MonoBehaviour
 
     public GameObject Rotate;
     float StartRotation;
+    Vector3 StartP;
 
     int StartNumber;
 
@@ -37,6 +38,7 @@ public class UIPanelControll : MonoBehaviour
         timer = 0;
         BlinkTimer = 0;
         StartRotation = Rotate.transform.rotation.z;
+        StartP = Rotate.transform.position;
         gameObject.GetComponent<MeshRenderer>().enabled = true;
         StartNumber = Convert.ToInt32(gameObject.GetComponent<TextMeshPro>().text.ToString());
     }
@@ -47,6 +49,8 @@ public class UIPanelControll : MonoBehaviour
         timer = 0;
         BlinkTimer = 0;
         StartRotation = Rotate.transform.rotation.z;
+        StartP = Rotate.transform.position;
+
         gameObject.GetComponent<MeshRenderer>().enabled = true;
 
     }
@@ -74,7 +78,10 @@ public class UIPanelControll : MonoBehaviour
                 }
             }
             float CurrentRotation = (StartRotation - Rotate.transform.rotation.z);
-            CurrentNumber = StartNumber + (int)(CurrentRotation * -20);
+            //float CurrentRotation = (StartRotation - Rotate.transform.rotation.z);
+            print(CurrentRotation);
+
+            CurrentNumber = (int)(StartNumber + (CurrentRotation * -100));
             if(CurrentNumber > MaxValue)
             {
                 StartNumber = MaxValue;

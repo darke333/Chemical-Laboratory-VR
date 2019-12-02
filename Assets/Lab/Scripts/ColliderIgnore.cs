@@ -10,7 +10,14 @@ public class ColliderIgnore : MonoBehaviour
     {
         foreach(Collider col in colliders)
         {
-            Physics.IgnoreCollision(gameObject.GetComponent<CharacterController>().GetComponent<Collider>(), col);
+            if (gameObject.GetComponent<CharacterController>())
+            {
+                Physics.IgnoreCollision(gameObject.GetComponent<CharacterController>().GetComponent<Collider>(), col);
+            }
+            if (gameObject.GetComponent<Collider>())
+            {
+                Physics.IgnoreCollision(gameObject.GetComponent<Collider>(), col);
+            }
         }
     }
 

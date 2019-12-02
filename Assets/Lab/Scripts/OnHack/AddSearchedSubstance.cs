@@ -68,7 +68,8 @@ public class AddSearchedSubstance : MonoBehaviour
                         Instatieted.transform.GetChild(0).GetChild(0).GetComponent<Mixing>().mix = false;
                     }
                     Camera.GetComponent<ObiFluidRenderer>().particleRenderers[0] = Instatieted.transform.GetChild(0).GetChild(0).GetComponent<Mixing>().FluidRederer;
-                    if(temperature > 100)
+                    print("температура = " + temperature);
+                    if(temperature >= 100)
                     {
                         temperature = 100;
                     }

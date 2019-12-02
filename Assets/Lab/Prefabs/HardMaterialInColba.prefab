@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 810459344697120523}
   - component: {fileID: 2098682327585086085}
   - component: {fileID: 6481884345265449538}
-  - component: {fileID: 5865140006860337685}
   m_Layer: 8
   m_Name: Sphere (14)
   m_TagString: substance
@@ -143,23 +142,6 @@ MonoBehaviour:
   sourceCollider: {fileID: 2547896983851395477}
   useDistanceFields: 0
   distanceField: {fileID: 0}
---- !u!114 &5865140006860337685
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 636366634488272800}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11eec0bccb459dd43afd5b4451c0c49e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sendTriggerMessage: 0
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 310
-  skinWidth: 1
 --- !u!1 &662730335658652807
 GameObject:
   m_ObjectHideFlags: 0
@@ -175,7 +157,6 @@ GameObject:
   - component: {fileID: 5563714864330215432}
   - component: {fileID: 1547387459361914354}
   - component: {fileID: 6496881915367006771}
-  - component: {fileID: 3610141281238014629}
   m_Layer: 8
   m_Name: Sphere (4)
   m_TagString: substance
@@ -303,23 +284,6 @@ MonoBehaviour:
   sourceCollider: {fileID: 8994770151005934556}
   useDistanceFields: 0
   distanceField: {fileID: 0}
---- !u!114 &3610141281238014629
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 662730335658652807}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11eec0bccb459dd43afd5b4451c0c49e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sendTriggerMessage: 0
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 310
-  skinWidth: 1
 --- !u!1 &705777977681395780
 GameObject:
   m_ObjectHideFlags: 0
@@ -654,7 +618,6 @@ GameObject:
   - component: {fileID: 3619857059743171808}
   - component: {fileID: 960825335361777253}
   - component: {fileID: 1550721243599031061}
-  - component: {fileID: 7487159282392612141}
   m_Layer: 0
   m_Name: Sphere (1)
   m_TagString: bottle
@@ -782,24 +745,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &7487159282392612141
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1615591440676851574}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 748d9f789c060a64aa6a38013905ef8a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SubstName: {fileID: 3885888946112031131}
-  water: 0
-  mix: 0
-  WaterRenderer: {fileID: 0}
-  FluidRederer: {fileID: 0}
-  HardSubstance: {fileID: 5829627047939128754}
 --- !u!1 &1657754225730503200
 GameObject:
   m_ObjectHideFlags: 0
@@ -1180,7 +1125,6 @@ GameObject:
   - component: {fileID: 3531164083206350810}
   - component: {fileID: 1793318024443329193}
   - component: {fileID: 5818186379061455701}
-  - component: {fileID: 5177307423672025469}
   m_Layer: 8
   m_Name: Sphere (3)
   m_TagString: substance
@@ -1308,23 +1252,6 @@ MonoBehaviour:
   sourceCollider: {fileID: 8369787378309476472}
   useDistanceFields: 0
   distanceField: {fileID: 0}
---- !u!114 &5177307423672025469
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2928417139908804868}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11eec0bccb459dd43afd5b4451c0c49e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sendTriggerMessage: 0
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 310
-  skinWidth: 1
 --- !u!1 &3076164955992883031
 GameObject:
   m_ObjectHideFlags: 0
@@ -1340,7 +1267,6 @@ GameObject:
   - component: {fileID: 3095090984434513676}
   - component: {fileID: 4611328669672524484}
   - component: {fileID: 8640120126154937693}
-  - component: {fileID: 2731059714711113493}
   m_Layer: 8
   m_Name: Sphere (8)
   m_TagString: substance
@@ -1468,23 +1394,6 @@ MonoBehaviour:
   sourceCollider: {fileID: 2222095143626744662}
   useDistanceFields: 0
   distanceField: {fileID: 0}
---- !u!114 &2731059714711113493
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3076164955992883031}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11eec0bccb459dd43afd5b4451c0c49e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sendTriggerMessage: 0
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 310
-  skinWidth: 1
 --- !u!1 &3398181205379082719
 GameObject:
   m_ObjectHideFlags: 0
@@ -1500,7 +1409,6 @@ GameObject:
   - component: {fileID: 9158331627893507923}
   - component: {fileID: 7471143019229379865}
   - component: {fileID: 5160664140343697614}
-  - component: {fileID: 3290294119918069362}
   m_Layer: 8
   m_Name: Sphere (15)
   m_TagString: substance
@@ -1628,23 +1536,6 @@ MonoBehaviour:
   sourceCollider: {fileID: 1366942536250338652}
   useDistanceFields: 0
   distanceField: {fileID: 0}
---- !u!114 &3290294119918069362
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3398181205379082719}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11eec0bccb459dd43afd5b4451c0c49e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sendTriggerMessage: 0
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 310
-  skinWidth: 1
 --- !u!1 &3452722857312930555
 GameObject:
   m_ObjectHideFlags: 0
@@ -1660,7 +1551,6 @@ GameObject:
   - component: {fileID: 1747037116394218460}
   - component: {fileID: 3647152573157529711}
   - component: {fileID: 8155900456827739898}
-  - component: {fileID: 3285626265170899080}
   m_Layer: 8
   m_Name: Sphere (2)
   m_TagString: substance
@@ -1788,23 +1678,6 @@ MonoBehaviour:
   sourceCollider: {fileID: 4897560927236618333}
   useDistanceFields: 0
   distanceField: {fileID: 0}
---- !u!114 &3285626265170899080
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3452722857312930555}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11eec0bccb459dd43afd5b4451c0c49e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sendTriggerMessage: 0
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 310
-  skinWidth: 1
 --- !u!1 &3577827777501158746
 GameObject:
   m_ObjectHideFlags: 0
@@ -2413,7 +2286,6 @@ GameObject:
   - component: {fileID: 1109397976627557390}
   - component: {fileID: 368566911042806734}
   - component: {fileID: 402792547431061832}
-  - component: {fileID: 4400664509820280568}
   m_Layer: 8
   m_Name: Sphere (5)
   m_TagString: substance
@@ -2541,23 +2413,6 @@ MonoBehaviour:
   sourceCollider: {fileID: 7566997370510840259}
   useDistanceFields: 0
   distanceField: {fileID: 0}
---- !u!114 &4400664509820280568
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5178789233870287610}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11eec0bccb459dd43afd5b4451c0c49e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sendTriggerMessage: 0
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 310
-  skinWidth: 1
 --- !u!1 &5431027756042113782
 GameObject:
   m_ObjectHideFlags: 0
@@ -2646,7 +2501,6 @@ GameObject:
   - component: {fileID: 329121770711968808}
   - component: {fileID: 4667199903976664455}
   - component: {fileID: 4210813702326761609}
-  - component: {fileID: 6511852585551768969}
   m_Layer: 8
   m_Name: Sphere (11)
   m_TagString: substance
@@ -2774,23 +2628,6 @@ MonoBehaviour:
   sourceCollider: {fileID: 3965422813518393699}
   useDistanceFields: 0
   distanceField: {fileID: 0}
---- !u!114 &6511852585551768969
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5696517905559741877}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11eec0bccb459dd43afd5b4451c0c49e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sendTriggerMessage: 0
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 310
-  skinWidth: 1
 --- !u!1 &5829627047939128754
 GameObject:
   m_ObjectHideFlags: 0
@@ -2852,7 +2689,6 @@ GameObject:
   - component: {fileID: 1657409245156501433}
   - component: {fileID: 3079907738833517336}
   - component: {fileID: 3411405891393562729}
-  - component: {fileID: 9120689911707819193}
   m_Layer: 8
   m_Name: Sphere (1)
   m_TagString: substance
@@ -2980,23 +2816,6 @@ MonoBehaviour:
   sourceCollider: {fileID: 359996025510339176}
   useDistanceFields: 0
   distanceField: {fileID: 0}
---- !u!114 &9120689911707819193
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5884480980198287955}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11eec0bccb459dd43afd5b4451c0c49e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sendTriggerMessage: 0
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 310
-  skinWidth: 1
 --- !u!1 &6004516135711816338
 GameObject:
   m_ObjectHideFlags: 0
@@ -3158,7 +2977,6 @@ GameObject:
   - component: {fileID: 1031961325159728298}
   - component: {fileID: 2689754403540564015}
   - component: {fileID: 1172952876437606363}
-  - component: {fileID: 4647969013934846797}
   m_Layer: 8
   m_Name: Sphere (13)
   m_TagString: substance
@@ -3286,23 +3104,6 @@ MonoBehaviour:
   sourceCollider: {fileID: 6281496195347880092}
   useDistanceFields: 0
   distanceField: {fileID: 0}
---- !u!114 &4647969013934846797
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6170616434550413393}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11eec0bccb459dd43afd5b4451c0c49e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sendTriggerMessage: 0
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 310
-  skinWidth: 1
 --- !u!1 &6241867206946069660
 GameObject:
   m_ObjectHideFlags: 0
@@ -3494,7 +3295,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748d9f789c060a64aa6a38013905ef8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SubstName: {fileID: 0}
+  SubstName: {fileID: 3885888946112031131}
   water: 0
   mix: 0
   WaterRenderer: {fileID: 0}
@@ -3528,7 +3329,6 @@ GameObject:
   - component: {fileID: 7936951607560649480}
   - component: {fileID: 8551031642584238650}
   - component: {fileID: 8973031320984825490}
-  - component: {fileID: 2591668003101226802}
   m_Layer: 8
   m_Name: Sphere
   m_TagString: substance
@@ -3656,23 +3456,6 @@ MonoBehaviour:
   sourceCollider: {fileID: 5920706466804174902}
   useDistanceFields: 0
   distanceField: {fileID: 0}
---- !u!114 &2591668003101226802
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7990713929253388728}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11eec0bccb459dd43afd5b4451c0c49e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sendTriggerMessage: 0
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 310
-  skinWidth: 1
 --- !u!1 &8126643754874365491
 GameObject:
   m_ObjectHideFlags: 0
@@ -3761,7 +3544,6 @@ GameObject:
   - component: {fileID: 3130451119561249617}
   - component: {fileID: 8430239200153979970}
   - component: {fileID: 564019640781369839}
-  - component: {fileID: 2324932602003529593}
   m_Layer: 8
   m_Name: Sphere (9)
   m_TagString: substance
@@ -3889,23 +3671,6 @@ MonoBehaviour:
   sourceCollider: {fileID: 8395580110323284415}
   useDistanceFields: 0
   distanceField: {fileID: 0}
---- !u!114 &2324932602003529593
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8270985976483263643}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11eec0bccb459dd43afd5b4451c0c49e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sendTriggerMessage: 0
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 310
-  skinWidth: 1
 --- !u!1 &8640212356990046259
 GameObject:
   m_ObjectHideFlags: 0
@@ -3921,7 +3686,6 @@ GameObject:
   - component: {fileID: 3972225398909752595}
   - component: {fileID: 1349355493270518056}
   - component: {fileID: 3667543984491365584}
-  - component: {fileID: 7985350110090002531}
   m_Layer: 8
   m_Name: Sphere (12)
   m_TagString: substance
@@ -4049,23 +3813,6 @@ MonoBehaviour:
   sourceCollider: {fileID: 8441808101485127508}
   useDistanceFields: 0
   distanceField: {fileID: 0}
---- !u!114 &7985350110090002531
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8640212356990046259}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11eec0bccb459dd43afd5b4451c0c49e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sendTriggerMessage: 0
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 310
-  skinWidth: 1
 --- !u!1 &8654588250852658223
 GameObject:
   m_ObjectHideFlags: 0
@@ -4081,7 +3828,6 @@ GameObject:
   - component: {fileID: 2172729162153469639}
   - component: {fileID: 7211300239832917557}
   - component: {fileID: 5603318774336882653}
-  - component: {fileID: 7191990759718265250}
   m_Layer: 8
   m_Name: Sphere (7)
   m_TagString: substance
@@ -4209,23 +3955,6 @@ MonoBehaviour:
   sourceCollider: {fileID: 4062935161846269708}
   useDistanceFields: 0
   distanceField: {fileID: 0}
---- !u!114 &7191990759718265250
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8654588250852658223}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11eec0bccb459dd43afd5b4451c0c49e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sendTriggerMessage: 0
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 310
-  skinWidth: 1
 --- !u!1 &8802847111024025493
 GameObject:
   m_ObjectHideFlags: 0
@@ -4241,7 +3970,6 @@ GameObject:
   - component: {fileID: 893366630011901305}
   - component: {fileID: 7739515231209252392}
   - component: {fileID: 8841904697730114699}
-  - component: {fileID: 4409457923062546122}
   m_Layer: 8
   m_Name: Sphere (10)
   m_TagString: substance
@@ -4369,23 +4097,6 @@ MonoBehaviour:
   sourceCollider: {fileID: 9096472732534518487}
   useDistanceFields: 0
   distanceField: {fileID: 0}
---- !u!114 &4409457923062546122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8802847111024025493}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11eec0bccb459dd43afd5b4451c0c49e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sendTriggerMessage: 0
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 310
-  skinWidth: 1
 --- !u!1 &9075767853675525028
 GameObject:
   m_ObjectHideFlags: 0
@@ -4401,7 +4112,6 @@ GameObject:
   - component: {fileID: 2027578910633091063}
   - component: {fileID: 2089872532608014581}
   - component: {fileID: 7824015435803435671}
-  - component: {fileID: 3424657569914444749}
   m_Layer: 8
   m_Name: Sphere (6)
   m_TagString: substance
@@ -4529,20 +4239,3 @@ MonoBehaviour:
   sourceCollider: {fileID: 7288308694037749971}
   useDistanceFields: 0
   distanceField: {fileID: 0}
---- !u!114 &3424657569914444749
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9075767853675525028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11eec0bccb459dd43afd5b4451c0c49e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sendTriggerMessage: 0
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 310
-  skinWidth: 1
