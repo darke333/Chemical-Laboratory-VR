@@ -21,7 +21,7 @@ public class AddButtonOnArray : MonoBehaviour
         List<Subst> substs = new List<Subst>();
         foreach (Subst subst in Substances)
         {
-            if(subst.temp > 50)
+            if(subst.temp > 50 && !subst.aggregate)
             {
                 substs.Add(subst);
             }
