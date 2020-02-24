@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='6'
+    datatypes='Chemical,Element'
+    timedout='Data,Character'
+    timedoutpods=''
+    timing='4.495'
+    parsetiming='0.381'
+    parsetimedout='false'
+    recalculate='https://www4f.wolframalpha.com/api/v1/recalc.jsp?id=MSPa148710e80g2f4387560800001haii3dh6fb9b5hf6130104515743660768'
+    id='MSP148810e80g2f43875608000048g98b18g8c94b68'
+    host='https://www4f.wolframalpha.com'
+    server='43'
+    related='https://www4f.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa148910e80g2f43875608000047e2bg7h9bbi8f9c6130104515743660768'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP149010e80g2f43875608000020a0ighidab1h8i1?MSPStoreType=image/gif&amp;s=43'
+       alt='copper(I) sulfide'
+       title='copper(I) sulfide'
+       width='104'
+       height='18'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>copper(I) sulfide</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+ </pod>
+ <pod title='Chemical names and formulas'
+     scanner='Data'
+     id='ChemicalNamesFormulas:ChemicalData'
+     position='200'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP149110e80g2f4387560800004a60i2494icb4eig?MSPStoreType=image/gif&amp;s=43'
+       alt='formula | Cu_2S
+Hill formula | Cu_2S_1
+name | copper(I) sulfide'
+       title='formula | Cu_2S
+Hill formula | Cu_2S_1
+name | copper(I) sulfide'
+       width='233'
+       height='102'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>formula | Cu_2S
+Hill formula | Cu_2S_1
+name | copper(I) sulfide</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='More'
+       input='ChemicalNamesFormulas:ChemicalData__More' />
+  </states>
+ </pod>
+ <pod title='Structure diagram'
+     scanner='Data'
+     id='StructureDiagramPod:ChemicalData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP149210e80g2f4387560800005ef00ceehhg6675g?MSPStoreType=image/gif&amp;s=43'
+       alt=''
+       title=''
+       width='79'
+       height='23'
+       type='Default'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext></plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Default' />
+  </expressiontypes>
+  <states count='2'>
+   <state name='Show bond information'
+       input='StructureDiagramPod:ChemicalData__Show bond information' />
+   <state name='Show graph properties'
+       input='StructureDiagramPod:ChemicalData__Show graph properties' />
+  </states>
+ </pod>
+ <pod title='Basic properties'
+     scanner='Data'
+     id='Basic:ChemicalData'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>SOLV-DB</datasource>
+    <datasource>PubChem</datasource>
+    <datasource>CRCHandbook</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP149310e80g2f4387560800003g8607eg0fibie3i?MSPStoreType=image/gif&amp;s=43'
+       alt='molar mass | 95.61 g/mol
+density | 5.6 g/cm^3'
+       title='molar mass | 95.61 g/mol
+density | 5.6 g/cm^3'
+       width='199'
+       height='68'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>molar mass | 95.61 g/mol
+density | 5.6 g/cm^3</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <infos count='1'>
+   <info>
+    <units count='2'>
+     <unit short='g/cm^3'
+         long='grams per cubic centimeter' />
+     <unit short='g/mol'
+         long='grams per mole' />
+     <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP149410e80g2f4387560800005f4ic5i9gi3h3808?MSPStoreType=image/gif&amp;s=43'
+         width='231'
+         height='48' />
+    </units>
+   </info>
+  </infos>
+ </pod>
+ <pod title='Thermodynamic properties'
+     scanner='Data'
+     id='Thermodynamics:ChemicalData'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+    <microsource>ElementData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+    <datasource>WebElements</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP149510e80g2f438756080000505aa3hii2i124b2?MSPStoreType=image/gif&amp;s=43'
+       alt='specific heat capacity c_p | solid | 0.7981 J/(g K)
+specific free energy of formation Δ_fG° | solid | -0.9016 kJ/g
+specific heat of formation Δ_fH° | solid | -0.8315 kJ/g
+specific heat of fusion | 0.1006 kJ/g | 
+(at STP)'
+       title='specific heat capacity c_p | solid | 0.7981 J/(g K)
+specific free energy of formation Δ_fG° | solid | -0.9016 kJ/g
+specific heat of formation Δ_fH° | solid | -0.8315 kJ/g
+specific heat of fusion | 0.1006 kJ/g | 
+(at STP)'
+       width='428'
+       height='163'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>specific heat capacity c_p | solid | 0.7981 J/(g K)
+specific free energy of formation Δ_fG° | solid | -0.9016 kJ/g
+specific heat of formation Δ_fH° | solid | -0.8315 kJ/g
+specific heat of fusion | 0.1006 kJ/g | 
+(at STP)</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='More'
+       input='Thermodynamics:ChemicalData__More' />
+  </states>
+  <infos count='1'>
+   <info>
+    <units count='2'>
+     <unit short='J/(g K)'
+         long='joules per gram kelvin difference' />
+     <unit short='kJ/g'
+         long='kilojoules per gram' />
+     <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP149610e80g2f4387560800005fc0g4i9217begd0?MSPStoreType=image/gif&amp;s=43'
+         width='257'
+         height='47' />
+    </units>
+   </info>
+  </infos>
+ </pod>
+ <pod title='Chemical identifiers'
+     scanner='Data'
+     id='ChemicalIdentifiers:ChemicalData'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <microsources>
+    <microsource>ChemicalData</microsource>
+   </microsources>
+   <datasources>
+    <datasource>PubChem</datasource>
+   </datasources>
+   <img src='https://www4f.wolframalpha.com/Calculate/MSP/MSP149710e80g2f438756080000578d499968hg9dce?MSPStoreType=image/gif&amp;s=43'
+       alt='CAS number | 22205-45-4
+SMILES identifier | [Cu-]=S'
+       title='CAS number | 22205-45-4
+SMILES identifier | [Cu-]=S'
+       width='242'
+       height='68'
+       type='Grid'
+       themes='1,2,3,4,5,6,7,8,9,10,11,12'
+       colorinvertable='true' />
+   <plaintext>CAS number | 22205-45-4
+SMILES identifier | [Cu-]=S</plaintext>
+  </subpod>
+  <expressiontypes count='1'>
+   <expressiontype name='Grid' />
+  </expressiontypes>
+  <states count='1'>
+   <state name='More'
+       input='ChemicalIdentifiers:ChemicalData__More' />
+  </states>
+ </pod>
+ <assumptions count='1'>
+  <assumption type='MultiClash'
+      word=''
+      template='Assuming ${word1} is referring to ${desc1}. Use &quot;${word2}&quot; as ${desc2}.'
+      count='2'>
+   <value name='Chemical'
+       word='Cu2S'
+       desc='a chemical compound'
+       input='*MC.Cu2S-_*Chemical-' />
+   <value name='Element'
+       word='Cu'
+       desc='a chemical element'
+       input='*MC.Cu2S-_*Element-' />
+  </assumption>
+ </assumptions>
+ <sources count='2'>
+  <source url='https://www4f.wolframalpha.com/sources/ChemicalDataSourceInformationNotes.html'
+      text='Chemical data' />
+  <source url='https://www4f.wolframalpha.com/sources/ElementDataSourceInformationNotes.html'
+      text='Element data' />
+ </sources>
+</queryresult>

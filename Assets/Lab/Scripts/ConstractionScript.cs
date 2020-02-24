@@ -19,6 +19,7 @@ public class ConstractionScript : MonoBehaviour
         ToMove = false;
     }
 
+
     void OnTriggerStay(Collider other)
     {
 
@@ -80,15 +81,11 @@ public class ConstractionScript : MonoBehaviour
             if (!par.GetComponent<Rigidbody>().isKinematic)
             {
                 par.GetComponent<Rigidbody>().isKinematic = true;
-            }
-           
+            }           
             if ((par.transform.position - gameObject.transform.position).magnitude > 0.2f || Quaternion.Angle(par.transform.rotation, gameObject.transform.rotation) > 4)
             {
                 par.transform.position = Vector3.MoveTowards(par.transform.position, gameObject.transform.position, Time.deltaTime * MovingSpeed);
-                //par.transform.rotation = gameObject.transform.rotation;
                 par.transform.rotation = Quaternion.RotateTowards(par.transform.rotation, gameObject.transform.rotation, Time.deltaTime * MovingSpeed * 30);
-                print((par.transform.position - gameObject.transform.position).magnitude);
-                print(Quaternion.Angle(par.transform.rotation, gameObject.transform.rotation));
             }
             else
             {
@@ -102,7 +99,6 @@ public class ConstractionScript : MonoBehaviour
                     {
                         Scenario1.SaltyPlaced = true;
                     }
-
                 }
                 else
                 {
@@ -126,8 +122,6 @@ public class ConstractionScript : MonoBehaviour
         else
         {
             ToMove = false;
-
-
         }
     }
 
