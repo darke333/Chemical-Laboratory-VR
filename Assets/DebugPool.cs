@@ -40,7 +40,7 @@ public class DebugPool : MonoBehaviour
                     if (collidedParticles.Contains(contact.particle))
                         return;
 
-                    if (collider.CompareTag("Obstacle"))
+                    if (collider.CompareTag("water"))
                         collidedParticles.Add(contact.particle);
                     if ((float)collidedParticles.Count / totalParticles >= failRatio)
                     {
