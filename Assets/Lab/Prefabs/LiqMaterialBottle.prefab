@@ -262,7 +262,7 @@ GameObject:
   - component: {fileID: 7228130411750973937}
   m_Layer: 8
   m_Name: Emitter
-  m_TagString: Untagged
+  m_TagString: fluidEmitter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2455,11 +2455,11 @@ GameObject:
   - component: {fileID: 1123467472850154303}
   m_Layer: 0
   m_Name: Sphere (1)
-  m_TagString: Untagged
+  m_TagString: water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6581903330404087265
 Transform:
   m_ObjectHideFlags: 0
@@ -2469,7 +2469,7 @@ Transform:
   m_GameObject: {fileID: 3380928161655015561}
   m_LocalRotation: {x: 0.4916953, y: -0, z: -0, w: 0.87076735}
   m_LocalPosition: {x: 2.4550002, y: 2.2779999, z: 16.817}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 511274245318966434}
   m_RootOrder: 3
@@ -2489,7 +2489,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3380928161655015561}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2786,11 +2786,11 @@ GameObject:
   - component: {fileID: 3448838617549248978}
   m_Layer: 0
   m_Name: Sphere (5)
-  m_TagString: Untagged
+  m_TagString: water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6374436363346430964
 Transform:
   m_ObjectHideFlags: 0
@@ -2800,7 +2800,7 @@ Transform:
   m_GameObject: {fileID: 5169179388032625371}
   m_LocalRotation: {x: 0.4916953, y: -0, z: -0, w: 0.87076735}
   m_LocalPosition: {x: 2.722, y: 2.2779999, z: 16.8242}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 511274245318966434}
   m_RootOrder: 7
@@ -2820,7 +2820,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5169179388032625371}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2938,7 +2938,7 @@ BoxCollider:
   m_GameObject: {fileID: 5419998419754847651}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.78123105, y: 0.76936275, z: 1.7878098}
   m_Center: {x: 0, y: 0.0000021457672, z: 0.91305435}
@@ -2980,7 +2980,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5419998419754847651}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 748d9f789c060a64aa6a38013905ef8a, type: 3}
   m_Name: 
@@ -3001,7 +3001,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5419998419754847651}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6a7af784e3264804295f43cbad980594, type: 3}
   m_Name: 
@@ -3026,11 +3026,11 @@ GameObject:
   - component: {fileID: 6220094060241605005}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7843724437754046548
 Transform:
   m_ObjectHideFlags: 0
@@ -3040,7 +3040,7 @@ Transform:
   m_GameObject: {fileID: 5420342102514974478}
   m_LocalRotation: {x: 0.4916953, y: -0, z: -0, w: 0.87076735}
   m_LocalPosition: {x: 2.4550002, y: 2.2779999, z: 16.6409}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 511274245318966434}
   m_RootOrder: 2
@@ -3060,7 +3060,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5420342102514974478}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -3168,11 +3168,11 @@ GameObject:
   - component: {fileID: 6202230176068854941}
   m_Layer: 0
   m_Name: Sphere (3)
-  m_TagString: Untagged
+  m_TagString: water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8833412275801225816
 Transform:
   m_ObjectHideFlags: 0
@@ -3182,7 +3182,7 @@ Transform:
   m_GameObject: {fileID: 5485163206707040948}
   m_LocalRotation: {x: 0.4916953, y: -0, z: -0, w: 0.87076735}
   m_LocalPosition: {x: 2.722, y: 2.278, z: 16.434}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 511274245318966434}
   m_RootOrder: 5
@@ -3202,7 +3202,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5485163206707040948}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -5237,11 +5237,11 @@ GameObject:
   - component: {fileID: 2053984659916446444}
   m_Layer: 0
   m_Name: Sphere (4)
-  m_TagString: Untagged
+  m_TagString: water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &3491115906158806597
 Transform:
   m_ObjectHideFlags: 0
@@ -5251,7 +5251,7 @@ Transform:
   m_GameObject: {fileID: 7716450069811687718}
   m_LocalRotation: {x: 0.4916953, y: -0, z: -0, w: 0.87076735}
   m_LocalPosition: {x: 2.722, y: 2.2779999, z: 16.678}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 511274245318966434}
   m_RootOrder: 6
@@ -5271,7 +5271,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7716450069811687718}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -5415,11 +5415,11 @@ GameObject:
   - component: {fileID: 4951618254487299775}
   m_Layer: 0
   m_Name: Sphere (2)
-  m_TagString: Untagged
+  m_TagString: water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7216108459435234715
 Transform:
   m_ObjectHideFlags: 0
@@ -5429,7 +5429,7 @@ Transform:
   m_GameObject: {fileID: 8015217793585433653}
   m_LocalRotation: {x: 0.4916953, y: -0, z: -0, w: 0.87076735}
   m_LocalPosition: {x: 2.4550002, y: 2.2779999, z: 16.434}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 511274245318966434}
   m_RootOrder: 4
@@ -5449,7 +5449,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8015217793585433653}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -5551,6 +5551,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bottle (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7329517438103961324, guid: 8aa04adbdf1dc224da4de31a7b27eeda,
+        type: 3}
+      propertyPath: m_TagString
+      value: FluidBottle
       objectReference: {fileID: 0}
     - target: {fileID: 6047477359741848831, guid: 8aa04adbdf1dc224da4de31a7b27eeda,
         type: 3}

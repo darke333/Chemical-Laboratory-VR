@@ -12,6 +12,8 @@ TagManager:
   - substance
   - FingerContact
   - controller
+  - fluidEmitter
+  - FluidBottle
   layers:
   - Default
   - TransparentFX

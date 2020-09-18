@@ -21,15 +21,15 @@ public class Mixing : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Splited = false;
-        collidedParticles = new HashSet<int>();
-        emitter = FluidRederer.gameObject.GetComponent<Obi.ObiEmitter>();
-        solver = FluidRederer.gameObject.GetComponent<Obi.ObiSolver>();
-        solver.OnCollision += HandleCollision;
-        totalParticles = emitter.NumParticles;
+        //Splited = false;
+        //collidedParticles = new HashSet<int>();
+        //emitter = FluidRederer.gameObject.GetComponent<Obi.ObiEmitter>();
+        //solver = FluidRederer.gameObject.GetComponent<Obi.ObiSolver>();
+        //solver.OnCollision += HandleCollision;
+        //totalParticles = emitter.NumParticles;
     }
 
-    private void HandleCollision(object sender, ObiSolver.ObiCollisionEventArgs e)
+    /*private void HandleCollision(object sender, ObiSolver.ObiCollisionEventArgs e)
     {
         foreach (Oni.Contact contact in e.contacts)
         {
@@ -61,7 +61,7 @@ public class Mixing : MonoBehaviour
                 }
             }
         }
-    }
+    }*/
 
 
 
@@ -74,27 +74,32 @@ public class Mixing : MonoBehaviour
 
 
 
-    /*private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
 
         if (other.tag == "substance" && gameObject.tag == "water" || gameObject.tag == "substance" && other.tag == "water")
         {
             print("Inside");
-            if (water)
-            {
-
-                Color color = Color.Lerp(WaterRenderer.particleColor, FluidRederer.particleColor, 0.5f);
-                WaterRenderer.particleColor = color;
-                FluidRederer.particleColor = color;
-            }
-            else
-            {
-                HardSubstance.SetActive(false);
-            }
-            GameObject.FindGameObjectWithTag("scenario1").GetComponent<Scenario1>().Mixed = true;
-
+            Invoke("EnableMixing", 3);
         }
-    }*/
+    }
+
+    void EnableMixing()
+    {
+        if (water)
+        {
+
+            Color color = Color.Lerp(WaterRenderer.particleColor, FluidRederer.particleColor, 0.5f);
+            WaterRenderer.particleColor = color;
+            FluidRederer.particleColor = color;
+        }
+        else
+        {
+            HardSubstance.SetActive(false);
+        }
+        GameObject.FindGameObjectWithTag("scenario1").GetComponent<Scenario1>().Mixed = true;
+
+    }
 
     // Update is called once per frame
     void Update()

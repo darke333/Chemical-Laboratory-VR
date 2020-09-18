@@ -44,29 +44,30 @@ public class AddSearchedSubstance : MonoBehaviour
                 if (subst.aggregate)
                 {
                     Instatieted = Instantiate(HardSubstance);
-                    if (subst.solubility)
+                    /*if (subst.solubility)
                     {
                         Instatieted.transform.GetChild(0).GetChild(0).GetComponent<Mixing>().mix = true;
                     }
                     else
                     {
                         Instatieted.transform.GetChild(0).GetChild(0).GetComponent<Mixing>().mix = false;
-                    }
+                    }*/
                     temperature = 100;
                     GameObject.FindGameObjectWithTag("controller").GetComponent<ControlIsparitel>().HardSubstActivatel = Instatieted.transform.GetChild(0).GetChild(0).GetComponent<Mixing>().HardSubstance;
                 }
                 else
                 {
                     Instatieted = Instantiate(LiqSubstance);
-                    Instatieted.transform.GetChild(0).GetChild(0).GetComponent<Mixing>().WaterRenderer = WaterEmitter;
-                    if (subst.solubility)
+                    //Instatieted.transform.GetChild(0).GetChild(0).GetComponent<Mixing>().WaterRenderer = WaterEmitter;fluidEmitter
+                    GameObject.FindGameObjectWithTag("substance").GetComponent<Mixing>().FluidRederer = GameObject.FindGameObjectWithTag("fluidEmitter").GetComponent<ObiParticleRenderer>();
+                    /*if (subst.solubility)
                     {
                         Instatieted.transform.GetChild(0).GetChild(0).GetComponent<Mixing>().mix = true;
                     }
                     else
                     {
                         Instatieted.transform.GetChild(0).GetChild(0).GetComponent<Mixing>().mix = false;
-                    }
+                    }*/
                     Camera.GetComponent<ObiFluidRenderer>().particleRenderers[0] = Instatieted.transform.GetChild(0).GetChild(0).GetComponent<Mixing>().FluidRederer;
                     print("температура = " + temperature);
                     if(temperature >= 100)
@@ -81,7 +82,7 @@ public class AddSearchedSubstance : MonoBehaviour
                     }
                 }
                 Scenario3.necessaryTemp = temperature;
-                Instatieted.transform.GetChild(0).GetChild(0).GetComponent<Mixing>().SubstName.text = subst.name;
+                GameObject.FindGameObjectWithTag("FluidBottle").GetComponent<Mixing>().SubstName.text = subst.name;
                 break;
             }
         }
