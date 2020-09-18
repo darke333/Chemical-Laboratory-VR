@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0de965f2e710c1c489ead8e62cd25da0, type: 3}
-  m_Name: Colba2 Painting Data
+  m_Name: Funnel 1 Painting Data
   m_EditorClassIdentifier: 
-  hullData: {fileID: 11400000, guid: 909d261578263534480fa94631f1f2d9, type: 2}
-  sourceMesh: {fileID: -3229170726786514441, guid: 9e5714d4ac9b687449c0f5d79fd6efc7,
+  hullData: {fileID: 11400000, guid: 058c4aab02e212246bc429c92f065e6e, type: 2}
+  sourceMesh: {fileID: -2985131652572067409, guid: ebd7fc70fd0ce824cbabbe5b84fd61b7,
     type: 3}
   activeHull: 0
   faceThickness: 0.1
@@ -23,7 +23,7 @@ MonoBehaviour:
     colour: {r: 0, g: 1, b: 1, a: 0.3}
     material: {fileID: 0}
     isTrigger: 0
-    selectedFaces: a40400001805000049050000480500007905000016050000190500007605000001000000030000000d000000510000002c020000790000009604000097040000780000002f02000035010000d2020000ea0300001b0400001a0400000c0000004d0000009b0400009d0400009e0400009f040000a0040000a1040000a2040000550100000502000058010000a3040000
+    selectedFaces: 
     collisionMesh: {fileID: 0}
     faceCollisionMesh: {fileID: 0}
     collisionBox:
