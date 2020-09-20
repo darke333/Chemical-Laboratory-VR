@@ -49,7 +49,7 @@ public class ConstractionScript : MonoBehaviour
                     }
                     else
                     {
-                        Scenario1.SaltyPlaced = false;
+                        Scenario1.CupDesconnected = false;
                     }
 
                 }
@@ -61,7 +61,7 @@ public class ConstractionScript : MonoBehaviour
                     }
                     else
                     {
-                        Scenario1.SaltyPlaced = false;
+                        Scenario1.CupDesconnected = false;
                     }
                 }
 
@@ -97,7 +97,7 @@ public class ConstractionScript : MonoBehaviour
                     }
                     else
                     {
-                        Scenario1.SaltyPlaced = true;
+                        Scenario1.CupDesconnected = true;
                     }
                 }
                 else
@@ -108,7 +108,7 @@ public class ConstractionScript : MonoBehaviour
                     }
                     else
                     {
-                        Scenario1.SaltyPlaced = true;
+                        Scenario1.CupDesconnected = true;
                     }
                 }
                 if (parent)

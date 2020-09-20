@@ -38,6 +38,7 @@ public class DistroyConnection : MonoBehaviour
             //gameObject.transform.SetParent(null, true);
             //transform.position = pos; // И это костыль, но он улетает после смены родятеля, хз как это изменить(((
             //gameObject.AddComponent<Rigidbody>();
+            GameObject.FindGameObjectWithTag("scenario1").GetComponent<Scenario1>().CupDesconnected = true;
             Destroy(gameObject);
         }
     }

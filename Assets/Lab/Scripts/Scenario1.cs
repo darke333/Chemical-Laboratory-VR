@@ -6,7 +6,7 @@ using TMPro;
 public class Scenario1 : MonoBehaviour
 {
     public GameObject FirstPlaceTrigger;
-    public bool SaltyPlaced;
+    public bool CupDesconnected;
     public bool Selected;
     public List<GameObject> Hints;
     public OVRGrabbable colba;
@@ -74,7 +74,7 @@ public class Scenario1 : MonoBehaviour
 
     void PhaseTwoPlus()
     {
-        if (SaltyPlaced)
+        if (CupDesconnected)
         {
             text4.color = Color.green;
             text1.gameObject.SetActive(true);
