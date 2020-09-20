@@ -13,6 +13,7 @@ public class Subst
     public bool solubility;
     public double temp;
     public bool aggregate;
+    public Color color;
 
     public Subst(string Name, bool Solubility, double Temp, bool Aggregate)
     {
@@ -21,7 +22,17 @@ public class Subst
         temp = Temp;
         aggregate = Aggregate;
     }
+
+    public Subst(string Name, bool Solubility, double Temp, bool Aggregate, Color Color)
+    {
+        name = Name;
+        solubility = Solubility;
+        temp = Temp;
+        aggregate = Aggregate;
+        color = Color;
+    }
 }
+
 public class Request : MonoBehaviour
 {
     public List<Subst> Substances = new List<Subst>();

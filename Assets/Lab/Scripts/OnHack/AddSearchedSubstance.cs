@@ -60,6 +60,8 @@ public class AddSearchedSubstance : MonoBehaviour
                     Instatieted = Instantiate(LiqSubstance);
                     //Instatieted.transform.GetChild(0).GetChild(0).GetComponent<Mixing>().WaterRenderer = WaterEmitter;fluidEmitter
                     GameObject.FindGameObjectWithTag("substance").GetComponent<Mixing>().FluidRederer = GameObject.FindGameObjectWithTag("fluidEmitter").GetComponent<ObiParticleRenderer>();
+                    GameObject.FindGameObjectWithTag("substance").GetComponent<Mixing>().FluidRederer.particleColor = subst.color;
+
                     /*if (subst.solubility)
                     {
                         Instatieted.transform.GetChild(0).GetChild(0).GetComponent<Mixing>().mix = true;
@@ -91,10 +93,14 @@ public class AddSearchedSubstance : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        List<Subst> Subst = new List<Subst>();
+        Subst.Add(new Subst("CuSO4", true, 100, false, Color.blue));
+        Subst.Add(new Subst("NiCL2", true, 100, false, Color.green));
+        Subst.Add(new Subst("CoCl2", true, 100, false, new Color(248, 24, 148)));
         time -= Time.deltaTime;
         if (time < 0)
         {
-            Substances = gameObject.GetComponent<Request>().Substances;
+            Substances = Subst;
         }
 
     }
