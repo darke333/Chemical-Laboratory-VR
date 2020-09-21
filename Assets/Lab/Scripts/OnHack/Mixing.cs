@@ -9,13 +9,13 @@ public class Mixing : MonoBehaviour
 {
 
 
-    public bool Splited;
+    /*public bool Splited;
     public Obi.ObiSolver solver;
     private Obi.ObiEmitter emitter;
     private int totalParticles;
     private HashSet<int> collidedParticles;
     [Range(0, 1)]
-    public float failRatio = 0.5f;
+    public float failRatio = 0.5f;*/
 
 
     // Start is called before the first frame update
