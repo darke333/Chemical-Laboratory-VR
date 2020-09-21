@@ -22,7 +22,7 @@ public class AddButtonOnArray : MonoBehaviour
         List<Subst> Substances = new List<Subst>();
         Substances.Add(new Subst("CuSO4", true, 100, false, Color.blue));
         Substances.Add(new Subst("NiCL2", true, 100, false, Color.green));
-        Substances.Add(new Subst("CoCl2", true, 100, false, new Color(248, 24, 148)));
+        Substances.Add(new Subst("CoCl2", true, 100, false, new Color(0.972f, 0.094f, 0.580f)));
         List<Subst> substs = new List<Subst>();
         foreach (Subst subst in Substances)
         {

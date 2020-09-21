@@ -43,26 +43,34 @@ public class ConstractionScript : MonoBehaviour
                 gameObject.transform.GetChild(0).GetComponent<MeshRenderer>().enabled = true;
                 if (gameObject.name == "Sphere (1)")
                 {
-                    if (scenario.gameObject.activeSelf)
+                    if (scenario)
                     {
-                        scenario.SaltyPlaced = false;
+                        if (scenario.gameObject.activeSelf)
+                        {
+                            scenario.SaltyPlaced = false;
+                        }
+                        else
+                        {
+                            Scenario1.CupDesconnected = false;
+                        }
                     }
-                    else
-                    {
-                        Scenario1.CupDesconnected = false;
-                    }
+
 
                 }
                 else
                 {
-                    if (scenario.gameObject.activeSelf)
+                    if (scenario)
                     {
-                        scenario.EmptyPlaced = false;
+                        if (scenario.gameObject.activeSelf)
+                        {
+                            scenario.EmptyPlaced = false;
+                        }
+                        else
+                        {
+                            Scenario1.CupDesconnected = false;
+                        }
                     }
-                    else
-                    {
-                        Scenario1.CupDesconnected = false;
-                    }
+
                 }
 
             }
@@ -89,27 +97,36 @@ public class ConstractionScript : MonoBehaviour
             }
             else
             {
-                if(gameObject.name == "Sphere (1)")
+                if (gameObject.name == "Sphere (1)")
                 {
-                    if (scenario.gameObject.activeSelf)
+                    if (scenario)
                     {
-                        scenario.SaltyPlaced = true;
+                        if (scenario.gameObject.activeSelf)
+                        {
+                            scenario.SaltyPlaced = true;
+                        }
+                        else
+                        {
+                            Scenario1.CupDesconnected = true;
+                        }
                     }
-                    else
-                    {
-                        Scenario1.CupDesconnected = true;
-                    }
+
                 }
                 else
                 {
-                    if (scenario.gameObject.activeSelf)
+                    if (scenario)
                     {
-                        scenario.EmptyPlaced = true;
+                        if (scenario.gameObject.activeSelf)
+                        {
+                            scenario.EmptyPlaced = true;
+                        }
+                        else
+                        {
+                            Scenario1.CupDesconnected = true;
+                        }
                     }
-                    else
-                    {
-                        Scenario1.CupDesconnected = true;
-                    }
+
+
                 }
                 if (parent)
                 {

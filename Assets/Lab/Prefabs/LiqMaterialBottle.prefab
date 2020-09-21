@@ -4841,9 +4841,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 748d9f789c060a64aa6a38013905ef8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Splited: 0
-  solver: {fileID: 0}
-  failRatio: 0.2
   SubstName: {fileID: 6717862600733223850}
   water: 1
   mix: 0
@@ -5311,7 +5308,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   render: 0
   shader: {fileID: 4800000, guid: 801733041f66b49e1b3c2101471db877, type: 3}
-  particleColor: {r: 0.9198113, g: 0.9960765, b: 1, a: 0.49019608}
+  particleColor: {r: 1, g: 0, b: 0.66279554, a: 0.49019608}
   radiusScale: 1.5
 --- !u!114 &6955856292632191111
 MonoBehaviour:

@@ -28,7 +28,7 @@ public class AddSearchedSubstance : MonoBehaviour
         List<Subst> Subst = new List<Subst>();
         Subst.Add(new Subst("CuSO4", true, 100, false, Color.blue));
         Subst.Add(new Subst("NiCL2", true, 100, false, Color.green));
-        Subst.Add(new Subst("CoCl2", true, 100, false, new Color(248, 24, 148)));
+        Subst.Add(new Subst("CoCl2", true, 100, false, new Color(0.972f, 0.094f, 0.580f)));
         Substances = Subst;
 
         time = 0.5f;
