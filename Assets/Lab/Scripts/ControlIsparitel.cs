@@ -13,6 +13,8 @@ public class ControlIsparitel : MonoBehaviour
     float TimeOperation;
     public GameObject emitter1;
     public GameObject emitter2;
+    public GameObject emitter3;
+    public GameObject Crystals;
     public GameObject HardSubstActivatel;
     public GameObject Text1;
     public GameObject Text2;
@@ -34,7 +36,15 @@ public class ControlIsparitel : MonoBehaviour
         {
             emitter1.SetActive(false);
         }
+        emitter1.SetActive(false);
+        emitter3.SetActive(false);
         emitter2.SetActive(true);
+        for (int i = 0; i < Crystals.transform.childCount; i++)
+        {
+            Color color = GetComponent<AddSearchedSubstance>().FluidEmitter.particleColor;
+            Crystals.transform.GetChild(i).GetComponent<MeshRenderer>().material.color = color;
+        }
+        Crystals.SetActive(true);
         Text1.SetActive(false);
         Text2.SetActive(true);
         if (HardSubstActivatel)
@@ -46,6 +56,8 @@ public class ControlIsparitel : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+
         Rotation();
         if (Input.GetKeyDown("r")) 
         {
@@ -70,10 +82,11 @@ public class ControlIsparitel : MonoBehaviour
         if (Started)
         {
             RotationObj.Rotate(0, UIs[0].CurrentNumber / 60, 0, Space.Self);
-            foreach(ParticleSystem particle in Smoke)
+            Smoke[0].emissionRate = 10;
+            /*foreach(ParticleSystem particle in Smoke)
             {
                 particle.emissionRate = 10;
-            }
+            }*/
             mist.mist = true;
             if (Finished)
             {

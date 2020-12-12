@@ -107,6 +107,9 @@ public class Scenario3 : MonoBehaviour
             text4.gameObject.SetActive(true);
             Hints[4].SetActive(false);
             Hints[3].SetActive(true);
+            contr.Smoke[1].emissionRate = 10;
+            contr.Smoke[2].emissionRate = 10;
+
 
         }
         else

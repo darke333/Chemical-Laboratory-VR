@@ -85,7 +85,9 @@ public class AddSearchedSubstance : MonoBehaviour
                     Camera.GetComponent<ObiFluidRenderer>().particleRenderers[0] = FluidEmitter;
 
                     print("температура = " + temperature);
-                    if(temperature >= 100)
+                    //GameObject.FindGameObjectWithTag("controller").GetComponent<ControlIsparitel>().emitter1 = null;
+                    GameObject.FindGameObjectWithTag("controller").GetComponent<ControlIsparitel>().emitter3 = GameObject.FindGameObjectWithTag("fluidEmitter");
+                    if (temperature >= 100)
                     {
                         temperature = 100;
                     }
@@ -96,7 +98,7 @@ public class AddSearchedSubstance : MonoBehaviour
 
                     }
                 }
-                Scenario3.necessaryTemp = temperature;
+                Scenario3.necessaryTemp = 50; //ВНИМАНИЕ!!! ХАРДКОД!!!
                 GameObject.FindGameObjectWithTag("FluidBottle").GetComponent<Mixing>().SubstName.text = subst.name;
                 break;
             }
