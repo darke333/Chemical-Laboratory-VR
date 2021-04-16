@@ -19,6 +19,11 @@
 
 ## Скриншоты
 
+![alt text](https://github.com/darke333/Chemical-Laboratory-VR/blob/master/Screenshot_3.png)
+
+![alt text](https://github.com/darke333/Chemical-Laboratory-VR/blob/master/Screenshot_4.png)
+
+![alt text](https://github.com/darke333/Chemical-Laboratory-VR/blob/master/Screenshot_5.png)
 
 ## Видео:
 [Видео геймплея](https://www.youtube.com/watch?v=is5nHUzgz4I) 
